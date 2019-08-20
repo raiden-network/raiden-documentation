@@ -1,16 +1,11 @@
----
-description: Short introduction here
----
-
 # The Raiden Web Application
 
-* Join a token network
-* Make a payment
-* Close and Settle
+* [Join a token network](the-raiden-web-interface.md#join-a-token-network-1)
+* [Make a payment](the-raiden-web-interface.md#make-a-payment)
 
 ### Join a Token Network
 
-Navigate to the **"Tokens"** Screen. You need to join a token network for the specific token you're interested in doing payments with. To do so, you can either:
+You need to join a token network for the token you're interested in doing payments with. To do so, navigate to the **"Tokens"** screen where you can choose to either:
 
 * [Join an existing token network](the-raiden-web-interface.md#join-an-existing-token-network)
 * [Register a new token and join its network](the-raiden-web-interface.md#register-a-new-token-and-join-its-network)
@@ -21,29 +16,84 @@ Navigate to the **"Tokens"** Screen. You need to join a token network for the sp
 
 #### Join an Existing Token Network
 
-1. Choose the token which network you want to join from the list of available tokens and press the **"JOIN NETWORK"** button
-2. Enter the amount of tokens you want to allocate and click **"Join"**. This amount is what will be made available for making payments and you can always [add more funds later](the-raiden-web-interface.md#add-funds)
+1. Click the **"JOIN NETWORK"** button next to the token which network you want to join.
+2. Enter the the amount of tokens you want to allocate and click **"Join"**. The amount you choose is what will be available for making payments and you can always [add more funds later](the-raiden-web-interface.md#add-more-tokens).
+
+You're now ready to [make a payment](the-raiden-web-interface.md#make-a-payment)!
 
 ![](.gitbook/assets/web_ui_join_network_1.png)
 
 ![](.gitbook/assets/web_ui_join_network_2.png)
 
-You're now ready to [make a payment](the-raiden-web-interface.md#make-a-payment)!
-
 #### Register a New Token and Join Its Network
 
-1. Press the upper right **"+"** button
-2. Enter the address of the token you want to register and click **"Register"**
+1. Click the upper right **"+"** button.
+2. Enter the address of the token you want to register and click **"Register"**.
+
+You're now ready to [make a payment](the-raiden-web-interface.md#make-a-payment)!
 
 ![](.gitbook/assets/web_ui_register_token_1.png)
 
 ![](.gitbook/assets/web_ui_register_token_2.png)
 
-You're now ready to [make a payment](the-raiden-web-interface.md#make-a-payment)!
-
 ### Make a Payment
 
-When you joined a token network three channels were automatically opened with three random nodes and you now have the possibility to start making payments.
+When you joined a token network three channels were automatically opened with three random nodes and you now have a possibility to start making payments.
+
+Let's walk through how to:
+
+* [Pay from the tokens screen](the-raiden-web-interface.md#pay-from-the-tokens-screen)
+* [Add more tokens](the-raiden-web-interface.md#add-more-tokens)
+
+{% hint style="info" %}
+**What is a channel? &lt;-- WORK MORE ON**
+
+A channel or payment channel allows Raiden transfers to be made back and forth between parties without involving the actual blockchain.
+
+This works by first creating an initial on-chain deposit with the amount you specified when for instance joining a token network. 60% of that amount gets evenly distributed across the three channels \(20% per channel\) and the remaining 40% are reserved for when someone wants to open a channel with us.
+
+The net sum can then be used in the Raiden off-chain transactions and the actual blockchain only needs to be involved in the initial setup or if we choose to deposit more tokens or settle a netted amount.
+
+In Raiden theses channels make up routes from which transfers can be made this means that two peers do not have to have a direct connection to send payments between each other as long as there are some routes connecting them.
+{% endhint %}
+
+#### Pay from the Tokens Screen
+
+1. Click the **"PAY"** button that has now been made available for the token network you've joined.
+2. In the popup dialogue:
+   * Enter the address for the receiver for your payment.
+   * Select the token associate with the token network you're making the payment from.
+   * Enter the amount you want to pay.
+   * You can choose to fill in any number in the **"Set payment identifier"** dropdown for identifying your payment. If nothing is provided your payment identifier will default to a timestamp.
+   * Click **"Send"** to complete your payment.
+
+![](.gitbook/assets/web_ui_make_payment_1.png)
+
+![](.gitbook/assets/web_ui_make_payment_2.png)
+
+#### Add More Tokens
+
+
+
+
+
+
+
+
+
+
+
+
+
+I
+
+* Join a token network
+* Make a payment
+* Close and Settle
+
+
+
+
 
 Let's walk through how to:
 
@@ -61,19 +111,9 @@ This works by first creating an initial on-chain deposit with the amount you spe
 The net sum can then be used in the Raiden off-chain transactions and the actual blockchain only needs to be involved in the initial setup or if we choose to deposit more tokens or settle a netted amount.
 {% endhint %}
 
-#### Pay from the Tokens Screen
+#### 
 
-1. Press the **"PAY"** button that has now been made available for the token network you've joined
-2. In the pay popup dialogue:
-   * Enter the address of the one who will be receiving your payment
-   * Select the token associated with the token network you're making the payment from
-   * Enter the payment amount
-   * You can choose to fill in any number in the **"Set payment identifier"** dropdown for identifying your payment. If no number is provided your payment identifier will default to a timestamp
-   * Click **"Send"** to complete your payment
 
-![](.gitbook/assets/web_ui_pay_token_screen_1.png)
-
-![](.gitbook/assets/web_ui_pay_token_screen_2.png)
 
 #### Pay from the Channels Screen
 
@@ -91,7 +131,7 @@ The net sum can then be used in the Raiden off-chain transactions and the actual
 
 #### Add Funds
 
-To allocate more tokens you can either:
+You have two alternatives for allocating more tokens:
 
 1. Click the **"ADD FUNDS"** button next to the token network you want to allocate more tokens for. You have to provide a higher amount than previously, if you initially provided 10 tokens the new amount needs to exceed that number
 2. Click the **"DEPOSIT"** button for a channel to add a token amount of your choosing to that specific channel
