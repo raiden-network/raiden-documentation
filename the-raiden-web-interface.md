@@ -5,7 +5,7 @@
 
 ### Join a Token Network
 
-You need to join a token network for the token you're interested in doing payments with. To do so, navigate to the **"Tokens"** screen where you can choose to either:
+You need to join a token network for the token you're interested in doing payments with. To do so, navigate to the **"Tokens"** screen, there you can choose to either:
 
 * [Join an existing token network](the-raiden-web-interface.md#join-an-existing-token-network)
 * [Register a new token and join its network](the-raiden-web-interface.md#register-a-new-token-and-join-its-network)
@@ -73,6 +73,9 @@ In Raiden theses channels make up routes from which transfers can be made this m
 
 #### Add More Tokens
 
+You have two alternatives for allocating more tokens to your channels:
+
+1. 
 
 
 
@@ -85,53 +88,9 @@ In Raiden theses channels make up routes from which transfers can be made this m
 
 
 
-I
+Add Funds
 
-* Join a token network
-* Make a payment
-* Close and Settle
-
-
-
-
-
-Let's walk through how to:
-
-* [Pay from the tokens screen](the-raiden-web-interface.md#pay-from-the-tokens-screen)
-* [Pay from the channels screen](the-raiden-web-interface.md#pay-from-the-channels-screen)
-* [Add funds](the-raiden-web-interface.md#add-funds)
-
-{% hint style="info" %}
-**What is a channel?**
-
-A channel or payment channel allows Raiden transfers to be made back and forth between parties without involving the actual blockchain.
-
-This works by first creating an initial on-chain deposit with the amount you specified when joining a token network. 60% of that amount is evenly distributed across the three channels \(20% per channel\) and the remaining 40% are reserved **&lt;-- ! ! ! !???? Allows to make payment to people that you don't have a direct channel with.**
-
-The net sum can then be used in the Raiden off-chain transactions and the actual blockchain only needs to be involved in the initial setup or if we choose to deposit more tokens or settle a netted amount.
-{% endhint %}
-
-#### 
-
-
-
-#### Pay from the Channels Screen
-
-1. Press either the **"PAY"** button or the **"SEND TOKENS"** button. Both will bring up the same pay popup dialogue with the difference that the **"PAY"** button gives you some pre-filled values
-2. In the pay popup dialogue:
-   * Enter the address of the one who will be receiving your payment
-   * Select the token associated with the token network your channel belongs to
-   * Enter the payment amount
-   * You can choose to fill in any number in the **"Set payment identifier"** dropdown for identifying your payment. If no number is provided your payment identifier will default to a timestamp
-   * Click **"Send"** to complete your payment
-
-![](.gitbook/assets/web_ui_pay_channels_screen_1.png)
-
-![](.gitbook/assets/web_ui_pay_channels_screen_2.png)
-
-#### Add Funds
-
-You have two alternatives for allocating more tokens:
+You have two alternatives for allocating more tokens to your channels:
 
 1. Click the **"ADD FUNDS"** button next to the token network you want to allocate more tokens for. You have to provide a higher amount than previously, if you initially provided 10 tokens the new amount needs to exceed that number
 2. Click the **"DEPOSIT"** button for a channel to add a token amount of your choosing to that specific channel
