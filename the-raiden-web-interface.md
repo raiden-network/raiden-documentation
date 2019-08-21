@@ -17,7 +17,13 @@ You need to join a token network for the token you're interested in doing paymen
 * [Register a new token and join its network](the-raiden-web-interface.md#register-a-new-token-and-join-its-network)
 
 {% hint style="info" %}
-**What is a token network? &lt;-- SUMMARIZE NOTES FOR THIS**
+**What is a token and a token network?**
+
+A token is just a smart contract \(some piece of code that gets executed on the blockchain\). This contract follows a certain standard called ERC20 which defines a total supply of tokens.
+
+If someone owns 10 of these tokens it is the same as saying that they own 10 of the total supply for that specific token contract.
+
+Another way of viewing a token is as a registry where different amounts are mapped to different owners. Everyone in this registry would then make out the token network for that specific token.
 {% endhint %}
 
 #### Join an Existing Token Network
