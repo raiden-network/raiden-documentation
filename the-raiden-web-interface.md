@@ -73,15 +73,37 @@ In Raiden theses channels make up routes from which transfers can be made this m
 
 #### Pay from the Tokens Screen
 
-1. Click the **"PAY"** button that has now been made available for the token network you've joined.
-2. In the popup dialogue:
-   * Enter the address of the receiver for your payment.
-   * Select the token associate with the token network you're making the payment from.
-   * Enter the amount you want to pay.
-   * You can choose to fill in any number in the **"Set payment identifier"** dropdown for identifying your payment. If nothing is provided your payment identifier will default to a timestamp.
-   * Click **"Send"** to complete your payment.
+Click the **"PAY"** button that has now been made available for the token network you've joined.
 
 ![](.gitbook/assets/web_ui_make_payment_1.png)
+
+In the popup dialogue:
+
+1. Enter the address of the receiver for your payment.
+2. Select the token associate with the token network you're making the payment from.
+3. Enter the amount you want to pay.
+4. You can choose to fill in any number in the **"Set payment identifier"** dropdown for identifying your payment. If nothing is provided your payment identifier will default to a timestamp.
+5. Click **"Send"** to complete your payment.
+
+![](.gitbook/assets/web_ui_make_payment_2%20%281%29.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![](.gitbook/assets/web_ui_make_payment_2.png)
 
