@@ -1,8 +1,13 @@
 # The Raiden Web Application
 
+### Overview
+
+This tutorial will teach you to:
+
 * [Join a token network](the-raiden-web-interface.md#join-a-token-network-1)
 * [Make a payment](the-raiden-web-interface.md#make-a-payment)
 * [Close channels and settle payments](the-raiden-web-interface.md#close-channels-and-settle-payments)
+* Navigate the WebUI
 
 ### Join a Token Network
 
