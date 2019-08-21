@@ -19,34 +19,36 @@ You need to join a token network for the token you're interested in doing paymen
 {% hint style="info" %}
 **What is a token and a token network?**
 
-A token is just a smart contract \(some piece of code that gets executed on the blockchain\). This contract follows a certain standard called ERC20 which defines a total supply of tokens.
+A token is just a smart contract \(some piece of code that gets executed on the blockchain\). This contract follows a certain standard called ERC20 which also defines a total supply of tokens.
 
-If someone owns 10 of these tokens it is the same as saying that they own 10 of the total supply for that specific token contract.
+If someone owns 10 of these tokens it would be the same as saying that they own 10 of the total supply for that specific token contract.
 
 Another way of viewing a token is as a registry where different amounts are mapped to different owners. Everyone in this registry would then make out the token network for that specific token.
 {% endhint %}
 
 #### Join an Existing Token Network
 
-1. Click the **"JOIN NETWORK"** button next to the token which network you want to join.
-2. Enter the the amount of tokens you want to allocate and click **"Join"**. The amount you choose is what will be available for making payments and you can always [add more funds later](the-raiden-web-interface.md#add-more-tokens).
+Click the **"JOIN NETWORK"** button next to the token which network you want to join.
+
+![](.gitbook/assets/web_ui_join_network_1%20%281%29.png)
+
+Enter the the amount of tokens you want to allocate and click **"Join"**. The amount you choose is what will be available for making payments and you can always [add more funds later](the-raiden-web-interface.md#add-more-tokens).
 
 You're now ready to [make a payment](the-raiden-web-interface.md#make-a-payment)!
-
-![](.gitbook/assets/web_ui_join_network_1.png)
 
 ![](.gitbook/assets/web_ui_join_network_2.png)
 
 #### Register a New Token and Join Its Network
 
-1. Click the upper right **"+"** button.
-2. Enter the address of the token you want to register and click **"Register"**.
-
-You're now ready to [make a payment](the-raiden-web-interface.md#make-a-payment)!
+Click the upper right **"+"** button.
 
 ![](.gitbook/assets/web_ui_register_token_1.png)
 
-![](.gitbook/assets/web_ui_register_token_2.png)
+Enter the address of the token you want to register and click **"Register"**.
+
+You're now ready to [make a payment](the-raiden-web-interface.md#make-a-payment)!
+
+![](.gitbook/assets/web_ui_register_token_2%20%281%29.png)
 
 ### Make a Payment
 
