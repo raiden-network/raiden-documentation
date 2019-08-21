@@ -2,6 +2,7 @@
 
 * [Join a token network](the-raiden-web-interface.md#join-a-token-network-1)
 * [Make a payment](the-raiden-web-interface.md#make-a-payment)
+* [Close channels and settle payments](the-raiden-web-interface.md#close-channels-and-settle-payments)
 
 ### Join a Token Network
 
@@ -61,7 +62,7 @@ In Raiden theses channels make up routes from which transfers can be made this m
 
 1. Click the **"PAY"** button that has now been made available for the token network you've joined.
 2. In the popup dialogue:
-   * Enter the address for the receiver for your payment.
+   * Enter the address of the receiver for your payment.
    * Select the token associate with the token network you're making the payment from.
    * Enter the amount you want to pay.
    * You can choose to fill in any number in the **"Set payment identifier"** dropdown for identifying your payment. If nothing is provided your payment identifier will default to a timestamp.
@@ -73,31 +74,34 @@ In Raiden theses channels make up routes from which transfers can be made this m
 
 #### Add More Tokens
 
-You have two alternatives for allocating more tokens to your channels:
+You have two alternatives to choose from for allocating more tokens to your channels:
 
-1. 
+1. Click the **"ADD FUNDS"** button in the **"Tokens"** screen next to the token network you want to allocate more tokens for. When asked to enter a number you need to provide a higher amount than what is currently allocated. Say you already have 10 tokens, then your new amount needs to exceed that number. This is because the sum gets redistributed across your open channels. If you were to provide the same amount there won't really be anything new to redistribute.
+2. Click the **"DEPOSIT"** button in the **"Channels"** screen next to the channel you want to deposit more tokens in. This gives you the option to allocate a number of tokens to a specific channel only instead of distributing the amount across all your channels.
 
+![](.gitbook/assets/web_ui_add_deposit_tokens_1.png)
 
+![](.gitbook/assets/web_ui_add_deposit_tokens_2.png)
 
-
-
-
-
-
-
+### Close Channels and Settle Payments
 
 
 
-Add Funds
 
-You have two alternatives for allocating more tokens to your channels:
 
-1. Click the **"ADD FUNDS"** button next to the token network you want to allocate more tokens for. You have to provide a higher amount than previously, if you initially provided 10 tokens the new amount needs to exceed that number
-2. Click the **"DEPOSIT"** button for a channel to add a token amount of your choosing to that specific channel
 
-![](.gitbook/assets/web_ui_add_funds_1.png)
 
-![](.gitbook/assets/web_ui_deposit_funds.png)
+
+
+
+
+
+
+
+
+
+
+When making a payment you either need to do 3xthe amount in each channel or go to each channel and pay through each channel
 
 ### Close and Settle
 
