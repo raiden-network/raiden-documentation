@@ -12,7 +12,7 @@ You need to join a token network for the token you're interested in doing paymen
 * [Register a new token and join its network](the-raiden-web-interface.md#register-a-new-token-and-join-its-network)
 
 {% hint style="info" %}
-**What is a token network?**
+**What is a token network? &lt;-- SUMMARIZE NOTES FOR THIS**
 {% endhint %}
 
 #### Join an Existing Token Network
@@ -85,6 +85,23 @@ You have two alternatives to choose from for allocating more tokens to your chan
 
 ### Close Channels and Settle Payments
 
+You have a couple of options for depositing tokens back to your token network balance. To do so you can choose to either:
+
+1. **Withdraw tokens**
+
+   Click the **"WITHDRAW"** button in the **"Channels"** screen next to the channel from which you want to make the withdraw. Enter the amount you wish to withdraw and click **"Confirm"**. The tokens will get added to your token network balance.
+
+2. **Close a channel**
+
+   Click the **"CLOSE"** button in the **"Channels"** screen next to the channel you want to close. When you click **"Confirm"** the channel will no longer be available for making payments and the netted token amount will be settled against all channel participants.
+
+3. **Leave a network**
+
+   Click the **"LEAVE NETWORK"** button in the **"Tokens"** screen next to the token network you want to leave. Leaving a network does the same as closing a channel with the difference that _all_ channels are closed for the token network you choose to leave.
+
+![](.gitbook/assets/web_ui_withdraw_close.png)
+
+![](.gitbook/assets/web_ui_leave_network.png)
 
 
 
@@ -101,30 +118,6 @@ You have two alternatives to choose from for allocating more tokens to your chan
 
 
 
-When making a payment you either need to do 3xthe amount in each channel or go to each channel and pay through each channel
-
-### Close and Settle
-
-You have a couple of options for depositing tokens back to your token network balance:
-
-* [Withdraw tokens](the-raiden-web-interface.md#withdraw-tokens)
-* [Close a channel and settle the token amount](the-raiden-web-interface.md#close-a-channel-and-settle-the-token-amount)
-* [Leave a token network, close all channels and settle the token amount](the-raiden-web-interface.md#leave-a-token-network-close-all-channels-and-settle-the-token-amount)
-
-#### Withdraw Tokens
-
-1. Click the **"WITHDRAW"** button for the channel you'd like to withdraw tokens from
-2. Enter the amount you wish to withdraw based on the current balance for that specific channel and click **"Confirm"**. The amount will be returned to your token network balance
-
-#### Close a Channel and Settle the Token Amount
-
-1. Click the **"CLOSE"** button for the channel you'd like to close
-2. Click **"Confirm"** to finalize closing the channel. When a channel has been closed no more payments can be carried out using that channel and the tokens will be settled and payed out to the participating nodes
-
-#### Leave a Token Network, Close all Channels and Settle the Token Amount
-
-1. Click **"LEAVE NETWORK"** for the token network you'd like to leave
-2. Click **"Confirm"** to finalize leaving the network. The same thing will happen here as if you would choose to close a channel with the difference that leaving the network will automatically close and settle all channels that belong to that network
 
 
 
@@ -132,7 +125,11 @@ You have a couple of options for depositing tokens back to your token network ba
 
 
 
-### 
+
+
+
+
+
 
 
 
