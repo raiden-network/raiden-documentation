@@ -87,36 +87,27 @@ In the popup dialogue:
 
 ![](.gitbook/assets/web_ui_make_payment_2%20%281%29.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![](.gitbook/assets/web_ui_make_payment_2.png)
-
 #### Add More Tokens
 
 You have two alternatives to choose from for allocating more tokens to your channels:
 
-1. Click the **"ADD FUNDS"** button in the **"Tokens"** screen next to the token network you want to allocate more tokens for. When asked to enter a number you need to provide a higher amount than what is currently allocated. Say you already have 10 tokens, then your new amount needs to exceed that number. This is because the sum gets redistributed across your open channels. If you were to provide the same amount there won't really be anything new to redistribute.
-2. Click the **"DEPOSIT"** button in the **"Channels"** screen next to the channel you want to deposit more tokens in. This gives you the option to allocate a number of tokens to a specific channel only instead of distributing the amount across all your channels.
+Click the **"ADD FUNDS"** button in the **"Tokens"** screen next to the token network you want to allocate more tokens for. When asked to enter a number you need to provide a higher amount than what is currently allocated. Say you already have 10 tokens, then your new amount needs to exceed that number. This is because the sum gets redistributed across your open channels. If you were to provide the same amount there won't really be anything new to redistribute.
 
-![](.gitbook/assets/web_ui_add_deposit_tokens_1.png)
+![](.gitbook/assets/web_ui_add_funds.png)
 
-![](.gitbook/assets/web_ui_add_deposit_tokens_2.png)
+Click the **"DEPOSIT"** button in the **"Channels"** screen next to the channel you want to deposit more tokens in. This gives you the option to allocate a number of tokens to a specific channel only instead of distributing the amount across all your channels.
+
+![](.gitbook/assets/web_ui_deposit.png)
+
+
+
+
+
+
+
+
+
+
 
 ### Close Channels and Settle Payments
 
