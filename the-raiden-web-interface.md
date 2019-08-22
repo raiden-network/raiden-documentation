@@ -11,7 +11,7 @@ This tutorial will teach you to:
 
 ### Join a Token Network
 
-You need to join a token network for the token you're interested in doing payments with. To do so, navigate to the **"Tokens"** screen, there you can choose to either:
+You need to join a token network for the token you're interested in doing payments with. To do so, navigate to the **"Tokens"** screen and there you can choose to either:
 
 * [Join an existing token network](the-raiden-web-interface.md#join-an-existing-token-network)
 * [Register a new token and join its network](the-raiden-web-interface.md#register-a-new-token-and-join-its-network)
@@ -19,11 +19,11 @@ You need to join a token network for the token you're interested in doing paymen
 {% hint style="info" %}
 **What is a token and a token network?**
 
-A token is just a smart contract \(some piece of code that gets executed on the blockchain\). This contract follows a certain standard called ERC20 which also defines a total supply of tokens.
+A token is just a smart contract \(some piece of code that gets executed on the blockchain\). These token contracts follow a certain standard called ERC20 in which a total supply of tokens are defined.
 
-If someone owns 10 of these tokens it would be the same as saying that they own 10 of the total supply for that specific token contract.
+Say that someone owns 10 tokens, it would be the same as saying they're entitled to 10 of the total token supply defined in the contract for the specific token they own.
 
-Another way of viewing a token is as a registry where different amounts are mapped to different owners. Everyone in this registry would then make out the token network for that specific token.
+Another way of viewing tokens is as a registry where different amounts of the total supply are mapped to different owners. Everyone who owns any number of tokens are included in this registry and together they make up a network for the token they own.
 {% endhint %}
 
 #### Join an Existing Token Network
