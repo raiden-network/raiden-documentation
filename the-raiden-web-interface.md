@@ -52,7 +52,9 @@ You're now ready to [make a payment](the-raiden-web-interface.md#make-a-payment)
 
 ### Make a Payment
 
-When you joined a token network three channels were automatically opened with three random nodes and you now have a possibility to start making payments.
+When you joined a token network three channels were automatically opened with three random nodes and 60% of the tokens you provided got equally distributed with 20% in each channel. The remaining 40% are reserved for when someone wants to open a channel with you.
+
+You now have the possibility to start making payments.
 
 Let's walk through how to:
 
@@ -60,15 +62,15 @@ Let's walk through how to:
 * [Add more tokens](the-raiden-web-interface.md#add-more-tokens)
 
 {% hint style="info" %}
-**What is a channel? &lt;-- WORK MORE ON**
+**What is a channel?**
 
 A channel or payment channel allows Raiden transfers to be made back and forth between parties without involving the actual blockchain.
 
-This works by first creating an initial on-chain deposit with the amount you specified when for instance joining a token network. 60% of that amount gets evenly distributed across the three channels \(20% per channel\) and the remaining 40% are reserved for when someone wants to open a channel with us.
+This works by first creating an initial on-chain deposit with the amount specified when you for instance joined a token network.
 
-The net sum can then be used in the Raiden off-chain transactions and the actual blockchain only needs to be involved in the initial setup or if we choose to deposit more tokens or settle a netted amount.
+The net sum can be used in the Raiden off-chain transactions and the actual blockchain only needs to be involved in the initial setup or when choosing to deposit more tokens or settle a netted amount.
 
-In Raiden theses channels make up routes from which transfers can be made this means that two peers do not have to have a direct connection to send payments between each other as long as there are some routes connecting them.
+In Raiden channels make up routes between peers. A transfer can be made between two peers that do not have a direct channel with each other as long as there are routes connecting them via other peers.
 {% endhint %}
 
 #### Pay from the Tokens Screen
