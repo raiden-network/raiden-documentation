@@ -106,12 +106,18 @@ You have two ways of allocating more tokens to your channels:
 You have a couple of ways for depositing tokens back to your token network balance.
 
 * [Withdraw tokens](the-raiden-web-interface.md#withdraw-tokens)
-* Close a channel
+* [Close a channel](the-raiden-web-interface.md#close-a-channel)
 * Leave a network
 
 #### Withdraw Tokens
 
-Click the **"WITHDRAW"** button in the **"Channels"** screen next to the channel from which you would like to make the withdraw. Enter the amount for your withdraw and click **"Confirm"**. The token amount will be added to your total token network balance.
+Click the **"WITHDRAW"** button in the **"Channels"** screen next to the channel from wish you would like to make the withdraw. Enter the amount for your withdraw and click **"Confirm"**. The token amount will be added to your total token network balance.
+
+![](.gitbook/assets/web_ui_withdraw_tokens.png)
+
+#### Close a Channel
+
+Click the **"CLOSE"** button in the **"Channels"** screen next to the channel you wish to close. When you click **"Confirm"** the channel will get closed and no longer be available for making payments. The token amount will be payed out in accordance to the transactions that have been made between all channel participants.
 
 
 
@@ -125,11 +131,9 @@ Click the **"WITHDRAW"** button in the **"Channels"** screen next to the channel
 
 
 
-1. **Close a channel**
+\*\*\*\*
 
-   Click the **"CLOSE"** button in the **"Channels"** screen next to the channel you want to close. When you click **"Confirm"** the channel will no longer be available for making payments and the netted token amount will be settled against all channel participants.
-
-2. **Leave a network**
+1. **Leave a network**
 
    Click the **"LEAVE NETWORK"** button in the **"Tokens"** screen next to the token network you want to leave. Leaving a network does the same as closing a channel with the difference that _all_ channels are closed for the token network you choose to leave.
 
