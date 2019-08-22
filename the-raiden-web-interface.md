@@ -81,7 +81,7 @@ Click the **"PAY"** button that has now been made available for the token networ
 
 In the popup dialogue:
 
-1. Enter the address of the receiver for your payment.
+1. Enter the address of the receiver of your payment.
 2. Select the token associate with the token network you're making the payment from.
 3. Enter the amount you want to pay.
 4. You can choose to fill in any number in the **"Set payment identifier"** dropdown for identifying your payment. If nothing is provided your payment identifier will default to a timestamp.
@@ -91,39 +91,45 @@ In the popup dialogue:
 
 #### Add More Tokens
 
-You have two alternatives to choose from for allocating more tokens to your channels:
+You have two ways of allocating more tokens to your channels:
 
-Click the **"ADD FUNDS"** button in the **"Tokens"** screen next to the token network you want to allocate more tokens for. When asked to enter a number you need to provide a higher amount than what is currently allocated. Say you already have 10 tokens, then your new amount needs to exceed that number. This is because the sum gets redistributed across your open channels. If you were to provide the same amount there won't really be anything new to redistribute.
+* Click the **"ADD FUNDS"** button in the **"Tokens"** screen next to the token network you want to allocate more tokens for. The number of tokens you provide needs to be higher than the amount currently allocated. Say you already have 10 tokens, your new amount then needs to exceed this number. This is because the sum gets redistributed across your open channels and if you were to provide the same amount there isn't really anything new to redistribute.
 
 ![](.gitbook/assets/web_ui_add_funds.png)
 
-Click the **"DEPOSIT"** button in the **"Channels"** screen next to the channel you want to deposit more tokens in. This gives you the option to allocate a number of tokens to a specific channel only instead of distributing the amount across all your channels.
+* Click the **"DEPOSIT"** button in the **"Channels"** screen next to the channel you want to deposit more tokens in. This gives you the option to allocate any number of tokens to a specific channel only instead of distributing the amount across all your channels.
 
 ![](.gitbook/assets/web_ui_deposit.png)
 
-
-
-
-
-
-
-
-
-
-
 ### Close Channels and Settle Payments
 
-You have a couple of options for depositing tokens back to your token network balance. To do so you can choose to either:
+You have a couple of ways for depositing tokens back to your token network balance.
 
-1. **Withdraw tokens**
+* [Withdraw tokens](the-raiden-web-interface.md#withdraw-tokens)
+* Close a channel
+* Leave a network
 
-   Click the **"WITHDRAW"** button in the **"Channels"** screen next to the channel from which you want to make the withdraw. Enter the amount you wish to withdraw and click **"Confirm"**. The tokens will get added to your token network balance.
+#### Withdraw Tokens
 
-2. **Close a channel**
+Click the **"WITHDRAW"** button in the **"Channels"** screen next to the channel from which you would like to make the withdraw. Enter the amount for your withdraw and click **"Confirm"**. The token amount will be added to your total token network balance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. **Close a channel**
 
    Click the **"CLOSE"** button in the **"Channels"** screen next to the channel you want to close. When you click **"Confirm"** the channel will no longer be available for making payments and the netted token amount will be settled against all channel participants.
 
-3. **Leave a network**
+2. **Leave a network**
 
    Click the **"LEAVE NETWORK"** button in the **"Tokens"** screen next to the token network you want to leave. Leaving a network does the same as closing a channel with the difference that _all_ channels are closed for the token network you choose to leave.
 
