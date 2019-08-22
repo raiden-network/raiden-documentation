@@ -7,7 +7,7 @@ This tutorial will teach you to:
 * [Join a token network](the-raiden-web-interface.md#join-a-token-network-1)
 * [Make a payment](the-raiden-web-interface.md#make-a-payment)
 * [Close channels and settle payments](the-raiden-web-interface.md#close-channels-and-settle-payments)
-* Navigate the WebUI
+* [Navigate the WebUI](the-raiden-web-interface.md#navigate-the-webui-1)
 
 ### Join a Token Network
 
@@ -87,7 +87,7 @@ In the popup dialogue:
 4. You can choose to fill in any number in the **"Set payment identifier"** dropdown for identifying your payment. If nothing is provided your payment identifier will default to a timestamp.
 5. Click **"Send"** to complete your payment.
 
-![](.gitbook/assets/web_ui_make_payment_2%20%281%29.png)
+![](.gitbook/assets/web_ui_make_payment_2.png)
 
 #### Add More Tokens
 
@@ -123,7 +123,11 @@ Click the **"CLOSE"** button in the **"Channels"** screen next to the channel yo
 
 #### Leave a Network
 
+Click the **"LEAVE NETWORK"** button in the **"Tokens"** screen next to the token network you wish to leave. Leaving a network has the same outcome as [closing an individual channel](the-raiden-web-interface.md#close-a-channel) with the difference that _all_ channels for the network you're leaving gets closed.
 
+![](.gitbook/assets/web_ui_leave_network%20%281%29.png)
+
+### Navigate the WebUI
 
 
 
@@ -136,14 +140,6 @@ Click the **"CLOSE"** button in the **"Channels"** screen next to the channel yo
 
 
 \*\*\*\*
-
-1. **Leave a network**
-
-   Click the **"LEAVE NETWORK"** button in the **"Tokens"** screen next to the token network you want to leave. Leaving a network does the same as closing a channel with the difference that _all_ channels are closed for the token network you choose to leave.
-
-![](.gitbook/assets/web_ui_leave_network.png)
-
-
 
 
 
