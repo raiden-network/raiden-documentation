@@ -21,7 +21,7 @@ This tutorial will teach you how to:
 
 The easiest way to start using the WebUI is to download and install Raiden by following the [Quick Start](./) guide.
 
-Once you have a Raiden node up and running the WebUI will be available from http://localhost:5001.
+Once you have a Raiden node up and running the WebUI will be available from **http://localhost:5001**.
 
 ### Join a Token Network
 
