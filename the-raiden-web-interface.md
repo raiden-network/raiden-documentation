@@ -1,7 +1,7 @@
 ---
 description: >-
-  The Raiden web application (WebUI) has been created to help you get an idea of
-  what Raiden is capable of and inspire you to create your own applications that
+  The Raiden web application (WebUI) was created to help you get an idea of what
+  Raiden is capable of and inspire you to create your own applications that
   utilizes the Raiden REST API endpoints.
 ---
 
