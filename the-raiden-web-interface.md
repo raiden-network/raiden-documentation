@@ -1,13 +1,27 @@
+---
+description: >-
+  The Raiden web application (WebUI) has been created to help you get an idea of
+  what Raiden is capable of and inspire you to create your own applications that
+  utilizes the Raiden REST API endpoints.
+---
+
 # The Raiden Web Application
 
 ### Overview
 
-This tutorial will teach you to:
+This tutorial will teach you how to:
 
+* [Run the Raiden web application](the-raiden-web-interface.md#run-the-raiden-web-application)
 * [Join a token network](the-raiden-web-interface.md#join-a-token-network-1)
 * [Make a payment](the-raiden-web-interface.md#make-a-payment)
 * [Close channels and settle payments](the-raiden-web-interface.md#close-channels-and-settle-payments)
 * [Navigate the WebUI](the-raiden-web-interface.md#navigate-the-webui-1)
+
+### Run the Raiden Web Application
+
+The easiest way to start using the WebUI is to download and install Raiden by following the [Quick Start](./) guide.
+
+Once you have a Raiden node up and running the WebUI will be available from http://localhost:5001.
 
 ### Join a Token Network
 
@@ -21,7 +35,7 @@ You need to join a token network for the token you're interested in doing paymen
 
 A token is just a smart contract \(some piece of code that gets executed on the blockchain\). These token contracts follow a certain standard called ERC20 in which a total supply of tokens are defined.
 
-Say that someone owns 10 tokens, it would be the same as saying they're entitled to 10 of the total token supply defined in the contract for the specific token they own.
+Say that someone owns 10 tokens, it would be the same as saying they're entitled to 10 of the total token supply defined in the contract for the specific token they own. If they were to transfer 3 of their tokens to someone else who has a balance of 5 then they themselves would be left with 7 tokens whilst their peer now has 8 tokens.
 
 Another way of viewing tokens is as a registry where different amounts of the total supply are mapped to different owners. Everyone who owns any number of tokens are included in this registry and together they make up a network for the token they own.
 {% endhint %}
@@ -129,157 +143,62 @@ Click the **"LEAVE NETWORK"** button in the **"Tokens"** screen next to the toke
 
 ### Navigate the WebUI
 
+The first screen you'll see when the WebUI launches is the **"Home"** screen which has a short introduction to Raiden.
 
+On the top bar and left hand side you'll find:
 
+1. The address of your Raiden node together with your current ETH balance. Some of this ETH gets consumed anytime an on-chain activity happens.
+2. The navigation menu for interacting with Raiden.
 
+![](.gitbook/assets/web_ui_home_screen.png)
 
-
-
-
-
-
-
-\*\*\*\*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**USE this screen will be empty on the overview of the WebUI page**
-
-
-
-
-
-
-
-The main things you would want to do when using Raiden, let's walk through that flow... Join a Token Network, Make a Payment, Close a Channel and Settle. In the process you will learn what tokens, token networks and channels are
-
-
-
-When I re-allocate tokens is any of my ETH consumed because it is syncing the newly allocated amount to the blockchain?
-
-**What is  the use case for providing your own tokens is it for people who build on Raiden? - Need to deploy a smart contract.**
-
-### 
-
-#### 
-
-
-
-## **Overview**
-
-This tutorial will teach you to:
-
-* [Navigate the WebUI](the-raiden-web-interface.md#navigate-the-webui)
-* Register tokens
-* Join a token network
-* Make a Raiden payment
-
-### **Navigate the WebUI**
-
-The first screen you'll see when the WebUI launches is the **Home Screen** with a short introduction to Raiden. On the top bar and left hand side you'll find:
-
-1. The address of your Raiden node
-2. Navigation for interacting with Raiden. The menu options we will be focusing on are:
+The menu options we will be focusing on in this overview are:
 
 * [Tokens](the-raiden-web-interface.md#tokens)
 * [Channels](the-raiden-web-interface.md#channels)
 * [Address Book](the-raiden-web-interface.md#address-book)
 
-![Home Screen](.gitbook/assets/web_ui_home.png)
+#### Tokens
 
-#### **Tokens**
+In the **"Tokens"** screen you'll find:
 
-In **Tokens** you'll find:
-
-1. A list of all tokens that have been registered in Raiden
+1. A list of all tokens that have been registered in Raiden.
 2. Details about each token which includes:
-   * The token **Symbol** \(**WIZ** in the example screenshot\)
-   * The token **Name** \(**WizardToken** in the example screenshot\)
-   * Your current **Balance** of a specific token
-   * Buttons where you can **Join Network** or **Mint Token**
-3. A **Filter** field where you can search for a registered token by its name or address and a **Sort by** dropdown for sorting your list of tokens
-4. A **+** button where you can register tokens
+   * The token **symbol** \(WIZ in the example below\).
+   * The token **name** \(WizardToken in the example below\).
+   * Your current token **balance**.
+   * Buttons where you can [**join a network**](the-raiden-web-interface.md#join-a-token-network) or **mint tokens**.
+3. A **+** button for [**registering new tokens**](the-raiden-web-interface.md#register-a-new-token-and-join-its-network) and options for **filtering** and **sorting** your tokens list.
 
-![Tokens Screen](.gitbook/assets/web_ui_tokens.png)
-
-{% hint style="info" %}
-**What is a token and a token network?**
-{% endhint %}
+![](.gitbook/assets/web_ui_tokens_screen.png)
 
 #### Channels
 
-In **Channels** you'll find:
-
-1. A list of all your open channels
-2. Details about each open channel which includes:
-   * The address of the **Partner** node that you have an open channel with
-   * The address of the token when you hover over the token symbol \(**WIZ** in the example screenshot\)
-   * The current token **Balance** of your Raiden node for a specific channel
-   * Your channels **Status** \(Opened, Closed or Settled\)
-   * Buttons where you can **Pay**, **Deposit**, **Withdraw** or **Close** a channel
-3. A **Filter** field where you can search for a channel by partner name or address and a **Sort by** dropdown for sorting your list of channels
-4. A **+** button where you can open a channel with a counterpart of your choosing
-
 {% hint style="warning" %}
-**Add note on initial empty screen**
+If you haven't opened any channels this screen will just display a _"no channels found"_ message. The simplest way to get started is to open channels by [joining a token network](the-raiden-web-interface.md#join-a-token-network).
 {% endhint %}
 
-![Channels Screen](.gitbook/assets/web_ui_channels.png)
+In the **"Channels"** screen you'll find:
 
-{% hint style="info" %}
-**What is a Channel?**
+1. A list of all your open channels.
+2. Details about each open channel which includes:
+   * The address of the **partner** node you're connected to via the channel.
+   * The token **symbol** \(WIZ in the example below\) and the token **address** which gets displayed when hovering over the symbol.
+   * Your current **balance** of tokens in the channel.
+   * The **status** of your channel and whether its [**open**, **closed**, or **settled**](the-raiden-web-interface.md#close-channels-and-settle-payments).
+   * Buttons where you can [**pay**](the-raiden-web-interface.md#pay-from-the-tokens-screen) ****\(both the "PAY" and the "SEND TOKENS" button works the same as when paying from the "Tokens" screen after joining a token network\), [**deposit**](the-raiden-web-interface.md#add-more-tokens), [**withdraw**](the-raiden-web-interface.md#withdraw-tokens), or [**close a channel**](the-raiden-web-interface.md#close-a-channel).
+3. A **+** button for opening a channel with a counterpart of your choosing and options for **filtering** and **sorting** your channels list.
 
-A channel or payment channel allows Raiden transfers to be made back and forth between parties without involving the actual blockchain.
-
-This works by first creating an initial on-chain deposit of a set amount. The net sum of this amount can then be used in the Raiden off-chain transactions.
-
-We only need to involve the actual blockchain in the initial setup or if we choose to close a channel and settle the netted amount.
-{% endhint %}
+![](.gitbook/assets/web_ui_channels_screen.png)
 
 #### Address Book
 
-In the **Address Book** you'll find:
+In the **"Address Book"** you'll find:
 
-1. A list of all your saved addresses
-2. Two options for saving new addresses:
-   * Type the address and label manually
-   * Drag and drop a JSON file containing your addresses
+1. A list of all your saved peers and their addresses.
+2. Two options for saving a new address:
+   * Type the address and label manually.
+   * Drag and drop a JSON file containing all your addresses.
 
-![Address Book Screen](.gitbook/assets/web_ui_address_book.png)
-
-
-
-
+![](.gitbook/assets/web_ui_address_book_screen.png)
 
