@@ -120,7 +120,7 @@ Delete desired **.toml** file/files.
 Navigate to following folder:
 
 ```text
-/home/<username>/.local/raiden/
+/home/<username>/.local/share/raiden/
 ```
 
 Delete desired **.toml** file/files.
