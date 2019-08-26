@@ -115,6 +115,10 @@ You have two ways of allocating more tokens to your channels:
 
 ![](.gitbook/assets/web_ui_deposit.png)
 
+{% hint style="info" %}
+**Minting tokens**
+{% endhint %}
+
 ### Close Channels and Settle Payments
 
 You have a couple of ways for depositing tokens back to your token network balance.
