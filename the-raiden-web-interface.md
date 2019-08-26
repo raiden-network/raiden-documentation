@@ -117,6 +117,12 @@ You have two ways of allocating more tokens to your channels:
 
 {% hint style="info" %}
 **Minting tokens**
+
+The Raiden WebUI lets you mint tokens if you need to fund your account with additional testnet tokens.
+
+To do so, simply click the **"MINT TOKEN"** button in the tokens screen next to your token of choice.
+
+This will trigger an on-chain transaction and use some of you ETH in exchange for more tokens.
 {% endhint %}
 
 ### Close Channels and Settle Payments
