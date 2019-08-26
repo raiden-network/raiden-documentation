@@ -36,7 +36,7 @@ The setup process can take up to five minutes, make sure not to close the browse
 
 Congratulations! Now you can start interacting with Raiden!
 
-To get an overview of how to use the web interface, you can:
+To get an overview on how to use the web interface, you can:
 
 [Read this tutorial about the web interface](the-raiden-web-interface.md)
 
