@@ -1,17 +1,17 @@
 ---
-description: The Raiden Wizard makes setting up a Raiden node as easy as 1-2-3.
+description: Running a Raiden node with the Raiden Wizard
 ---
 
 # Quick Start
 
-## Get Started
+## Overview
 
-This guide will teach you how to:
+This tutorial will teach you how to:
 
 * [Download the Raiden Wizard](./#download-the-raiden-wizard)
 * [Setup and run Raiden](./#setup-and-run-raiden)
+* [Get an Infura Project ID](./#get-an-infura-project-id)
 * [Relaunch Raiden](./#relaunch-raiden)
-* [Get a Infura Project ID](./#get-a-infura-project-id)
 * [Handle limitations and shortcomings](./#handle-limitations-and-shortcomings)
 
 ### Download the Raiden Wizard
@@ -25,37 +25,32 @@ Download the Raiden Wizard for either macOS or Linux.
 ### **Setup and Run Raiden**
 
 1. Extract and open the **Raiden Wizard** file. The Wizard will launch in your default browser.
-2. Insert your Infura Project ID. Don't have a Infura Project ID? Learn how to get one in the [section below](./#get-a-infura-project-id).
+2. Insert your Infura Project ID. Don't have a Infura Project ID? Get one in the [section below](./#get-an-infura-project-id).
 3. Click **"Create New Configuration"** to configure, install and launch the latest Raiden.
 
 {% hint style="warning" %}
 The setup process can take up to five minutes, make sure not to close the browser.
 {% endhint %}
 
-**Congratulations! You're now ready to start interacting with Raiden!** 🎉
+#### You are now running a Raiden node!  ****🎉
 
-![The Raiden Wizard setup process](.gitbook/assets/raiden_wizard_installation_process.gif)
+Congratulations! Now you can start interacting with Raiden!
 
-To get an overview of the web interface:
+To get an overview of how to use the web interface, you can:
+
+[Read this tutorial about the web interface](the-raiden-web-interface.md)
 
 [Watch this video on the web interface](https://www.youtube.com/watch?v=ASWeFdHDK-E)
 
-[Read this tutorial about the web interface](https://raiden-network.readthedocs.io/en/stable/webui_tutorial.html)
+![The Raiden Wizard setup process](.gitbook/assets/raiden_wizard_installation_process.gif)
 
-[Read the developer API guide](https://raiden-network.readthedocs.io/en/stable/rest_api.html)
+#### For developers
 
-### Relaunch Raiden
+If you are interested in contributing to the Raiden Wizard, a good start is to:
 
-Open the **Raiden Wizard** file, you will find two ways of relaunching Raiden.
+Read the our [contributing guide](https://github.com/raiden-network/raiden-installer/blob/master/CONTRIBUTING.md)
 
-1. Click the **"Launch"** button next to a configuration you already created.
-2. Repeat the steps from [Setup and Run Raiden](./#setup-and-run-raiden) to create a new configuration.
-
-{% hint style="warning" %}
-Each new configuration created will be added to the list and currently you can't delete configurations from the Wizard. Read more under [Handle Limitations and Shortcomings](./#handle-limitations-and-shortcomings).
-{% endhint %}
-
-### Get a Infura Project ID
+### Get an Infura Project ID
 
 1. Visit [infura.io](https://infura.io/) and sign up for a new account.
 2. Create a new project.
@@ -69,6 +64,17 @@ Each new configuration created will be added to the list and currently you can't
 By using Infura you don't have to worry about syncing the blockchain on your own system. You can simply access all test networks and the Ethereum mainnet through the API endpoints provided by Infura.
 
 The Raiden Wizard sets up a Raiden node on top of Infura and your Project ID works as a way to authenticate your access to Infura.
+{% endhint %}
+
+### Relaunch Raiden
+
+Open the **Raiden Wizard** file, you will find two ways of relaunching Raiden.
+
+1. Click the **"Launch"** button next to a configuration you already created.
+2. Repeat the steps from [Setup and Run Raiden](./#setup-and-run-raiden) to create a new configuration.
+
+{% hint style="warning" %}
+Each new configuration created will be added to the list and currently you can't delete configurations from the Wizard. Read more under [Handle Limitations and Shortcomings](./#handle-limitations-and-shortcomings).
 {% endhint %}
 
 ### Handle Limitations and Shortcomings
