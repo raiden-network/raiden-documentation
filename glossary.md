@@ -1,0 +1,4 @@
+# Glossary
+
+### Payments and transfers
+
