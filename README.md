@@ -15,27 +15,25 @@ This is the new documentation for Raiden. You'll find the complete [old document
 
 {% page-ref page="quick-start/" %}
 
-## Developing on Raiden?
+### Developing on Raiden?
 
-If you’re looking for documentation relevant for building on top of Raiden
+If you are looking to build on top of Raiden the following links have relevant documentation where you can:
 
-> * Read the thorough guide to [get started with the Raiden API](https://raiden-network.readthedocs.io/en/stable/api_walkthrough.html).
-> * Checkout the complete [API documentation](https://raiden-network.readthedocs.io/en/stable/rest_api.html).
+* Read a detailed guide on how to [get started using the Raiden API](https://raiden-network.readthedocs.io/en/stable/api_walkthrough.html)
+* Read a complete [documentation of the API](https://raiden-network.readthedocs.io/en/stable/rest_api.html)
 
-## Contributing to Raiden?
+### Contributing to Raiden?
 
-If you’re looking for a more in depth understanding of Raiden and are interested in contributing
+If you are looking to get an in-depth understanding of Raiden or if you're interested in contributing to Raiden, a good start is to:
 
-> * Take a look at the [onboarding guide](https://raiden-network.readthedocs.io/en/stable/onboarding.html).
-> * Check out the code in our [Github repository](https://github.com/raiden-network/raiden).
-> * Read the [Raiden specification](https://raiden-network-specification.readthedocs.io/en/latest/index.html).
+* Read the [on-boarding](https://raiden-network.readthedocs.io/en/stable/onboarding.html) guide
+* Read the [Raiden Specification](https://raiden-network-specification.readthedocs.io/en/latest/index.html)
+* Take a look at the [source code](https://github.com/raiden-network/raiden)
 
-#### Need help?
+### Need Help?
 
-If you run in to any kind of problems or you discover bugs:
+If you run into problems or discover bugs, you can:
 
-> * Ask for help or project related questions in the [Raiden gitter](https://gitter.im/raiden-network/raiden).
-> * Create a [Github issue](https://github.com/raiden-network/raiden/issues/new/choose) if you discover a bug or have a feature request.
-
-### 
+* Ask for help or ask project related questions in the [Raiden gitter](https://gitter.im/raiden-network/raiden)
+* Create a [GitHub issue](https://github.com/raiden-network/raiden/issues/new/choose) for either a bug or feature request
 
