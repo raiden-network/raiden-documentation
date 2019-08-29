@@ -33,17 +33,25 @@ A on-chain payment channel is opened whenever an initial deposit of tokens are m
 
 #### Transferred Amount
 
-The
+The transferred amount is the total amount of tokens sent from a participants account to the account of a counterparty.
 
 ### Participants
 
 #### Counterparty
 
+The counterparty of a channel is the other channel participant with whom we have opened a channel.
+
 #### Initiator
+
+The initiator is the Raiden node which initiates \(starts\) a payment.
 
 #### Payee
 
+The payee is the participant who receives a payment.
+
 #### Payer
+
+The payer is the participant who sends a payment.
 
 #### Target
 
