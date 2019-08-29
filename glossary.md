@@ -55,5 +55,9 @@ The payer is the participant who sends a payment.
 
 #### Target
 
+The target is the Raiden node which receives a payment from the [initiator](glossary.md#initiator).
+
 #### Transfer
+
+A transfer in Raiden happens each time tokens are sent inside a payment channel.
 

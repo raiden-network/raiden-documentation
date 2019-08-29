@@ -1,5 +1,5 @@
 ---
-description: Running and starting a Raiden Node with the Raiden Wizard
+description: Starting and running a Raiden Node with the Raiden Wizard
 ---
 
 # Quick Start
