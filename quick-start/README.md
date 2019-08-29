@@ -1,5 +1,5 @@
 ---
-description: Running a Raiden node with the Raiden Wizard
+description: Running and starting a Raiden Node with the Raiden Wizard
 ---
 
 # Quick Start
@@ -9,7 +9,7 @@ description: Running a Raiden node with the Raiden Wizard
 This tutorial will teach you how to:
 
 * [Download the Raiden Wizard](../#download-the-raiden-wizard)
-* [Setup and run Raiden](../#setup-and-run-raiden)
+* [Setup and run a Raiden Node](./#setup-and-run-raiden)
 
 ## Download the Raiden Wizard
 
@@ -19,7 +19,7 @@ Download the Raiden Wizard for either macOS or Linux.
 
 [**Linux download**](https://github.com/raiden-network/raiden-installer/releases/download/v0.100.5-dev0/raiden_wizard.linux-gnu.zip)\*\*\*\*
 
-## **Setup and Run Raiden**
+## **Setup and run a Raiden Node**
 
 1. Extract and open the **Raiden Wizard** file. 
 2. The Wizard will launch in your default browser.
@@ -32,15 +32,14 @@ The setup process can take up to five minutes, make sure not to close the browse
 
 ![The Raiden Wizard setup process](../.gitbook/assets/raiden_wizard_installation_process.gif)
 
-#### You are now running a Raiden node!  ****🎉
+#### You are now running a Raiden Node!  ****🎉
 
 Congratulations! Now you can start interacting with Raiden!
 
 To get an overview on how to use the web interface, you can:
 
-[Read this tutorial about the web interface](../the-raiden-web-interface.md)
-
-[Watch this video on the web interface](https://www.youtube.com/watch?v=ASWeFdHDK-E)
+* Read this tutorial about the web interface
+* [Watch this video on the web interface](https://www.youtube.com/watch?v=ASWeFdHDK-E)
 
 ## Relaunch Raiden
 
