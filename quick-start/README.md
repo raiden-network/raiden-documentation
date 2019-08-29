@@ -4,7 +4,7 @@ description: Starting and running a Raiden Node with the Raiden Wizard
 
 # Quick Start
 
-## **Welcome!**
+## Overview
 
 This tutorial will teach you how to:
 
@@ -38,7 +38,7 @@ Congratulations! Now you can start interacting with Raiden!
 
 To get an overview on how to use the web interface, you can:
 
-* Read this tutorial about the web interface
+* [Read this tutorial about the web interface](../the-raiden-web-interface/)
 * [Watch this video on the web interface](https://www.youtube.com/watch?v=ASWeFdHDK-E)
 
 ## Relaunch Raiden
