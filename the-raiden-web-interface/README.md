@@ -19,9 +19,13 @@ To run the WebUI you need to install Raiden and set up a Raiden node. The easies
 
 This tutorial will teach you how to:
 
-* [Navigate the WebUI](screens.md)
-* Join a token network
-* Make a payment
-* Add tokens
-* Close channels and send tokens back-on-chain
+{% page-ref page="screens.md" %}
+
+{% page-ref page="join-a-token-network.md" %}
+
+{% page-ref page="payment.md" %}
+
+{% page-ref page="send-tokens-back-on-chain.md" %}
+
+{% page-ref page="advanced.md" %}
 

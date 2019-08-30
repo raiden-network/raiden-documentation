@@ -1,65 +1,45 @@
+---
+description: >-
+  To be able to make token payments in Raiden you first need to join the network
+  for the token you're interested in doing payments with.
+---
+
 # Join a Token Network
 
-## Join a Token Network
+To join a token network navigate to the **"Tokens"** screen where you can choose to either:
 
-You need to join a token network for the token you're interested in doing payments with. 
+* [Join an existing token network](join-a-token-network.md#join-an-existing-token-network)
+* [Register a new token and join its network](join-a-token-network.md#register-a-new-token-and-join-its-network)
 
 {% hint style="info" %}
-**What is a token?** 
+**What is a token?**
 
-A token is defined within a ERC20 compliant smart contract. The token contract is as a registry where different amounts of the total supply are mapped to different owners.
+Each token is defined within its own ERC20 compliant smart contract and each smart contract has a total supply of tokens. The token contracts are like a registry where different amounts of the total supply are mapped to different owners.
+
+Say someone owns 10 of a specific token, it would be the same as saying they're entitled to 10 of the total token supply defined in the contract for the token they own. If they were to transfer 3 of these tokens to someone else who has a balance of 5 they themselves would be left with a balance of 7 tokens whilst their peer now have 8 tokens.
 
 **What is a token network?**
 
-For each ERC-20 compliant token a Raiden Token Network can be registered. All Raiden Nodes registered within this network form a token network.
+Anyone who runs a Raiden node and owns a token can join a network with other nodes who owns the very same token. All nodes registered within such network form a token network.
 {% endhint %}
 
-## Join a Token Network
-
-The tokens registered on the current chain are shown or searchable on the **"TOKEN"** screen.
+## Join an Existing Token Network
 
 ![](../.gitbook/assets/web_ui_join_network_1%20%281%29.png)
 
-1. Click the **"JOIN NETWORK"** button next to the token which network you want to join.
-
-{% hint style="info" %}
-**What is the balance?**
-
-The Token Network Balance shows the on-chain balance of the respective token which the Raiden account holds.
-{% endhint %}
+Click the **"JOIN NETWORK"** button next to the token which network you want to join.
 
 ![](../.gitbook/assets/web_ui_join_network_2.png)
 
-1. Enter the the amount of tokens you want to allocate
-2. Click **"Join"**
+Enter the amount of tokens you want to allocate and click **"Join"**.
 
-The amount you choose is what will be available for making payments and you can always [add more funds later](advanced.md).
+The amount you choose is what will be available for making payments and you can always [add more funds later](./#add-more-tokens).
 
-With joining the token network channels have been automatically opened channels to connect you to your peers.
-
-Now you can
+You're now ready to make a first payment!
 
 {% page-ref page="payment.md" %}
 
-{% hint style="info" %}
-**What is a channel?**
+## Register a New Token and Join Its Network
 
-A channel or payment channel allows Raiden transfers to be made back and forth between parties without involving the actual blockchain.
-{% endhint %}
-
-{% hint style="info" %}
-**How does opening a channel works?**
-
-This works by first creating an initial on-chain deposit with the amount specified when you for instance joined a token network.
-
-The net sum can be used in the Raiden off-chain transactions and the actual blockchain only needs to be involved in the initial setup or when choosing to deposit more tokens or settle a netted amount.
-{% endhint %}
-
-{% hint style="info" %}
-**How are channels automatically opened?**
-
-When you joined a token network three channels were automatically opened with three random nodes and 60% of the tokens you provided got equally distributed with 20% in each channel. 
-
-The remaining 40% are reserved for when someone wants to open a channel with you.
-{% endhint %}
+![](../.gitbook/assets/web_ui_register_token_1.png)
 
