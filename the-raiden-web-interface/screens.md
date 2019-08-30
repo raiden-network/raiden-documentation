@@ -1,36 +1,35 @@
 ---
-description: Explanation of the different WebUI screens
+description: >-
+  To get you familiarized with the Raiden WebUI we have put together a short
+  introduction to the most important screens of the application.
 ---
 
-# Screens
+# Navigate the WebUI
 
-## Overview
+The first screen you will see when the WebUI launches is the **"Home"** screen which has a short introduction to Raiden.
 
-This guide explains the following screens in detail
+![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LfdOdNB3P6EjscN0LQW%2F-LmtmGMrLm7yWMJeP6xg%2F-LmtmKMI05O7RjNA44HH%2Fweb_ui_home_screen.png?alt=media&token=1243faba-1681-4fb8-bb13-27af47ffa805)
 
-* [Home](screens.md#home)
-* [Navigation](screens.md#navigation)
-* [Tokens](screens.md#tokens)
-* [Channels](screens.md#channels)
-* [Address Book](screens.md#address-book)
+On the top bar and left hand side you'll find:
 
-## Home
-
-The first screen you'll see when the WebUI launches is the **"Home"** screen which has a short introduction to Raiden.
-
-## Navigation
-
-There is the navigation menu and status information on the top right.
-
-![](../.gitbook/assets/web_ui_home_screen.png)
-
-1. The address of your Raiden node together with your current ETH balance. Some of this ETH gets consumed anytime an on-chain activity happens.
+1. The address of you Raiden node together with your current ETH balance. Some of this ETH gets consumed anytime an on-chain activity happens.
 2. The navigation menu for interacting with Raiden.
-   * [Tokens](screens.md#tokens)
-   * [Channels](./#channels)
-   * [Address Book](screens.md#address-book)
 
-## Tokens
+The menu options we will be focusing on are:
+
+* [Tokens](screens.md#tokens-1)
+* Channels
+* Address Book
+
+### Tokens
+
+
+
+
+
+
+
+
 
 In order to open channels and make payments, you need to be connected to a token network. For each ERC20 token there is a separate token network.
 
