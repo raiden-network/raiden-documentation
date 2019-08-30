@@ -41,5 +41,15 @@ You're now ready to make a first payment!
 
 ## Register a New Token and Join Its Network
 
+If you want to join the network for a token and the token is not displayed in the list of tokens it might mean that it has not been registered yet and that you'll have to register it yourself.
+
 ![](../.gitbook/assets/web_ui_register_token_1.png)
+
+Click the upper right **"+"** button.
+
+![](../.gitbook/assets/web_ui_register_token_2%20%281%29.png)
+
+Enter the address of the token you want to register and click **"Register"**.
+
+Read the instructions for [joining an existing token network](join-a-token-network.md#join-an-existing-token-network) to join the network of your newly registered token.
 
