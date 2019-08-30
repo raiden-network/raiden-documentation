@@ -7,22 +7,29 @@ description: >-
 
 # What is Raiden?
 
-{% hint style="info" %}
+{% hint style="warning" %}
 This is the new documentation for Raiden. You'll find the complete [old documentation here](https://raiden-network.readthedocs.io/en/stable/index.html#).
 {% endhint %}
 
 ## New to Raiden?
 
+If you’re new to Raiden and just want to install and try it out, go to the
+
 {% page-ref page="quick-start/" %}
 
-### Developing on Raiden?
+Afterwards you can make payments using the WebUI
+
+{% page-ref page="the-raiden-web-interface/" %}
+
+## Developing on Raiden?
 
 If you are looking to build on top of Raiden the following links have relevant documentation where you can:
 
+* Check out the [examples on the developer portal](https://developer.raiden.network/#Examples)
 * Read a detailed guide on how to [get started using the Raiden API](https://raiden-network.readthedocs.io/en/stable/api_walkthrough.html)
 * Read a complete [documentation of the API](https://raiden-network.readthedocs.io/en/stable/rest_api.html)
 
-### Contributing to Raiden?
+## Contributing to Raiden?
 
 If you are looking to get an in-depth understanding of Raiden or if you're interested in contributing to Raiden, a good start is to:
 
@@ -30,7 +37,7 @@ If you are looking to get an in-depth understanding of Raiden or if you're inter
 * Read the [Raiden Specification](https://raiden-network-specification.readthedocs.io/en/latest/index.html)
 * Take a look at the [source code](https://github.com/raiden-network/raiden)
 
-### Need Help?
+## Need Help?
 
 If you run into problems or discover bugs, you can:
 

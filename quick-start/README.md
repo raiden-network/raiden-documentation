@@ -52,6 +52,12 @@ Open the **Raiden Wizard** file, you will find two ways of relaunching Raiden.
 Each new configuration created will be added to the list and currently you can't delete configurations from the Wizard. Read more under [Handle Limitations and Shortcomings](../#handle-limitations-and-shortcomings).
 {% endhint %}
 
+## Make Payments
+
+If you have successfully installed Raiden, you can make payments with the WebUI
+
+{% page-ref page="../the-raiden-web-interface/" %}
+
 ## Get an Infura Project ID
 
 Don't have a Infura Project ID?

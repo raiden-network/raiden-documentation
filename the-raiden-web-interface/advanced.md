@@ -1,4 +1,4 @@
-# Adding tokens
+# Add tokens
 
 ## Register a New Token and Join Its Network
 
