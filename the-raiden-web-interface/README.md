@@ -5,7 +5,7 @@ description: >-
   REST API endpoints.
 ---
 
-# Use the WebUI
+# The Raiden Web Application
 
 ## Run the Raiden Web Application
 

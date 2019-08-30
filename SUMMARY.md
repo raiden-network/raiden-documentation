@@ -4,7 +4,7 @@
 * [Quick Start](quick-start/README.md)
   * [Infura Project ID](quick-start/untitled.md)
   * [Known Issues](quick-start/known-issues.md)
-* [Use the WebUI](the-raiden-web-interface/README.md)
+* [The Raiden Web Application](the-raiden-web-interface/README.md)
   * [Join a Token Network](the-raiden-web-interface/join-a-token-network.md)
   * [Make a Payment](the-raiden-web-interface/payment.md)
   * [Send tokens back on-chain](the-raiden-web-interface/send-tokens-back-on-chain.md)
