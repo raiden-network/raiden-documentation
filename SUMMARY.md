@@ -14,4 +14,5 @@
 * [V1 Documentation](full-documentation/README.md)
   * [API Walkthrough](https://raiden-network.readthedocs.io/en/stable/api_walkthrough.html)
   * [API documentation](https://raiden-network.readthedocs.io/en/stable/rest_api.html)
+* [Trademark Attributions](trademark-attributions.md)
 
