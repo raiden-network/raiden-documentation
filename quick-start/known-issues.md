@@ -11,7 +11,7 @@ description: >-
 {% hint style="warning" %}
 **Important**
 
-The Raiden Wizard will display an _**Internal Server Error**_ ****if an invalid Project ID is provided. To solve this you have to [manually delete the configuration](../#delete-configuration-files) file that got created.
+The Raiden Wizard will display an _**Internal Server Error**_ ****if an invalid Project ID is provided. To solve this you have to [manually delete the configuration](known-issues.md#delete-configuration-files) file that got created.
 {% endhint %}
 
 ### Stop Raiden from Running

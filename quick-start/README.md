@@ -8,8 +8,8 @@ description: Starting and running a Raiden Node with the Raiden Wizard
 
 This tutorial will teach you how to:
 
-* [Download the Raiden Wizard](../#download-the-raiden-wizard)
-* [Setup and run a Raiden Node](./#setup-and-run-raiden)
+* [Download the Raiden Wizard](./#download-the-raiden-wizard)
+* [Setup and run a Raiden Node](./#setup-and-run-a-raiden-node)
 
 ## Download the Raiden Wizard
 
@@ -23,14 +23,14 @@ Download the Raiden Wizard for either macOS or Linux.
 
 1. Extract and open the **Raiden Wizard** file. 
 2. The Wizard will launch in your default browser.
-3. Insert your Infura Project ID. Don't have a Infura Project ID? Get one in the [section below](../#get-an-infura-project-id).
+3. Insert your Infura Project ID. Don't have a Infura Project ID? Learn how to [get one here](untitled.md).
 4. Click **"Create New Configuration"** to configure, install and launch the latest Raiden.
 
 {% hint style="warning" %}
 The setup process can take up to five minutes, make sure not to close the browser.
 {% endhint %}
 
-![The Raiden Wizard setup process](../.gitbook/assets/raiden_wizard_installation_process.gif)
+![The Raiden Wizard Setup Process](../.gitbook/assets/raiden_wizard_installation_process.gif)
 
 #### You are now running a Raiden Node!  ****🎉
 
@@ -46,17 +46,17 @@ To get an overview on how to use the web interface, you can:
 Open the **Raiden Wizard** file, you will find two ways of relaunching Raiden.
 
 1. Click the **"Launch"** button next to a configuration you already created.
-2. Repeat the steps from [Setup and Run Raiden](../#setup-and-run-raiden) to create a new configuration.
+2. Repeat the steps from ["Setup and Run Raiden"](./#setup-and-run-a-raiden-node) to create a new configuration.
 
 {% hint style="warning" %}
-Each new configuration created will be added to the list and currently you can't delete configurations from the Wizard. Read more under [Handle Limitations and Shortcomings](../#handle-limitations-and-shortcomings).
+Each new configuration created will be added to the list and currently you can't delete configurations from the Wizard. Read more under "[Known Issues](known-issues.md)".
 {% endhint %}
 
 ## Make Payments
 
 If you have successfully installed Raiden, you can make payments with the WebUI
 
-{% page-ref page="../the-raiden-web-interface/" %}
+{% page-ref page="../the-raiden-web-interface/payment.md" %}
 
 ## Get an Infura Project ID
 
