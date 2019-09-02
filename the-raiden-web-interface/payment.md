@@ -7,12 +7,18 @@ description: >-
 
 # Make a Payment
 
-When you have one or more channels open you can start making payments. Let's walk through how to pay from the tokens screen.
+If you have one or more channels open you can start making payments. Let's walk through how to [pay from the tokens screen](payment.md#pay-from-the-tokens-screen).
 
 {% hint style="info" %}
-**What is a Channel?**
+**How Does Payment Channels Work?**
 
-Text
+Whenever you deposit tokens or open a channel an on-chain transaction will happen.
+
+The three channels that were automatically opened when you joined a token network received 20% of the deposited tokens each, leaving 40% for when someone wants to open a channel with you. 
+
+The total amount was set in an initial on-chain deposit. The net sum can then be used in the Raiden off-chain transactions. Transactions can be made between two peers that do not have a direct channel with each other as long as there are routes connecting them via other peers.
+
+The actual blockchain is only involved in the initial setup or when you choose to deposit more tokens or settle a netted amount.
 {% endhint %}
 
 ## Pay from the Tokens Screen
@@ -32,8 +38,12 @@ In the popup dialogue:
 5. Click **"Send"** to complete your payment.
 
 {% hint style="info" %}
-**Make Payments to any Raiden Node**
+**Minting Tokens**
 
-You don't need to have a direct channel with the peer you wish to send a payment. A transfer can be made between two peers that do not have a direct channel with each other as long as there are routes connecting them via other peers.
+The Raiden WebUI lets you mint tokens if you need to fund your account with additional testnet tokens.
+
+To do so, click the **"MINT TOKEN"** button in the **"Tokens"** screen next to your token of choice.
+
+This will trigger an on-chain transaction and use some of your ETH in exchange for more tokens.
 {% endhint %}
 

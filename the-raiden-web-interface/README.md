@@ -27,5 +27,3 @@ This tutorial will teach you how to:
 
 {% page-ref page="send-tokens-back-on-chain.md" %}
 
-{% page-ref page="advanced.md" %}
-
