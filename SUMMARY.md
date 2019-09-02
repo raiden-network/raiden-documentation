@@ -10,9 +10,8 @@
   * [Make a Payment](the-raiden-web-interface/payment.md)
   * [Add More Tokens](the-raiden-web-interface/add-more-tokens.md)
   * [Settle Payments and Close Channels](the-raiden-web-interface/close-channels-and-settle-payments.md)
-  * [Send tokens back on-chain](the-raiden-web-interface/send-tokens-back-on-chain.md)
 * [Glossary](glossary.md)
-* [v1 Documentation](full-documentation/README.md)
+* [V1 Documentation](full-documentation/README.md)
   * [API Walkthrough](https://raiden-network.readthedocs.io/en/stable/api_walkthrough.html)
   * [API documentation](https://raiden-network.readthedocs.io/en/stable/rest_api.html)
 

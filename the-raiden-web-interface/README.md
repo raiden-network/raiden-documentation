@@ -25,5 +25,7 @@ This tutorial will teach you how to:
 
 {% page-ref page="payment.md" %}
 
-{% page-ref page="send-tokens-back-on-chain.md" %}
+{% page-ref page="add-more-tokens.md" %}
+
+{% page-ref page="close-channels-and-settle-payments.md" %}
 

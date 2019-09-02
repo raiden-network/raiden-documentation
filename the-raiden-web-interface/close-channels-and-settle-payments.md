@@ -10,7 +10,7 @@ You have a couple of ways for depositing tokens back to your token network balan
 
 * [Withdraw tokens](close-channels-and-settle-payments.md#withdraw-tokens)
 * [Close a channel](close-channels-and-settle-payments.md#close-a-channel)
-* Leave a network
+* [Leave a network](close-channels-and-settle-payments.md#leave-a-network)
 
 ## Withdraw Tokens
 
@@ -36,4 +36,12 @@ In the **"Channels"** screen:
 2. Click **"Confirm"** to finish closing the channel.
 
 The token amount will be payed out in accordance to the transactions that have been made between the channel participants.
+
+## Leave a Network
+
+Leaving a network has the same outcome as [closing a channel](close-channels-and-settle-payments.md#close-a-channel) with the difference that _all_ channels belonging to the network you're leaving gets closed.
+
+![](../.gitbook/assets/web_ui_leave_network%20%281%29.png)
+
+Click the **"LEAVE NETWORK"** button in the **"Tokens"** screen next to the token network you wish to leave.
 

@@ -1,7 +1,7 @@
 ---
 description: >-
   To be able to make token payments in Raiden you first need to join the network
-  for the token you're interested in doing payments with.
+  for the token you're interested in making payments with.
 ---
 
 # Join a Token Network
@@ -25,15 +25,15 @@ Anyone who runs a Raiden node and owns a token can join a network with other nod
 
 ## Join an Existing Token Network
 
-![](../.gitbook/assets/web_ui_join_network_1%20%281%29.png)
+![Tokens Screen](../.gitbook/assets/web_ui_join_network_1%20%281%29.png)
 
 Click the **"JOIN NETWORK"** button next to the token which network you want to join.
 
-![](../.gitbook/assets/web_ui_join_network_2.png)
+![Tokens Screen](../.gitbook/assets/web_ui_join_network_2.png)
 
 Enter the amount of tokens you want to allocate and click **"Join"**.
 
-The amount you choose is what will be available for making payments and you can always [add more funds later](./#add-more-tokens).
+The amount you choose is what will be available for making payments and you can always [add more funds later](add-more-tokens.md).
 
 You're now ready to make a first payment!
 
@@ -43,13 +43,13 @@ You're now ready to make a first payment!
 
 If you want to join the network for a token and the token is not displayed in the list of tokens it might mean that it has not been registered yet and that you'll have to register it yourself.
 
-![](../.gitbook/assets/web_ui_register_token_1.png)
+![Tokens Screen](../.gitbook/assets/web_ui_register_token_1.png)
 
 Click the upper right **"+"** button.
 
-![](../.gitbook/assets/web_ui_register_token_2%20%281%29.png)
+![Tokens Screen](../.gitbook/assets/web_ui_register_token_2%20%281%29.png)
 
 Enter the address of the token you want to register and click **"Register"**.
 
-Read the instructions for [joining an existing token network](join-a-token-network.md#join-an-existing-token-network) to join the network of your newly registered token.
+To join the network of your newly registered token follow the steps for [joining an existing token network](join-a-token-network.md#join-an-existing-token-network).
 

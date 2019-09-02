@@ -2,8 +2,6 @@
 
 ### Payments and Transfers
 
-#### Available Balance \(!! Whats the difference between this and balance?\)
-
 #### Balance
 
 The balance determines how many tokens one specific channel participant holds. 
