@@ -33,7 +33,7 @@ The setup process can take up to five minutes, make sure not to close the browse
 
 ![The Raiden Wizard Setup Process](../.gitbook/assets/raiden_wizard_installation_process.gif)
 
-### You are now running a Raiden node! 🎉
+**You are now running a Raiden node! 🎉**
 
 Congratulations! Now you can start interacting with Raiden!
 
