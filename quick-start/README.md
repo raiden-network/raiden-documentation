@@ -1,5 +1,5 @@
 ---
-description: Starting and running a Raiden Node with the Raiden Wizard
+description: Install Raiden and run a Raiden node with the Raiden Wizard
 ---
 
 # Quick Start
@@ -9,73 +9,53 @@ description: Starting and running a Raiden Node with the Raiden Wizard
 This tutorial will teach you how to:
 
 * [Download the Raiden Wizard](./#download-the-raiden-wizard)
-* [Setup and run a Raiden Node](./#setup-and-run-a-raiden-node)
+* [Setup and run a Raiden node](./#setup-and-run-a-raiden-node)
 
 ## Download the Raiden Wizard
 
-Download the Raiden Wizard for either macOS or Linux.
+You can download the Raiden Wizard for either macOS or Linux.
 
 [**macOS download**](https://github.com/raiden-network/raiden-installer/releases/download/v0.100.5-dev0/raiden_wizard.macOS.zip)\*\*\*\*
 
 [**Linux download**](https://github.com/raiden-network/raiden-installer/releases/download/v0.100.5-dev0/raiden_wizard.linux-gnu.zip)\*\*\*\*
 
-## **Setup and run a Raiden Node**
-
-1. Extract and open the **Raiden Wizard** file. 
-2. The Wizard will launch in your default browser.
-3. Insert your Infura Project ID. Don't have a Infura Project ID? Learn how to [get one here](untitled.md).
-4. Click **"Create New Configuration"** to configure, install and launch the latest Raiden.
+## **Setup and Run a Raiden Node**
 
 {% hint style="warning" %}
+You need to have an internet connection to run the Raiden Wizard. The Wizard will launch in your default browser.
+
 The setup process can take up to five minutes, make sure not to close the browser.
 {% endhint %}
 
+1. Extract and open the **Raiden Wizard** file.
+2. Insert your Infura Project ID. Don't have a Infura Project ID? Learn how to [get one here](./#get-an-infura-project-id).
+3. Click **"Create New Configuration"** to configure, install and launch the latest Raiden.
+
 ![The Raiden Wizard Setup Process](../.gitbook/assets/raiden_wizard_installation_process.gif)
 
-#### You are now running a Raiden Node!  ****🎉
+### You are now running a Raiden node! 🎉
 
 Congratulations! Now you can start interacting with Raiden!
 
-To get an overview on how to use the web interface, you can:
+A good start is to take a look at:
 
-* [Read this tutorial about the web interface](../the-raiden-web-interface/)
-* [Watch this video on the web interface](https://www.youtube.com/watch?v=ASWeFdHDK-E)
+{% page-ref page="../the-raiden-web-interface/" %}
 
 ## Relaunch Raiden
 
 Open the **Raiden Wizard** file, you will find two ways of relaunching Raiden.
 
 1. Click the **"Launch"** button next to a configuration you already created.
-2. Repeat the steps from ["Setup and Run Raiden"](./#setup-and-run-a-raiden-node) to create a new configuration.
+2. Repeat the steps from ["Setup and Run a Raiden Node"](./#setup-and-run-a-raiden-node) to create a new configuration.
 
 {% hint style="warning" %}
-Each new configuration created will be added to the list and currently you can't delete configurations from the Wizard. Read more under "[Known Issues](known-issues.md)".
+Each new configuration created will be added to the list and currently you can't delete configurations from the Wizard. Read more under ["Handle Limitations"](known-issues.md).
 {% endhint %}
 
-## Make Payments
+## Need Help?
 
-If you have successfully installed Raiden, you can make payments with the WebUI
+If you run into problems or discover bugs, you can:
 
-{% page-ref page="../the-raiden-web-interface/payment.md" %}
-
-## Get an Infura Project ID
-
-Don't have a Infura Project ID?
-
-{% page-ref page="untitled.md" %}
-
-## **Handle Limitations and Shortcomings**
-
-Do you want to know how to solve the known issues of the Raiden Wizard?
-
-{% page-ref page="known-issues.md" %}
-
-## Need help?
-
-If you run in to any kind of problems or you discover bugs:
-
-> * Ask for help or project related questions in the [Raiden gitter](https://gitter.im/raiden-network/raiden).
-> * Create a [Github issue](https://github.com/raiden-network/raiden-installer/issues) if you discover a bug or have a feature request.
-
-**Disclaimer:** Please note, that even though we do our best to ensure the quality and accuracy of the information provided, this publication may contain views and opinions, errors and omissions for which the content creator\(s\) and any represented organization cannot be held liable. The wording and concepts regarding financial terminology \(e.g. "payments", "checks", "currency", "transfer" \[of value\]\) are exclusively used in an exemplary way to describe technological principles and do not necessarily conform to the real world or legal equivalents of theses terms and concepts.
+* Ask for help or ask project related questions in the [Raiden gitter](https://gitter.im/raiden-network/raiden)
+* Create a [GitHub issue](https://github.com/raiden-network/raiden/issues/new/choose) for either a bug or feature request
 

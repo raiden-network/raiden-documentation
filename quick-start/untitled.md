@@ -4,17 +4,19 @@ description: >-
   works as a way to authenticate your access to Infura.
 ---
 
-# Infura Project ID
+# Get a Infura Project ID
+
+{% hint style="info" %}
+**Why Do I Need Infura?**
+
+By using Infura you don't have to worry about syncing the blockchain on your own system. You can simply access all testnets and the Ethereum mainnet through the API endpoints provided by Infura.
+{% endhint %}
+
+To get a Infura Project ID:
 
 1. Visit [infura.io](https://infura.io/) and sign up for a new account.
 2. Create a new project.
 3. View your project and you'll find the Project ID under the **KEYS** tab.
 
-![Steps to get a Infura Project ID](../.gitbook/assets/infura_project_id_setup.gif)
-
-{% hint style="info" %}
-**What is Infura and why do I need a Project ID?**
-
-By using Infura you don't have to worry about syncing the blockchain on your own system. You can simply access all test networks and the Ethereum mainnet through the API endpoints provided by Infura.
-{% endhint %}
+![Steps To Get a Infura Project ID](../.gitbook/assets/infura_project_id_setup.gif)
 
