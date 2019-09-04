@@ -6,7 +6,7 @@ description: >-
 
 # Handle Limitations
 
-Internal Server Error
+## Internal Server Error
 
 The Raiden Wizard will display an **Internal Server Error** if an invalid Project ID is provided. To solve this you have to [manually delete the configuration file](known-issues.md#delete-configuration-files-1) that got created.
 
