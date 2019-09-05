@@ -7,8 +7,12 @@ description: >-
 
 # What is Raiden?
 
+## Welcome to the New Raiden Documentation
+
 {% hint style="warning" %}
-This is the new documentation for Raiden. You'll find the complete [old documentation here](https://raiden-network.readthedocs.io/en/stable/index.html#).
+**This documentation is still a work in progress and therefore incomplete.**
+
+**If you can't find what you are looking for here the content most likely hasn't been reworked yet but can be found in the** [**complete old documentation**](https://raiden-network.readthedocs.io/en/latest/)**.**
 {% endhint %}
 
 ## New to Raiden?
