@@ -15,9 +15,9 @@ This tutorial will teach you how to:
 
 You can download the Raiden Wizard for either macOS or Linux.
 
-[**macOS download**](https://github.com/raiden-network/raiden-installer/releases/download/v0.100.5-dev0/raiden_wizard.macOS.zip)\*\*\*\*
+\*\*\*\*[**macOS download**](https://github.com/raiden-network/raiden-installer/releases/download/v0.32.0-testnet/raiden_wizard.macOS.zip)\*\*\*\*
 
-[**Linux download**](https://github.com/raiden-network/raiden-installer/releases/download/v0.100.5-dev0/raiden_wizard.linux-gnu.zip)\*\*\*\*
+\*\*\*\*[**Linux download**](https://github.com/raiden-network/raiden-installer/releases/download/v0.32.0-testnet/raiden_wizard.linux-gnu.bin.tar.gz)\*\*\*\*
 
 ## **Setup and Run a Raiden Node**
 
