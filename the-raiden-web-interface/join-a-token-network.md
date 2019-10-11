@@ -12,13 +12,13 @@ To join a token network navigate to the **"Tokens"** screen where you can choose
 * [Register a new token and join its network](join-a-token-network.md#register-a-new-token-and-join-its-network)
 
 {% hint style="info" %}
-**What is a token?**
+**What Is a Token?**
 
 Each token is defined within its own ERC20 compliant smart contract and each smart contract has a total supply of tokens. The token contracts are like a registry where different amounts of the total supply are mapped to different owners.
 
 Say someone owns 10 of a specific token, it would be the same as saying they're entitled to 10 of the total token supply defined in the contract for the token they own. If they were to transfer 3 of these tokens to someone else who has a balance of 5 they themselves would be left with a balance of 7 tokens whilst their peer now have 8 tokens.
 
-**What is a token network?**
+**What Is a Token Network?**
 
 Anyone who runs a Raiden node and owns a token can join a network with other nodes who owns the very same token. All nodes registered within such network form a token network.
 {% endhint %}
