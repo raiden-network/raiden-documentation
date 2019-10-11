@@ -10,9 +10,7 @@ description: >-
 ## Welcome to the New Raiden Documentation
 
 {% hint style="warning" %}
-**This documentation is still a work in progress and therefore incomplete.**
-
-**If you can't find what you are looking for here the content most likely hasn't been reworked yet but can be found in the** [**complete old documentation**](https://raiden-network.readthedocs.io/en/latest/)**.**
+This documentation is still a work in progress. If you can't find what you are looking for here the content most likely hasn't been reworked yet but can be found in the [old documentation](https://raiden-network.readthedocs.io/en/latest/).
 {% endhint %}
 
 ## New to Raiden?
