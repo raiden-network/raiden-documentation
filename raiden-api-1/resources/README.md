@@ -8,6 +8,8 @@ The following sections outlines each of the Raiden API endpoints:
 
 {% page-ref page="address.md" %}
 
+{% page-ref page="version.md" %}
+
 {% page-ref page="tokens.md" %}
 
 {% page-ref page="channels.md" %}

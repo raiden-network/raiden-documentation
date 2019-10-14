@@ -19,6 +19,7 @@
 * [Introduction](raiden-api-1/introduction.md)
 * [Resources](raiden-api-1/resources/README.md)
   * [Address](raiden-api-1/resources/address.md)
+  * [Version](raiden-api-1/resources/version.md)
   * [Tokens](raiden-api-1/resources/tokens.md)
   * [Channels](raiden-api-1/resources/channels.md)
   * [Payments](raiden-api-1/resources/payments.md)
