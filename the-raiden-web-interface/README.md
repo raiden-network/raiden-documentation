@@ -1,15 +1,15 @@
 ---
 description: >-
-  The Raiden Web Interface (WebUI) was created to help you get an idea of what
-  Raiden is capable of and inspire you to create your own applications that
-  utilizes the Raiden REST API endpoints.
+  The Raiden web interface (WebUI) helps you to interact with your Raiden node
+  and aims to inspire to create own applications that utilize the Raiden REST
+  API endpoints.
 ---
 
 # The Raiden Web Interface
 
-## Run the Raiden Web Application
+## Run the Raiden web application
 
-To run the WebUI you need to install Raiden and set up a Raiden node. The easiest way to do so is by using the Quick Start guide.
+To run the WebUI you need to install Raiden and set up a Raiden node. The easiest way to do so is by using the quick start guide.
 
 {% page-ref page="../quick-start/" %}
 

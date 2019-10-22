@@ -25,19 +25,17 @@ A payment in Raiden is the process of sending tokens from one account to another
 
 #### Payment Channel
 
-A payment channel allows for back and forth Raiden payments between participants without involving the actual blockchain.
-
-A on-chain payment channel is opened whenever an initial deposit of tokens are made for a token network.
+A payment channel allows for back and forth Raiden payments between participants without involving the actual blockchain. A payment channel in Raiden is always backed by an on-chain deposit of tokens.
 
 #### Transferred Amount
 
-The transferred amount is the total amount of tokens sent from a participants account to the account of a counterparty.
+The transferred amount is the total amount of tokens sent from a participant's account to the account of a counterparty.
 
 ### Participants
 
 #### Counterparty
 
-The counterparty of a channel is the other channel participant with whom we have opened a channel.
+The counterparty of a channel is the other channel participant with whom you have opened a channel.
 
 #### Initiator
 

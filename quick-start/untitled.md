@@ -1,22 +1,22 @@
 ---
 description: >-
-  The Raiden Wizard sets up a Raiden node on top of Infura and your Project ID
-  works as a way to authenticate your access to Infura.
+  The Raiden Wizard sets up a Raiden node on top of Infura. Your project ID is
+  used to authenticate your access to Infura.
 ---
 
-# Get a Infura Project ID
+# Get an Infura Project ID
 
 {% hint style="info" %}
-**Why Do I Need Infura?**
+**Why do I need Infura?**
 
-By using Infura you don't have to worry about syncing the blockchain on your own system. You can simply access all testnets and the Ethereum mainnet through the API endpoints provided by Infura.
+The Raiden Wizard aims to make installing Raiden as easy as possible. By using Infura you don't have to worry about layer 1, that is running your own synced Ethereum node. You can simply access all testnets and the Ethereum mainnet through the API endpoints provided by Infura.
 {% endhint %}
 
-To get a Infura Project ID:
+To get an Infura project ID:
 
 1. Visit [infura.io](https://infura.io/) and sign up for a new account.
 2. Create a new project.
-3. View your project and you'll find the Project ID under the **KEYS** tab.
+3. View your project and you'll find the project ID under the **KEYS** tab.
 
-![Steps To Get a Infura Project ID](../.gitbook/assets/infura_project_id_setup.gif)
+![How to get an Infura project ID](../.gitbook/assets/infura_project_id_setup.gif)
 

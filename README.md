@@ -40,7 +40,7 @@ If you are looking to get an in-depth understanding of Raiden or if you're inter
 * Take a look at the [source code](https://github.com/raiden-network/raiden)
 * Read the "tech deep dive" series on our [blog](https://medium.com/raiden-network)
 
-## Need Help?
+## Need help?
 
 If you run into problems or discover bugs, you can:
 

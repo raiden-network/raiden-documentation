@@ -18,7 +18,7 @@ description: >-
 {% hint style="warning" %}
 **Alderaan Token Registration**
 
-For the Alderaan release two tokens will be registered, **DAI** and **W-ETH**.
+For the Alderaan release two tokens will be registered, **DAI** and **WETH**.
 {% endhint %}
 
 ## Tokens Resource Details

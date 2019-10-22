@@ -5,7 +5,7 @@ You have two ways of allocating more tokens to your channels, either:
 * [Add more tokens to all channels](add-more-tokens.md#add-more-tokens-to-all-channels)
 * [Add more tokens to a specific channel](add-more-tokens.md#add-more-tokens-to-a-specific-channel)
 
-## Add More Tokens to All Channels
+## Add more tokens to all channels
 
 This option will let you distribute tokens across all open channels for a token network.
 
@@ -19,9 +19,9 @@ The number of tokens you provide needs to be higher than the amount currently al
 Say you already have 10 tokens allocated, the new amount you provide needs to exceed this number. This is because the sum gets redistributed across your open channels and if you were to provide the same amount there isn't really anything new to redistribute.
 {% endhint %}
 
-## Add More Tokens to a Specific Channel
+## Add more tokens to a specific channel
 
-This option will let you allocate any number of tokens to a specific channel only instead of distributing the amount across all your channels for a token network.
+This option will let you allocate more funds to a specific channel. You can compare this process to "topping up" a prepaid card.
 
 ![](../.gitbook/assets/web_ui_deposit.png)
 

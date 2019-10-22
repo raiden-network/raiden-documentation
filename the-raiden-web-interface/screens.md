@@ -12,7 +12,7 @@ The first screen you will see when the WebUI launches is the **"Home"** screen w
 
 On the top bar and left hand side you'll find:
 
-1. The address of you Raiden node together with your current ETH balance. Some of this ETH gets consumed anytime an on-chain activity happens.
+1. The address of your Raiden node together with your current ETH balance. Some of this ETH will be used anytime an on-chain activity happens.
 2. The navigation menu for interacting with Raiden.
 
 The menu options we will be focusing on are:
@@ -23,17 +23,17 @@ The menu options we will be focusing on are:
 
 ## Tokens
 
-In order to open a channel and start making payments you need to be connected to a token network. Each ERC20 token has its own token network.
+In order to open a channel and start making payments you need to be connected to a token network. Each ERC20 token can theoretically have its own token network.
 
-![Tokens Screen](../.gitbook/assets/web_ui_tokens_screen.png)
+![Tokens screen](../.gitbook/assets/web_ui_tokens_screen.png)
 
 1. List of all tokens that have been registered in Raiden.
-2. Details about each token which includes:
+2. Details about each token including:
    * The token **symbol** \(WIZ\)
    * The token **name** \(WizardToken\)
    * Your current token **balance**
-   * Buttons where you can [**join a network**](join-a-token-network.md) or [**mint tokens**](payment.md)\*\*\*\*
-3. **+** button for [**registering new tokens**](join-a-token-network.md#register-a-new-token-and-join-its-network) and options for **filtering** and **sorting** your tokens list
+   * Buttons with which you can [**join a network**](join-a-token-network.md) or [**mint tokens**](payment.md)\*\*\*\*
+3. **+** button for [**registering new token networks**](join-a-token-network.md#register-a-new-token-and-join-its-network) and options for **filtering** and **sorting** your tokens list
 
 ## Channels
 
@@ -43,7 +43,7 @@ To make payments you need to have a channel with at least one other Raiden node.
 If you have no channels open this screen will display a _"no channels found"_ message. The simplest way to get started is to open channels by [joining a token network](join-a-token-network.md).
 {% endhint %}
 
-![Channels Screen](../.gitbook/assets/web_ui_channels_screen.png)
+![Channels screen](../.gitbook/assets/web_ui_channels_screen.png)
 
 1. List of all your open channels.
 2. Details about each open channel which includes:
@@ -54,11 +54,11 @@ If you have no channels open this screen will display a _"no channels found"_ me
    * Buttons where you can [**pay**](payment.md) ****\(both the "PAY" and the "SEND TOKENS" button works the same as when paying from the "Tokens" screen after joining a token network\), [**deposit**](add-more-tokens.md), [**withdraw**](close-channels-and-settle-payments.md), or [**close a channel**](close-channels-and-settle-payments.md)\*\*\*\*
 3. A **+** button for opening a channel with a counterpart of your choosing and options for **filtering** and **sorting** your channels list
 
-## Address Book
+## Address book
 
-The address book gives you the possibility to save and label addresses you use often.
+The address book gives you the possibility to save and label addresses.
 
-![Address Book Screen](../.gitbook/assets/web_ui_address_book_screen.png)
+![Address book screen](../.gitbook/assets/web_ui_address_book_screen.png)
 
 1. List of all your saved peers and their addresses.
 2. Two options for saving a new address:

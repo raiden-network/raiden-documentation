@@ -4,7 +4,7 @@ description: All objects that are sent and received from the Raiden API are JSON
 
 # Resources
 
-The following sections outlines each of the Raiden API endpoints:
+The following sections outline each of the Raiden API endpoints:
 
 {% page-ref page="address.md" %}
 

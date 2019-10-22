@@ -8,11 +8,11 @@ description: >-
 
 You have a couple of ways for depositing tokens back to your token network balance.
 
-* [Withdraw tokens](close-channels-and-settle-payments.md#withdraw-tokens)
+* [Withdraw token from an open channel](close-channels-and-settle-payments.md#withdraw-tokens) 
 * [Close a channel](close-channels-and-settle-payments.md#close-a-channel)
-* [Leave a network](close-channels-and-settle-payments.md#leave-a-network)
+* [Leave a token network](close-channels-and-settle-payments.md#leave-a-network)
 
-## Withdraw Tokens
+## Withdraw tokens
 
 ![](../.gitbook/assets/web_ui_withdraw_tokens.png)
 
@@ -22,9 +22,9 @@ In the **"Channels"** screen:
 2. Enter the amount for your withdraw.
 3. Click **"Confirm"**.
 
-The token amount will be added to your total token network balance.
+The token amount will be added to your total token network balance. **Your payment channel with the partner will remain open and you can continue exchanging payments \(if your balance allows it\).**
 
-## Close a Channel
+## Close a channel
 
 If you don't plan to use a specific channel anymore you can close it. A closed channel is no longer available for making payments.
 
@@ -37,9 +37,9 @@ In the **"Channels"** screen:
 
 The token amount will be payed out in accordance to the transactions that have been made between the channel participants.
 
-## Leave a Network
+## Leave a token network
 
-Leaving a network has the same outcome as [closing a channel](close-channels-and-settle-payments.md#close-a-channel) with the difference that _all_ channels belonging to the network you're leaving gets closed.
+Leaving a network has the same outcome as [closing a channel](close-channels-and-settle-payments.md#close-a-channel) with the difference that _all_ channels belonging to the network you're leaving get closed.
 
 ![](../.gitbook/assets/web_ui_leave_network%20%281%29.png)
 

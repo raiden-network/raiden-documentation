@@ -8,25 +8,25 @@ description: >-
 
 ## Internal Server Error
 
-The Raiden Wizard will display an **Internal Server Error** if an invalid Project ID is provided. To solve this you have to [manually delete the configuration file](known-issues.md#delete-configuration-files-1) that got created.
+The Raiden Wizard will display an **Internal Server Error** if an invalid project ID is provided. To solve this you have to [manually delete the configuration file](known-issues.md#delete-configuration-files-1) that got created.
 
-## Stop Raiden from Running
+## Stop Raiden from running
 
 The Wizard does not provide a way of shutting down the Raiden node. You have to cancel the process to stop Raiden.
 
 {% tabs %}
 {% tab title="Mac" %}
-Use the Activity Monitor app for stopping the Raiden process.
+Use the activity monitor for cancelling Raiden.
 {% endtab %}
 
 {% tab title="Linux" %}
-Use any Linux process manager for stopping the Raiden process.
+Use any Linux process manager for stopping Raiden.
 {% endtab %}
 {% endtabs %}
 
-## Delete Configuration Files
+## Delete configuration files
 
-You might want to delete configuration files if the Wizard is taking a long time to start or if an invalid Project ID has been provided and the Wizard won't start at all.
+You might want to delete configuration files if the wizard is taking a long time to start or if an invalid project ID has been provided and the wizard won't start at all.
 
 {% tabs %}
 {% tab title="Mac" %}

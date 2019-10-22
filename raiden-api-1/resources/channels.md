@@ -26,9 +26,9 @@ The maximum deposits per token and node for Alderaan are:
 
   The deposit limit is 1000 worth of DAI per channel participant making the maximum amount of DAI 2000 per channel.
 
-* **W-ETH**
+* **WETH**
 
-  Details on the deposit limit for W-ETH will be added soon.
+  Details on the deposit limit for WETH will be added soon.
 {% endhint %}
 
 ## Channels Resource Details
@@ -163,7 +163,7 @@ Info About One of Your Channels
 {% endapi-method-summary %}
 
 {% api-method-description %}
-The channel is specified by the address of a token and the address of the partner node whom which the channel is opened with.
+The channel is specified by the address of a token and the address of the partner node which the channel is opened with.
 {% endapi-method-description %}
 
 {% api-method-spec %}
