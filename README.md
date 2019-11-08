@@ -28,8 +28,8 @@ Afterwards you can do token transfers using the Raiden WebUI
 If you want to use Raiden for your project the following links have relevant documentation:
 
 * Check out the [examples on the developer portal](https://developer.raiden.network/#Examples)
-* Read a detailed guide on how to [get started using the Raiden API](https://raiden-network.readthedocs.io/en/stable/api_walkthrough.html)
-* Read the complete [documentation of the Raiden API](https://raiden-network.readthedocs.io/en/stable/rest_api.html)
+* Read a detailed guide on how to [get started using the Raiden API](raiden-api-1/api-tutorial/)
+* Read the complete [documentation of the Raiden API](raiden-api-1/resources/)
 
 ## Contributing to Raiden?
 
