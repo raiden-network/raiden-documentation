@@ -26,5 +26,11 @@
   * [Connections](raiden-api-1/resources/connections.md)
   * [Pending Transfers](raiden-api-1/resources/pending-transfers.md)
   * [Testing](raiden-api-1/resources/testing.md)
-* [API Walkthrough](https://raiden-network.readthedocs.io/en/stable/api_walkthrough.html)
+* [API Tutorial](raiden-api-1/api-tutorial/README.md)
+  * [Join a Token Network](raiden-api-1/api-tutorial/1-join-a-token-network.md)
+  * [Open a Channel](raiden-api-1/api-tutorial/2-open-a-channel.md)
+  * [Deposit Tokens](raiden-api-1/api-tutorial/3-deposit.md)
+  * [Make a Payment](raiden-api-1/api-tutorial/3-make-a-payment.md)
+  * [Withdraw Tokens](raiden-api-1/api-tutorial/withdraw-tokens.md)
+  * [Settle Payments and Close Channels](raiden-api-1/api-tutorial/4-settle-payments-and-close-channels.md)
 

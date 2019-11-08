@@ -414,7 +414,7 @@ Successfully closed channel
 
 ```
 The provided JSON is in some way incorrect
-"state" has not been provided or don't have the valid value "closed"
+"state" has not been provided or doesn't have the valid value "closed"
 ```
 {% endapi-method-response-example %}
 
@@ -574,8 +574,7 @@ The deposit event was not read on time by the Ethereum node
 {% endapi-method-response-example-description %}
 
 ```
-The channel does not exist
-"state" and/or "total_withdraw" have been trying to update in the same request
+The channel does not exist"state" and/or "total_withdraw" have been trying to update in the same request
 The amount of deposited tokens is lower than the current on-chain token balance in the channel
 The amount of deposited tokens is higher than the allowed limit
 ```
@@ -759,7 +758,7 @@ Value for the new reveal timeout
 {% endapi-method-response-example-description %}
 
 ```
-
+Successfully updated the reveal timeout
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

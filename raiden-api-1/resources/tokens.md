@@ -248,8 +248,7 @@ The token address is not valid
 
 ```
 The token has already been registered
-The registration transaction failed
-The address does not contain code
+The registration transaction failedThe address does not contain code
 ```
 {% endapi-method-response-example %}
 
