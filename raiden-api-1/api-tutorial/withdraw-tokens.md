@@ -1,12 +1,12 @@
 ---
 description: >-
-  By making a withdraw you can get tokens back on your account without having to
-  close any channels.
+  By making a withdraw you can claim tokens back out of a channel on your
+  account without having to close the channel itself.
 ---
 
 # Withdraw Tokens
 
-Similar to depositing, a PATCH call to the [channel](../resources/channels.md#withdraw-tokens) endpoint is used also for withdrawing with the difference that a value for `total_withdraw` is provided in the request body.
+Similar to depositing, a PATCH call to the [channel](../resources/channels.md#withdraw-tokens) endpoint is used  for withdrawing with the difference that a value for `total_withdraw` is provided in the request body.
 
 So, whenever you'd like to make a withdraw your request needs to include:
 

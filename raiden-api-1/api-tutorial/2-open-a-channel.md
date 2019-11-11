@@ -17,8 +17,8 @@ This section will cover the endpoints you would use to:
 To open a channel a PUT request is made to the [`channels`](../resources/channels.md#create-a-channel) endpoint that includes a JSON object containing:
 
 1. The address of the node you'd like to open the channel with.
-2. The amount of tokens you want to deposit in the channel. Remember that it is always possible to [deposit more tokens](3-deposit.md) later.
-3. The settle timout period which corespond to the number of blocks that have to be mined before a closed channel can be settled.
+2. The amount of tokens you want to deposit in the channel. \(Remember that it is also always possible to [deposit more tokens](3-deposit.md) later.\)
+3. The settle timeout period which corresponds to the number of blocks that have to be mined before a closed channel can be settled.
 
 ```bash
 curl -i -X PUT \
@@ -54,12 +54,12 @@ You're now ready to start making payments.
 {% page-ref page="3-make-a-payment.md" %}
 
 {% hint style="info" %}
-Opening a channel works the same way whether the partner node holds tokens or not.
+Opening a channel with a partner node is not dependent on whether the partner node holds tokens or not. It will work either way.
 {% endhint %}
 
 ## Query the state of a channel
 
-If you want to view the current state of a channel it is as easy as making a query to the [`channels`](../resources/channels.md#info-about-one-of-your-channels) endpoint while providing:
+Checking the current state of a channel is as easy as making a query to the [`channels`](../resources/channels.md#info-about-one-of-your-channels) endpoint while providing:
 
 1. The token address as a path parameter.
 2. The address of the partner node as a path parameter.

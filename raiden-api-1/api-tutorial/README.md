@@ -1,15 +1,15 @@
 ---
 description: >-
-  This tutorial will demonstrate the Raiden API by walking you through use cases
-  for achieving similar outcomes as in the WebUI tutorial but by directly using
-  some of the API endpoints.
+  This tutorial will show you how to use Raiden via the API by walking you
+  through a few API calls. The steps are similar to the WebUI tutorial, but
+  directly use the API endpoints.
 ---
 
 # API Tutorial
 
 We will outline the steps necessary for participating in a token network. To see all available endpoints visit the [resources](../resources/) part of the documentation.
 
-In the examples throughout this tutorial we will be using a hypothetical ERC20 token with the address `0x9aBa529db3FF2D8409A1da4C9eB148879b046700` .
+In the examples throughout this tutorial we will be using a hypothetical ERC20 token with the address `0x9aBa529db3FF2D8409A1da4C9eB148879b046700`.
 
 ## Check if Raiden was started correctly
 

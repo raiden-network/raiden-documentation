@@ -1,13 +1,13 @@
 ---
 description: >-
   When your node is connected to a token network, has channels open with one or
-  more peers and have tokens deposited in the channels you're all set to start
+  more peers and has tokens deposited in the channels you're all set to start
   making payments.
 ---
 
 # Make a Payment
 
-A powerful feature of Raiden is the ability to send payments to any node connected to the token network and not only to directly connected nodes. This is called **mediated transfers** and as long as a path of channels exists to the receiving node the payment will go through.
+A powerful feature of Raiden is the ability to let you **pay anyone in the network** by using a path of connected payment channels to mediate the payment and not only directly connected nodes. These payments are called **mediated transfers**.
 
 ## Pay
 
@@ -30,9 +30,10 @@ You can provide the body parameter with an additional _identifier_ key and an in
 This is optional and the purpose of the identifier is to give dApps built on Raiden a way to tag payments.
 {% endhint %}
 
-Your payment will succeed if:
+Your payment will most likely succeed if:
 
 * The path of channels leading from your node to the node receiving your payment has enough capacity.
+* All nodes needed to mediate the payment  are online.
 * You have enough tokens in the channel from which you intend to pay out the amount specified in the request body.
 
 To get your tokens out of a channel and back on-chain you either have to withdraw the tokens or close the channel.

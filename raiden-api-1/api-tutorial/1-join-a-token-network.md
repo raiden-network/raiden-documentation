@@ -29,7 +29,7 @@ curl -i -X PUT \http://localhost:5001/api/v1/tokens/0x9aBa529db3FF2D8409A1da4C9e
 -H 'Content-Type: application/json'
 ```
 
-If the call is successful the response will return a new address of the now created token network.
+If the call is successful the response will return a new address of the now newly created token network.
 
 ```bash
 HTTP:/1.1 201 CREATED
@@ -49,14 +49,14 @@ Payment channels between parties are opened in token networks.
 {% endhint %}
 
 {% hint style="warning" %}
-Registering a new token is only relevant on the testnets. The tokens allowed on the mainnet for the Alderaan release are DAI and W-ETH which have already been pre-registered.
+Registering a new token is currently only relevant on the testnets. The tokens allowed on the mainnet for the Alderaan release are DAI and W-ETH. At some point in future, you will be able to register new token networks for the Ethereum mainnet, too.
 {% endhint %}
 
 ## Join an existing token network
 
 Joining the network of a token that has already been registered is the most common way of connecting to a token network.
 
-For this the [`connections`](../resources/connections.md#join-a-token-network) endpoint with a PUT request can be used and all you need to provide is:
+For this, the [`connections`](../resources/connections.md#join-a-token-network) endpoint with a PUT request can be used and all you need to provide is:
 
 1. The address of the token whose network you want to join as a path parameter.
 2. The amount of tokens you want to deposit in the channel as a body parameter.
@@ -68,16 +68,16 @@ curl -i -X PUT \http://localhost:5001/api/v1/connections/0x9aBa529db3FF2D8409A1d
 ```
 
 {% hint style="warning" %}
-In its current implementation the connection manager that is used for opening channels might also do so with nodes that happen to be offline.
+In its current implementation the connection manager that is used for opening channels might also connect you with nodes that happen to be offline.
 
 That won't be much of a help for sending payments. So if you already know the address of a node you'd like to send payments to you can join the token network by [opening a channel directly with that node](2-open-a-channel.md).
 {% endhint %}
 
 In the example above we'll assume a connection was successfully made to the network of token `0x9aBa529db3FF2D8409A1da4C9eB148879b046700` by depositing 2000 tokens.
 
-Three channels were also automatically opened with three random nodes and 20% of the 2000 tokens were deposited in each channel with the remaining 40% reserved for whenever someone wants to open a channel with you.
+Three channels were also automatically opened with three random nodes and 20% of the 2000 tokens were deposited in each channel with the remaining 40% reserved for whenever you want to open a channel with another node or top up a channel.
 
-Your node should now be well connected and you can jump ahead and start making payments. If you want, you could also choose to open a channel to any friend's node.
+Your node should now be well connected and you can jump ahead and start making payments. If you want, you could also choose to open a channel with a friend's node.
 
 {% page-ref page="2-open-a-channel.md" %}
 

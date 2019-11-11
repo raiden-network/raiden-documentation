@@ -61,7 +61,7 @@ http://localhost:5001/api/v1/connections/0x9aBa529db3FF2D8409A1da4C9eB148879b046
 -H 'Content-Type: application/json'
 ```
 
-Once done the response will return a list containing the addresses of all closed channels.
+Once done, the response will return a list containing the addresses of all closed channels.
 
 ```bash
 HTTP/1.1 200 OK
@@ -75,6 +75,6 @@ Content-Type: application/json
 ```
 
 {% hint style="info" %}
-Leaving a token network will take some time because you need to wait for the settle timeout to expire for each channel before a settle can happen.
+Please note that leaving a token network will take some time since you need to wait for the settle timeout to expire for each channel before a settle can happen.
 {% endhint %}
 
