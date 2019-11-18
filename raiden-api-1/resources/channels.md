@@ -248,6 +248,10 @@ Version of the API
 {% endapi-method-path-parameters %}
 
 {% api-method-body-parameters %}
+{% api-method-parameter name="reveal\_timeout" type="integer" required=true %}
+Value for the reveal timeout
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="partner\_address" type="string" required=true %}
 Address of the partner node with whom we're opening the channel
 {% endapi-method-parameter %}
