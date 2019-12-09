@@ -35,15 +35,15 @@ Content-Type: application/json
 
 {
     "token_network_address": "0x3C158a20b47d9613DDb9409099Be186fC272421a",
-    "channel_identifier": 99,
+    "channel_identifier": "99",
     "partner_address": "0x61C808D82A3Ac53231750daDc13c777b59310bD9",
     "token_address": "0x9aBa529db3FF2D8409A1da4C9eB148879b046700",
-    "balance": 350,
-    "total_deposit": 7331,
-    "total_withdraw": 0,
+    "balance": "350",
+    "total_deposit": "7331",
+    "total_withdraw": "0",
     "state": "closed",
-    "settle_timeout": 500,
-    "reveal_timeout": 50
+    "settle_timeout": "500",
+    "reveal_timeout": "50"
 }
 ```
 

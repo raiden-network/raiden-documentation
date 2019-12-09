@@ -45,22 +45,22 @@ Version of the API
 Successful query  
   
 The value for the token address key is an object containing:  
-- "funds", an integer of the token amount from your last connect request  
-- "sum\_deposits", an integer of the sum of deposits in all currently open channels  
-- "channels", an integer of all channels currently open for the specific token
+- "funds", a string of the token amount from your last connect request  
+- "sum\_deposits", a string of the sum of deposits in all currently open channels  
+- "channels", a string of all channels currently open for the specific token
 {% endapi-method-response-example-description %}
 
 ```bash
 {
     "0x2a65Aca4D5fC5B5C859090a6c34d164135398226": {
-        "funds": 100,
-        "sum_deposits": 67,
-        "channels": 3
+        "funds": "100",
+        "sum_deposits": "67",
+        "channels": "3"
     },
     "0x0f114A1E9Db192502E7856309cc899952b3db1ED": {
-        "funds": 49,
-        "sum_deposits": 31,
-        "channels": 1
+        "funds": "49",
+        "sum_deposits": "31",
+        "channels": "1"
     }
 }
 ```
@@ -105,16 +105,16 @@ Address of a token
 {% endapi-method-path-parameters %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="funds" type="integer" required=true %}
+{% api-method-parameter name="funds" type="string" required=true %}
 Amount of tokens to be put into the network
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="initial\_channel\_target" type="integer" required=false %}
+{% api-method-parameter name="initial\_channel\_target" type="string" required=false %}
 Number of channels to open proactively, defaults to 3 if nothing is provided
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="joinable\_funds\_target" type="number" required=false %}
-Floating point number as a fraction of the funds that will be reserved for joining channels opened by others, defaults to 0.4 if nothing is provided.  
+{% api-method-parameter name="joinable\_funds\_target" type="string" required=false %}
+String as a fraction of the funds that will be reserved for joining channels opened by others, defaults to 0.4 if nothing is provided.  
   
 This means that of 100 tokens 40 will get reserved.
 {% endapi-method-parameter %}
@@ -189,7 +189,7 @@ Internal Raiden node error
 
 ```bash
 {
-    "funds": 1337
+    "funds": "1337"
 }
 ```
 

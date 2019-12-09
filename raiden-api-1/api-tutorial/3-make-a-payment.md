@@ -1,7 +1,7 @@
 ---
 description: >-
   When your node is connected to a token network, has channels open with one or
-  more peers and has tokens deposited in the channels you're all set to start
+  more peers and have tokens deposited in the channels you're all set to start
   making payments.
 ---
 
@@ -21,11 +21,11 @@ Payments are made from the [`payments`](../resources/payments.md#initiate-a-paym
 curl -i -X POST \
 http://localhost:5001/api/v1/payments/0x9aBa529db3FF2D8409A1da4C9eB148879b046700/0x61C808D82A3Ac53231750daDc13c777b59310bD9 \
 -H 'Content-Type: application/json' \
---data-raw '{"amount": 42}'
+--data-raw '{"amount": "42"}'
 ```
 
 {% hint style="info" %}
-You can provide the body parameter with an additional _identifier_ key and an integer value of your choice: `"identifier": <integer>`.
+You can provide the body parameter with an additional _identifier_ key as a string value of your choice: `"identifier": <string>`.
 
 This is optional and the purpose of the identifier is to give dApps built on Raiden a way to tag payments.
 {% endhint %}

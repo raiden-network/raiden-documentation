@@ -58,13 +58,13 @@ Joining the network of a token that has already been registered is the most comm
 
 For this, the [`connections`](../resources/connections.md#join-a-token-network) endpoint with a PUT request can be used and all you need to provide is:
 
-1. The address of the token whose network you want to join as a path parameter.
+1. The address of the token which network you want to join as a path parameter.
 2. The amount of tokens you want to deposit in the channel as a body parameter.
 
 ```bash
 curl -i -X PUT \http://localhost:5001/api/v1/connections/0x9aBa529db3FF2D8409A1da4C9eB148879b046700 \
 -H 'Content-Type: application/json' \
---data-raw '{"funds": 2000}'
+--data-raw '{"funds": "2000"}'
 ```
 
 {% hint style="warning" %}

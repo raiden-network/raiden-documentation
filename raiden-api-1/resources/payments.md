@@ -80,9 +80,9 @@ Successful query
 [
     {
         "event": "EventPaymentSentSuccess",
-        "amount": 20,
+        "amount": "20",
         "target": "0x82641569b2062B545431cF6D7F0A418582865ba7",
-        "identifier": 3,
+        "identifier": "3",
         "log_time": "2018-10-30T07:10:13.122"
     },
     {
@@ -93,9 +93,9 @@ Successful query
     },
     {
         "event": "EventPaymentReceivedSuccess",
-        "amount": 5,
+        "amount": "5",
         "initiator": "0x82641569b2062B545431cF6D7F0A418582865ba7",
-        "identifier": 1,
+        "identifier": "1",
         "log_time": "2018-10-30T07:03:52.193"
     }
 ]
@@ -162,11 +162,11 @@ Address of the receiving node
 {% endapi-method-path-parameters %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="amount" type="integer" required=true %}
+{% api-method-parameter name="amount" type="string" required=true %}
 Amount of tokens to be sent
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="identifier" type="integer" required=false %}
+{% api-method-parameter name="identifier" type="string" required=false %}
 Integer for identifying the payment
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
@@ -183,8 +183,8 @@ Successful payment
     "initiator_address": "0xEA674fdDe714fd979de3EdF0F56AA9716B898ec8",
     "target_address": "0x61C808D82A3Ac53231750daDc13c777b59310bD9",
     "token_address": "0x2a65Aca4D5fC5B5C859090a6c34d164135398226",
-    "amount": 200,
-    "identifier": 42
+    "amount": "200",
+    "identifier": "42"
 }
 ```
 {% endapi-method-response-example %}
@@ -260,8 +260,8 @@ Internal Raiden node error
 
 ```bash
 {
-    "amount": 200,
-    "identifier" 42
+    "amount": "200",
+    "identifier" "42"
 }
 ```
 

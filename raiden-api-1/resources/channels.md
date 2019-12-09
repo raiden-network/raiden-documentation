@@ -61,15 +61,15 @@ Successful query
 [
     {
         "token_network_address": "0xE5637F0103794C7e05469A9964E4563089a5E6f2",
-        "channel_identifier": 20,
+        "channel_identifier": "20",
         "partner_address": "0x61C808D82A3Ac53231750daDc13c777b59310bD9",
         "token_address": "0xEA674fdDe714fd979de3EdF0F56AA9716B898ec8",
-        "balance": 25000000,
-        "total_deposit": 35000000,
-        "total_withdraw": 5000000,
+        "balance": "25000000",
+        "total_deposit": "35000000",
+        "total_withdraw": "5000000",
         "state": "opened",
-        "settle_timeout": 100,
-        "reveal_timeout": 30
+        "settle_timeout": "100",
+        "reveal_timeout": "30"
     }
 ]
 ```
@@ -120,15 +120,15 @@ Successfull query
 [
     {
         "token_network_address": "0xE5637F0103794C7e05469A9964E4563089a5E6f2",
-        "channel_identifier": 20,
+        "channel_identifier": "20",
         "partner_address": "0x61C808D82A3Ac53231750daDc13c777b59310bD9",
         "token_address": "0xEA674fdDe714fd979de3EdF0F56AA9716B898ec8",
-        "balance": 25000000,
-        "total_deposit": 35000000,
-        "total_withdraw": 5000000,
+        "balance": "25000000",
+        "total_deposit": "35000000",
+        "total_withdraw": "5000000",
         "state": "opened",
-        "settle_timeout": 100,
-        "reveal_timeout": 30
+        "settle_timeout": "100",
+        "reveal_timeout": "30"
     }
 ]
 ```
@@ -192,15 +192,15 @@ Successful query
 ```bash
 {
     "token_network_address": "0xE5637F0103794C7e05469A9964E4563089a5E6f2",
-    "channel_identifier": 20,
+    "channel_identifier": "20",
     "partner_address": "0x61C808D82A3Ac53231750daDc13c777b59310bD9",
     "token_address": "0xEA674fdDe714fd979de3EdF0F56AA9716B898ec8",
-    "balance": 25000000,
-    "total_deposit": 35000000,
-    "total_withdraw": 5000000,
+    "balance": "25000000",
+    "total_deposit": "35000000",
+    "total_withdraw": "5000000",
     "state": "opened",
-    "settle_timeout": 100,
-    "reveal_timeout": 30
+    "settle_timeout": "100",
+    "reveal_timeout": "30"
 }
 ```
 {% endapi-method-response-example %}
@@ -248,7 +248,7 @@ Version of the API
 {% endapi-method-path-parameters %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="reveal\_timeout" type="integer" required=true %}
+{% api-method-parameter name="reveal\_timeout" type="string" required=true %}
 Value for the reveal timeout
 {% endapi-method-parameter %}
 
@@ -260,11 +260,11 @@ Address of the partner node with whom we're opening the channel
 Address of the token to be used in the channel
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="total\_deposit" type="integer" required=true %}
+{% api-method-parameter name="total\_deposit" type="string" required=true %}
 Amount of tokens to be deposited into the channel
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="settle\_timeout" type="integer" required=true %}
+{% api-method-parameter name="settle\_timeout" type="string" required=true %}
 The number of blocks after which a channel can be settled
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
@@ -279,15 +279,15 @@ Channel successfully created
 ```bash
 {
     "token_network_address": "0xE5637F0103794C7e05469A9964E4563089a5E6f2",
-    "channel_identifier": 20,
+    "channel_identifier": "20",
     "partner_address": "0x61C808D82A3Ac53231750daDc13c777b59310bD9",
     "token_address": "0xEA674fdDe714fd979de3EdF0F56AA9716B898ec8",
-    "balance": 25000000,
-    "total_deposit": 35000000,
-    "total_withdraw": 0,
+    "balance": "25000000",
+    "total_deposit": "35000000",
+    "total_withdraw": "0",
     "state": "opened",
-    "settle_timeout": 500,
-    "reveal_timeout": 30
+    "settle_timeout": "500",
+    "reveal_timeout": "30"
 }
 ```
 {% endapi-method-response-example %}
@@ -351,9 +351,9 @@ Internal Raiden node error
 {
     "partner_address": "0x61C808D82A3Ac53231750daDc13c777b59310bD9",
     "token_address": "0xEA674fdDe714fd979de3EdF0F56AA9716B898ec8",
-    "total_deposit": 35000000,
-    "settle_timeout": 500,
-    "reveal_timeout": 50
+    "total_deposit": "35000000",
+    "settle_timeout": "500",
+    "reveal_timeout": "50"
 }
 ```
 
@@ -398,15 +398,15 @@ Successfully closed channel
 ```bash
 {
     "token_network_address": "0xE5637F0103794C7e05469A9964E4563089a5E6f2",
-    "channel_identifier": 20,
+    "channel_identifier": "20",
     "partner_address": "0x61C808D82A3Ac53231750daDc13c777b59310bD9",
     "token_address": "0xEA674fdDe714fd979de3EdF0F56AA9716B898ec8",
-    "balance": 25000000,
-    "total_deposit": 35000000,
-    "total_withdraw": 5000000,
+    "balance": "25000000",
+    "total_deposit": "35000000",
+    "total_withdraw": "5000000",
     "state": "closed",
-    "settle_timeout": 500,
-    "reveal_timeout": 30
+    "settle_timeout": "500",
+    "reveal_timeout": "30"
 }
 ```
 {% endapi-method-response-example %}
@@ -501,7 +501,7 @@ Address of the partner node
 {% endapi-method-path-parameters %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="total\_deposit" type="integer" required=true %}
+{% api-method-parameter name="total\_deposit" type="string" required=true %}
 Amount of tokens for increasing the total deposit
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
@@ -516,15 +516,15 @@ Successfully increased the deposit
 ```bash
 {
     "token_network_address": "0xE5637F0103794C7e05469A9964E4563089a5E6f2",
-    "channel_identifier": 20,
+    "channel_identifier": "20",
     "partner_address": "0x61C808D82A3Ac53231750daDc13c777b59310bD9",
     "token_address": "0xEA674fdDe714fd979de3EdF0F56AA9716B898ec8",
-    "balance": 25000000,
-    "total_deposit": 35000000,
-    "total_withdraw": 5000000,
+    "balance": "25000000",
+    "total_deposit": "35000000",
+    "total_withdraw": "5000000",
     "state": "closed",
-    "settle_timeout": 500,
-    "reveal_timeout": 30
+    "settle_timeout": "500",
+    "reveal_timeout": "30"
 }
 ```
 {% endapi-method-response-example %}
@@ -601,7 +601,7 @@ Internal Raiden node error
 
 ```bash
 {
-    "total_deposit": 100
+    "total_deposit": "100"
 }
 ```
 
@@ -631,7 +631,7 @@ Address of the partner node
 {% endapi-method-path-parameters %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="total\_withdraw" type="integer" required=true %}
+{% api-method-parameter name="total\_withdraw" type="string" required=true %}
 Amount of tokens to withdraw
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
@@ -646,15 +646,15 @@ Successfully withdrawn tokens
 ```bash
 {
     "token_network_address": "0xE5637F0103794C7e05469A9964E4563089a5E6f2",
-    "channel_identifier": 20,
+    "channel_identifier": "20",
     "partner_address": "0x61C808D82A3Ac53231750daDc13c777b59310bD9",
     "token_address": "0xEA674fdDe714fd979de3EdF0F56AA9716B898ec8",
-    "balance": 25000000,
-    "total_deposit": 35000000,
-    "total_withdraw": 5000000,
+    "balance": "25000000",
+    "total_deposit": "35000000",
+    "total_withdraw": "5000000",
     "state": "closed",
-    "settle_timeout": 500,
-    "reveal_timeout": 30
+    "settle_timeout": "500",
+    "reveal_timeout": "30"
 }
 ```
 {% endapi-method-response-example %}
@@ -719,7 +719,7 @@ Internal Raiden node error
 
 ```bash
 {
-    "total_withdraw": 50
+    "total_withdraw": "50"
 }
 ```
 
@@ -749,7 +749,7 @@ Address of the partner node
 {% endapi-method-path-parameters %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="reveal\_timeout" type="integer" required=true %}
+{% api-method-parameter name="reveal\_timeout" type="string" required=true %}
 Value for the new reveal timeout
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
@@ -773,7 +773,7 @@ Successfully updated the reveal timeout
 
 ```bash
 {
-    "reveal_timeout": 50
+    "reveal_timeout": "50"
 }
 ```
 

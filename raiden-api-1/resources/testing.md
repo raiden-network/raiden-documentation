@@ -40,7 +40,7 @@ Address of a token
 An address for which to deposit the minted tokens
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="value" type="integer" required=true %}
+{% api-method-parameter name="value" type="string" required=true %}
 Amount of tokens to be minted
 {% endapi-method-parameter %}
 
@@ -81,7 +81,7 @@ The request failed
 ```bash
 {
     "to": "0x2c4b0Bdac486d492E3cD701F4cA87e480AE4C685",
-    "value": 1000,
+    "value": "1000",
     "contract_method": "mintFor"
 }
 ```

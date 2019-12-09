@@ -17,14 +17,14 @@ This section will cover the endpoints you would use to:
 To open a channel a PUT request is made to the [`channels`](../resources/channels.md#create-a-channel) endpoint that includes a JSON object containing:
 
 1. The address of the node you'd like to open the channel with.
-2. The amount of tokens you want to deposit in the channel. \(Remember that it is also always possible to [deposit more tokens](3-deposit.md) later.\)
+2. The amount of tokens you want to deposit in the channel. \(Remember that it is always possible to [deposit more tokens](3-deposit.md) later.\)
 3. The settle timeout period which corresponds to the number of blocks that have to be mined before a closed channel can be settled.
 
 ```bash
 curl -i -X PUT \
 http://localhost:5001/api/v1/channels \
 -H 'Content-Type: application/json' \
---data-raw '{"partner_address": "0x61C808D82A3Ac53231750daDc13c777b59310bD9", "token_address": "0x9aBa529db3FF2D8409A1da4C9eB148879b046700", "total_deposit": 1337, "settle_timeout": 500}'
+--data-raw '{"partner_address": "0x61C808D82A3Ac53231750daDc13c777b59310bD9", "token_address": "0x9aBa529db3FF2D8409A1da4C9eB148879b046700", "total_deposit": "1337", "settle_timeout": "500"}'
 ```
 
 This will create a new channel and a successful request will return you the following response object:
@@ -35,15 +35,15 @@ Content-Type: application/json
 
 {
     "token_network_address": "0x3C158a20b47d9613DDb9409099Be186fC272421a",
-    "channel_identifier": 99,
+    "channel_identifier": "99",
     "partner_address": "0x61C808D82A3Ac53231750daDc13c777b59310bD9",
     "token_address": "0x9aBa529db3FF2D8409A1da4C9eB148879b046700",
-    "balance": 1337,
-    "total_deposit": 1337,
-    "total_withdraw": 0,
+    "balance": "1337",
+    "total_deposit": "1337",
+    "total_withdraw": "0",
     "state": "opened",
-    "settle_timeout": 500,
-    "reveal_timeout": 50
+    "settle_timeout": "500",
+    "reveal_timeout": "50"
 }
 ```
 
