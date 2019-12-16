@@ -68,6 +68,16 @@ Address of a token, will filter response list according to token\_address
 Address of the receiving node, will filter response list according to target\_address
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="?limit=" type="integer" required=false %}
+Limits the payment history result to the amount specified after =
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="&offset=" type="integer" required=false %}
+Offsets the payment history result by the amount specified after =
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
