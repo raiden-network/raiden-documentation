@@ -39,7 +39,7 @@ Congratulations! Now you can start interacting with the Raiden Network.
 
 A good start is to take a closer look at:
 
-{% page-ref page="../the-raiden-web-interface/" %}
+{% page-ref page="../using-raiden/the-raiden-web-interface/" %}
 
 ## Relaunch Raiden
 

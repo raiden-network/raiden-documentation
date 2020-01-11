@@ -4,15 +4,24 @@
 * [Quick Start](quick-start/README.md)
   * [Get an Infura Project ID](quick-start/untitled.md)
   * [Handle Limitations](quick-start/known-issues.md)
-* [The Raiden Web Interface](the-raiden-web-interface/README.md)
-  * [Navigate the WebUI](the-raiden-web-interface/screens.md)
-  * [Join a Token Network](the-raiden-web-interface/join-a-token-network.md)
-  * [Make a Payment](the-raiden-web-interface/payment.md)
-  * [Add More Tokens](the-raiden-web-interface/add-more-tokens.md)
-  * [Settle Payments and Close Channels](the-raiden-web-interface/close-channels-and-settle-payments.md)
 * [Glossary](glossary.md)
 * [v1.0 Documentation](full-documentation.md)
 * [Trademark Attributions](trademark-attributions.md)
+
+## USING RAIDEN
+
+* [The Raiden Web Interface](using-raiden/the-raiden-web-interface/README.md)
+  * [Navigate the WebUI](using-raiden/the-raiden-web-interface/screens.md)
+  * [Join a Token Network](using-raiden/the-raiden-web-interface/join-a-token-network.md)
+  * [Make a Payment](using-raiden/the-raiden-web-interface/payment.md)
+  * [Add More Tokens](using-raiden/the-raiden-web-interface/add-more-tokens.md)
+  * [Settle Payments and Close Channels](using-raiden/the-raiden-web-interface/close-channels-and-settle-payments.md)
+* [Alderaan Mainnet Tutorial](using-raiden/alderaan-mainnet-tutorial/README.md)
+  * [Whitelisted Tokens](using-raiden/alderaan-mainnet-tutorial/whitelisted-tokens.md)
+  * [Join a Token Network](using-raiden/alderaan-mainnet-tutorial/join-a-token-network.md)
+  * [Make a Payment](using-raiden/alderaan-mainnet-tutorial/make-a-payment.md)
+  * [Deposit Tokens](using-raiden/alderaan-mainnet-tutorial/deposit-tokens.md)
+  * [Channel Status](using-raiden/alderaan-mainnet-tutorial/channel-status.md)
 
 ## Raiden API <a id="raiden-api-1"></a>
 

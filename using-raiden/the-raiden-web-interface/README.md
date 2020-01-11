@@ -11,7 +11,7 @@ description: >-
 
 To run the WebUI you need to install Raiden and set up a Raiden node. The easiest way to do so is by using the quick start guide.
 
-{% page-ref page="../quick-start/" %}
+{% page-ref page="../../quick-start/" %}
 
 **Once you have a Raiden node up and running the WebUI will be available on** [**http://localhost:5001**](http://localhost:5001/)**.**
 

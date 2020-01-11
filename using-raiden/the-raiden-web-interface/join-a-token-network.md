@@ -25,11 +25,11 @@ Anyone who runs a Raiden node and owns a token can join a network with other nod
 
 ## Join an existing token network
 
-![Tokens Screen](../.gitbook/assets/web_ui_join_network_1%20%281%29.png)
+![Tokens Screen](../../.gitbook/assets/web_ui_join_network_1%20%281%29.png)
 
 Click the **"JOIN NETWORK"** button next to the token which network you want to join.
 
-![Tokens screen](../.gitbook/assets/web_ui_join_network_2.png)
+![Tokens screen](../../.gitbook/assets/web_ui_join_network_2.png)
 
 Enter the amount of tokens you want to allocate and click **"Join"**.
 
@@ -45,11 +45,11 @@ You're now ready to make a first payment!
 
 If you want to join the network for a token and the token is not displayed in the list of tokens it might mean that it has not been registered yet. In this case you can register it yourself.
 
-![Tokens screen](../.gitbook/assets/web_ui_register_token_1.png)
+![Tokens screen](../../.gitbook/assets/web_ui_register_token_1.png)
 
 Click the upper right **"+"** button.
 
-![Tokens screen](../.gitbook/assets/web_ui_register_token_2%20%281%29.png)
+![Tokens screen](../../.gitbook/assets/web_ui_register_token_2%20%281%29.png)
 
 Enter the address of the token you want to register and click **"Register"**.
 
