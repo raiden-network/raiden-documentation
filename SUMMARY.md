@@ -16,12 +16,6 @@
   * [Make a Payment](using-raiden/the-raiden-web-interface/payment.md)
   * [Add More Tokens](using-raiden/the-raiden-web-interface/add-more-tokens.md)
   * [Settle Payments and Close Channels](using-raiden/the-raiden-web-interface/close-channels-and-settle-payments.md)
-* [Alderaan Mainnet Tutorial](using-raiden/alderaan-mainnet-tutorial/README.md)
-  * [Whitelisted Tokens](using-raiden/alderaan-mainnet-tutorial/whitelisted-tokens.md)
-  * [Join a Token Network](using-raiden/alderaan-mainnet-tutorial/join-a-token-network.md)
-  * [Make a Payment](using-raiden/alderaan-mainnet-tutorial/make-a-payment.md)
-  * [Deposit Tokens](using-raiden/alderaan-mainnet-tutorial/deposit-tokens.md)
-  * [Channel Status](using-raiden/alderaan-mainnet-tutorial/channel-status.md)
 
 ## Raiden API <a id="raiden-api-1"></a>
 
