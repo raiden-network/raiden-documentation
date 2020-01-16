@@ -93,20 +93,23 @@ Successful query
         "amount": "20",
         "target": "0x82641569b2062B545431cF6D7F0A418582865ba7",
         "identifier": "3",
-        "log_time": "2018-10-30T07:10:13.122"
+        "log_time": "2018-10-30T07:10:13.122",
+        "token_address": "0x62083c80353Df771426D209eF578619EE68D5C7A"
     },
     {
         "target": "0x82641569b2062B545431cF6D7F0A418582865ba7",
         "event": "EventPaymentSentFailed",
         "log_time": "2018-10-30T07:04:22.293",
-        "reason": "there is no route available"
+        "reason": "there is no route available",
+        "token_address": "0x62083c80353Df771426D209eF578619EE68D5C7A"
     },
     {
         "event": "EventPaymentReceivedSuccess",
         "amount": "5",
         "initiator": "0x82641569b2062B545431cF6D7F0A418582865ba7",
         "identifier": "1",
-        "log_time": "2018-10-30T07:03:52.193"
+        "log_time": "2018-10-30T07:03:52.193",
+        "token_address": "0x62083c80353Df771426D209eF578619EE68D5C7A"
     }
 ]
 ```
