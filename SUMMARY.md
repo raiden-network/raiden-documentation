@@ -16,6 +16,12 @@
   * [Make a Payment](using-raiden/the-raiden-web-interface/payment.md)
   * [Add More Tokens](using-raiden/the-raiden-web-interface/add-more-tokens.md)
   * [Settle Payments and Close Channels](using-raiden/the-raiden-web-interface/close-channels-and-settle-payments.md)
+* [Use Custom Token](using-raiden/use-custom-token/README.md)
+  * [Get MetaMask and Ethereum Account](using-raiden/use-custom-token/get-metamask-and-ethereum-account.md)
+  * [Get Goerli Testnet ETH \(GÖETH\)](using-raiden/use-custom-token/get-goerli-testnet-eth-goeeth.md)
+  * [Import Custom Token](using-raiden/use-custom-token/import-custom-token.md)
+  * [Compile Imported Token Code](using-raiden/use-custom-token/compile-imported-token-code.md)
+  * [Deploy Custom Token](using-raiden/use-custom-token/deploy-custom-token.md)
 
 ## Raiden API <a id="raiden-api-1"></a>
 
