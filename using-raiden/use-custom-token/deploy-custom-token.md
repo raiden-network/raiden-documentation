@@ -1,6 +1,12 @@
+---
+description: >-
+  In this step, we will be setting all parameters and finally deploy the custom
+  token to the Goerli testnet.
+---
+
 # Deploy Custom Token
 
-Navigate to "DEPLOY & RUN TRANSACTIONS" in the left hand side menu.
+Navigate to **"DEPLOY & RUN TRANSACTIONS"** in the left hand side menu.
 
 ![](../../.gitbook/assets/remix_deploy.png)
 

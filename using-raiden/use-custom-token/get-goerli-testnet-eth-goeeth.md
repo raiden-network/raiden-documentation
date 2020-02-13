@@ -1,7 +1,8 @@
 ---
 description: >-
-  Goerli ETH (GÖETH) is needed to pay for any on-chain transactions on the
-  Goerli testnet.
+  Goerli is the name of the testnet on Ethereum where we will be deploying our
+  token. To pay for the on-chain transactions you'll first need to get some
+  Goerli ETH (GÖETH) on your Ethereum account.
 ---
 
 # Get Goerli Testnet ETH \(GÖETH\)

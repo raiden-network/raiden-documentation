@@ -1,11 +1,13 @@
 ---
 description: >-
-  In this guide, we will walk through the process of creating and using a custom
-  token with the Raiden Network. The steps can be completed on any Mac or UNIX
-  based operating system.
+  In this guide, we will walk through the process of creating a custom token. A
+  custom token can be used for any use-case but we will be adding and using it
+  with the Raiden Network.
 ---
 
 # Use Custom Token
+
+All steps can be completed on any Mac or UNIX based operating system.
 
 {% page-ref page="get-metamask-and-ethereum-account.md" %}
 

@@ -6,7 +6,7 @@ description: >-
 
 # Import Custom Token
 
-Importing the custom token is done via the [Remix Ethereum IDE](https://remix.ethereum.org/). You can read more about ERC20 tokens in [this GitHub repo](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC20).
+Importing the custom token Solidity code is done via the [Remix Ethereum IDE](https://remix.ethereum.org/) \(Ethereum's integrated development environment\). You can read more about ERC20 tokens in [this GitHub repo](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC20).
 
 ![Screen for importing a custom token](../../.gitbook/assets/remix_gist_import.png)
 

@@ -14,6 +14,8 @@ Before deploying the custom token you first need to:
 
 ## Install MetaMask
 
+MetaMask is an in-browser Ethereum wallet. It allows you to send Ethereum transcations and is necessary for starting to use Ethereum.
+
 To install MetaMask:
 
 1. Visit the [MetaMask website](https://metamask.io/).
