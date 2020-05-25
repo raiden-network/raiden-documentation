@@ -8,7 +8,7 @@ description: Install Raiden and run a Raiden node using the Raiden Wizard
 
 This tutorial will teach you how to:
 
-* [Download the Raide](./#download-the-raiden-wizard)[n Wizard](./#download-the-raiden-wizard)
+* [Download the Raiden Wizard](./#download-the-raiden-wizard)
 * [Setup and run a Raiden node](./#setup-and-run-a-raiden-node)
 
 ## Download the Raiden Wizard
