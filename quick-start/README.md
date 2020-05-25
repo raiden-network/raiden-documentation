@@ -11,46 +11,50 @@ This tutorial will teach you how to:
 * [Download the Raiden Wizard](./#download-the-raiden-wizard)
 * [Setup and run a Raiden node](./#setup-and-run-a-raiden-node)
 
+on the Ethereum mainnet.
+
+## Prerequisites
+
+In order to run the Raiden Wizard, you will need
+
+* A computer running Linux or macOS X.
+* An [infura ID](https://blog.infura.io/getting-started-with-infura-28e41844cc89/) \(click [here](./#get-an-infura-project-id) is a quickstart guide\).
+* A web browser with [Metamask](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1-).
+* An Ethereum account with at least `0.13` ETH in Metamask.
+
 ## Download the Raiden Wizard
 
-You can download the Raiden Wizard for either macOS or Linux.
+You can download the Raiden Wizard for either macOS or Linux:
 
-\*\*\*\*[**macOS download**](https://github.com/raiden-network/raiden-installer/releases/download/v0.32.0-testnet/raiden_wizard.macOS.zip)\*\*\*\*
+* [**macOS download**](https://github.com/raiden-network/raiden-installer/releases/download/v0.32.0-testnet/raiden_wizard.macOS.zip)\*\*\*\*
+* [**Linux download**](https://github.com/raiden-network/raiden-installer/releases/download/v0.32.0-testnet/raiden_wizard.linux-gnu.bin.tar.gz)\*\*\*\*
 
-\*\*\*\*[**Linux download**](https://github.com/raiden-network/raiden-installer/releases/download/v0.32.0-testnet/raiden_wizard.linux-gnu.bin.tar.gz)\*\*\*\*
+You will need to unpack the downloaded archive. In it you will find an executable program named `raiden_wizard`.
 
 ## **Setup and run a Raiden node**
 
 {% hint style="warning" %}
-You need an internet connection to run the Raiden Wizard. The wizard will launch in your default browser.
+You need an internet connection to run the Raiden Wizard. The Wizard will launch in your default browser.
 
 The setup process can take up to five minutes, make sure not to close the browser.
 {% endhint %}
 
-1. Extract and open the **Raiden Wizard** file.
-2. Insert your Infura project ID. Don't have a Infura project ID? Learn how to [get one here](./#get-an-infura-project-id).
-3. Click **"Create New Configuration"** to configure, install and launch the latest version of Raiden.
+1. Extract and open the `raiden_wizard` program.
+2. Your web browser should open a new window \(if not, type [http://localhost:1994](http://localhost:1994) in your browser to manually open it\).
+3. Follow the configuration steps of the Wizard \(the animation below shows you a quick walkthrough\)
 
 ![The Raiden Wizard setup process](../.gitbook/assets/raiden_wizard_installation_process.gif)
 
-**You are now running a Raiden node! 🎉**
+In the process you will
 
-Congratulations! Now you can start interacting with the Raiden Network.
+* Create a new Ethereum account for use with Raiden \(the "Raiden Account"\)
+* Fund the Raiden Account with `ETH`.
+* Acquire `RDN` tokens for use with the User Deposit Contract.
+* Acquire `DAI` tokens for making payments in the Raiden Network.
 
-A good start is to take a closer look at:
+When you have finished the steps of the Wizard, you can `LAUNCH` Raiden and start interacting with:
 
 {% page-ref page="../using-raiden/the-raiden-web-interface/" %}
-
-## Relaunch Raiden
-
-When opening the **Raiden Wizard** file, you will find two ways of relaunching Raiden.
-
-1. Click the **"Launch"** button next to a configuration you already created.
-2. Repeat the steps from ["Setup and Run a Raiden Node"](./#setup-and-run-a-raiden-node) to create a new configuration.
-
-{% hint style="warning" %}
-Each new configuration created will be added to the list and currently you can't delete configurations from the Wizard. Read more under ["Handle Limitations"](known-issues.md).
-{% endhint %}
 
 ## Need help?
 
