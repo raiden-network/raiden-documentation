@@ -26,8 +26,9 @@ In order to run the Raiden Wizard, you will need
 
 You can download the Raiden Wizard for either macOS or Linux:
 
-* [**macOS download**](https://github.com/raiden-network/raiden-installer/releases/download/v0.32.0-testnet/raiden_wizard.macOS.zip)\*\*\*\*
-* [**Linux download**](https://github.com/raiden-network/raiden-installer/releases/download/v0.32.0-testnet/raiden_wizard.linux-gnu.bin.tar.gz)\*\*\*\*
+* Go to the [**release page**](https://github.com/raiden-network/raiden-installer/releases/).
+* Find the latest release that is **not** marked `Pre-Release`.
+* Click on `Assets` and donwload an archive for your operating system.
 
 You will need to unpack the downloaded archive. In it you will find an executable program named `raiden_wizard`.
 
