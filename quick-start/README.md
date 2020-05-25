@@ -40,7 +40,7 @@ The setup process can take up to five minutes, make sure not to close the browse
 {% endhint %}
 
 1. Extract and open the `raiden_wizard` program.
-2. Your web browser should open a new window \(if not, type [http://localhost:1994](http://localhost:1994) in your browser to manually open it\).
+2. Your web browser should open a new window \(if not, type [http://localhost:1994](http://localhost:1994) in your browser, to manually open it\).
 3. Follow the configuration steps of the Wizard \(the animation below shows you a quick walkthrough\)
 
 ![The Raiden Wizard setup process](../.gitbook/assets/raiden_wizard_installation_process.gif)
