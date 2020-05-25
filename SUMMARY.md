@@ -2,7 +2,7 @@
 
 * [What is Raiden?](README.md)
 * [Quick Start](quick-start/README.md)
-  * [Get an Infura Project ID](quick-start/untitled.md)
+  * [Get an Infura ID](quick-start/infura-quick-start.md)
   * [Handle Limitations](quick-start/known-issues.md)
 * [Glossary](glossary.md)
 * [v1.0 Documentation](full-documentation.md)
