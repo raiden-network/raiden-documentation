@@ -19,7 +19,7 @@ In order to run the Raiden Wizard, you will need
 
 * A computer running Linux or macOS X.
 * An [infura ID](https://blog.infura.io/getting-started-with-infura-28e41844cc89/) \(click [here](./#get-an-infura-project-id) for a quick start guide\).
-* A web browser with [Metamask](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1-).
+* A web browser with [Metamask](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1-) \(click [here](https://docs.raiden.network/using-raiden/use-custom-token/get-metamask-and-ethereum-account) for a quick start guide\).
 * An Ethereum account with at least `0.13` ETH in Metamask.
 
 ## Download the Raiden Wizard
