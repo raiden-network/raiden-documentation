@@ -57,3 +57,8 @@ The target is the Raiden node which receives a payment from the [initiator](glos
 
 A transfer in Raiden happens each time tokens are sent inside a payment channel.
 
+### Services
+
+#### UserDeposit
+
+The Raiden services will ask for payment in RDN. The Monitoring Service and the Pathfinding Service require deposits to be made in advance of service usage. These deposits are handled by the User Deposit Contract.
