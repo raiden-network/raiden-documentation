@@ -18,7 +18,7 @@ Shutdown Raiden
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Stop a running Raiden node.
 {% endapi-method-description %}
 
 {% api-method-spec %}
