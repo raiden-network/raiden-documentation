@@ -40,6 +40,7 @@
   * [Payments](raiden-api-1/resources/payments.md)
   * [Connections](raiden-api-1/resources/connections.md)
   * [Pending Transfers](raiden-api-1/resources/pending-transfers.md)
+  * [Shutdown](raiden-api-1/resources/shutdown.md)
   * [Testing](raiden-api-1/resources/testing.md)
 * [API Tutorial](raiden-api-1/api-tutorial/README.md)
   * [Join a Token Network](raiden-api-1/api-tutorial/1-join-a-token-network.md)

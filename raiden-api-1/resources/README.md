@@ -20,6 +20,8 @@ The following sections outline each of the Raiden API endpoints:
 
 {% page-ref page="pending-transfers.md" %}
 
+{% page-ref page="shutdown.md" %}
+
 {% page-ref page="testing.md" %}
 
 {% hint style="warning" %}
