@@ -11,14 +11,14 @@ This tutorial will teach you how to:
 * [Download the Raiden Wizard](./#download-the-raiden-wizard)
 * [Setup and run a Raiden node](./#setup-and-run-a-raiden-node)
 
-on the Ethereum mainnet.
+on the public Ethereum blockchain \(this is sometimes referred to as `mainnet`\).
 
 ## Prerequisites
 
 In order to run the Raiden Wizard, you will need
 
 * A computer running Linux or macOS X.
-* An [infura ID](https://blog.infura.io/getting-started-with-infura-28e41844cc89/) \(click [here](./#get-an-infura-project-id) for a quickstart guide\).
+* An [infura ID](https://blog.infura.io/getting-started-with-infura-28e41844cc89/) \(click [here](./#get-an-infura-project-id) for a quick start guide\).
 * A web browser with [Metamask](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1-).
 * An Ethereum account with at least `0.13` ETH in Metamask.
 
