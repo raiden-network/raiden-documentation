@@ -47,7 +47,7 @@ The setup process can take up to five minutes, make sure not to close the browse
 
 In the process you will
 
-* Create a new Ethereum account for use with Raiden \(the "Raiden Account"\)
+* Create a new Ethereum account for use with Raiden \(the "Raiden Account"\).
 * Fund the Raiden Account with `ETH`.
 * Acquire `RDN` tokens for use with the User Deposit Contract.
 * Acquire `DAI` tokens for making payments in the Raiden Network.
