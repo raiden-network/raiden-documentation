@@ -7,7 +7,7 @@ The Raiden Alderaan release is a bug bounty release which puts a certain limit o
 
 ## W-ETH
 
-W-ETH stands for _Wrapped Ether_ and is essentially Ehter that has been packaged to become ERC-20 compatible.
+W-ETH stands for _Wrapped Ether_ and is essentially Ether that has been packaged to become ERC-20 compatible.
 
 There are several ways in which you can create W-ETH from your Ether.
 
