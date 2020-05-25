@@ -4,7 +4,7 @@ description: >-
   used to authenticate your access to Infura.
 ---
 
-# Get an Infura Project ID
+# Get an Infura ID
 
 {% hint style="info" %}
 **Why do I need Infura?**
