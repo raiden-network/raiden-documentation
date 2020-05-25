@@ -10,7 +10,7 @@ description: >-
 This section will describe how to manually add Raiden Network Tokens to the UDC by:
 
 1. [Approving the UDC to use RDN](deposit-tokens-to-the-udc.md#approving-the-udc-to-use-rdn)
-2. [Using Etherscan to deposit RDN to the UDC](deposit-tokens-to-the-udc.md#using-etherscan-to-deposit-rdn-to-the-udc)
+2. [Depositing RDN to the UDC](deposit-tokens-to-the-udc.md#depositing-rdn-to-the-udc)
 
 ## Approving the UDC to use RDN
 
@@ -22,9 +22,9 @@ We need to approve a value of Raiden Network Tokens that the UDC is allowed to s
 4. Enter an amount of `100000000000000000000` \(corresponding to 100 RDN\) as argument for **"\_value"**.
 5. Click on **"Write"** to approve.
 
-## Using Etherscan to deposit RDN to the UDC
+## Depositing RDN to the UDC
 
-Once we obtained the UDC address and approved a RDN amount all that reamins is for us to deposit tokens to the UDC.
+Once we have approved an RDN amount all that reamins is for us to deposit some tokens to the UDC.
 
 1. Visit the [UDC on Etherscan](https://etherscan.io/address/0x1c62fF66aF8aaD410065E02338F5bFbbe23e1f10#writeContract).
 2. Go to the **"deposit"** field under **"Write Contract"**.
