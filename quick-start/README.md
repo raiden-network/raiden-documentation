@@ -49,7 +49,7 @@ In the process you will
 
 * Create a new Ethereum account for use with Raiden \(the "Raiden Account"\).
 * Fund the Raiden Account with `ETH`.
-* Acquire `RDN` tokens for use with the User Deposit Contract.
+* Acquire `RDN` tokens for use with the [User Deposit Contract](../glossary.md#user-deposit).
 * Acquire `DAI` tokens for making payments in the Raiden Network.
 
 When you have finished the steps of the Wizard, you can `LAUNCH` Raiden and start interacting with:
