@@ -92,8 +92,8 @@ Currently the Raiden client cancels payments that would require more than 20% of
 
 This means that the transferred amount has to be big enough, so that the fees do not surpass 20% of the transferred amount. This results in the following minimum amounts for the token networks when mediation is used:
 
-* DAI: Min. 0.000 01 DAI
-* W-ETH: Min 0.000 000 1 W-ETH
+* DAI: Min. 0.00001 DAI \(10^-5\) 
+* W-ETH: Min 0.0000001 W-ETH \(10^-7\)
 
 As direct payments do not need mediation fees, this does not apply for direct transfers.
 
