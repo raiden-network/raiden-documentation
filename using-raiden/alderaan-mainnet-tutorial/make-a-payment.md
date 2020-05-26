@@ -28,9 +28,9 @@ You can open a channel directly with any node you know the address of. You might
 
 ## Mediated payments
 
-If you don't have a direct channel to a node for whom you want to send a payment, Raiden will try to find a path from you to the recipient node throuh the network of channels. This is called mediated payments.
+If you don't have a direct channel to a node for whom you want to send a payment, Raiden will try to find a path from you to the recipient node through the network of channels. This is called mediated payments.
 
-Mediated payments are a powerful feature in Raiden since it lets you pay anyone in the network by leaverging the path of connected payment channels.
+Mediated payments are a powerful feature in Raiden since it lets you pay anyone in the network by leverging the path of connected payment channels.
 
 By making no more than two API calls - one call to join the token network and one call to make the payment - we can send payments to anyone who is part of the W-ETH token network.
 
