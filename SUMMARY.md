@@ -2,6 +2,7 @@
 
 * [What is Raiden?](README.md)
 * [Quick Start](quick-start/README.md)
+  * [Get MetaMask and Ethereum Account](using-raiden/use-custom-token/get-metamask-and-ethereum-account.md)
   * [Get an Infura ID](quick-start/infura-quick-start.md)
   * [Handle Limitations](quick-start/known-issues.md)
 
