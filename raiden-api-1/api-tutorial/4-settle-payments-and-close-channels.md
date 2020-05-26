@@ -56,7 +56,7 @@ The settle timeout period will start as soon as a channel is closed and the chan
 If you wish to leave a token network altogether you can do so by making a DELETE request to the [connections](../resources/connections.md#leave-a-token-network) endpoint with the token address as a path parameter.
 
 ```bash
-curl -i -X DELETE
+curl -i -X DELETE \
 http://localhost:5001/api/v1/connections/0x9aBa529db3FF2D8409A1da4C9eB148879b046700 \
 -H 'Content-Type: application/json'
 ```

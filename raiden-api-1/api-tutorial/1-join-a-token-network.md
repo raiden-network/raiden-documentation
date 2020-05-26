@@ -25,7 +25,7 @@ If the address is not in the list you'll have to [register the token](1-join-a-t
 Registering a new token is as simple as calling the [`tokens`](../resources/tokens.md#register-a-token) endpoint with a PUT request while providing the address of the token you want to register as a path parameter.
 
 ```bash
-curl -i -X PUT \http://localhost:5001/api/v1/tokens/0x9aBa529db3FF2D8409A1da4C9eB148879b046700 \
+curl -i -X PUT http://localhost:5001/api/v1/tokens/0x9aBa529db3FF2D8409A1da4C9eB148879b046700 \
 -H 'Content-Type: application/json'
 ```
 
@@ -62,7 +62,7 @@ For this, the [`connections`](../resources/connections.md#join-a-token-network) 
 2. The amount of tokens you want to deposit in the channel as a body parameter.
 
 ```bash
-curl -i -X PUT \http://localhost:5001/api/v1/connections/0x9aBa529db3FF2D8409A1da4C9eB148879b046700 \
+curl -i -X PUT http://localhost:5001/api/v1/connections/0x9aBa529db3FF2D8409A1da4C9eB148879b046700 \
 -H 'Content-Type: application/json' \
 --data-raw '{"funds": "2000"}'
 ```
