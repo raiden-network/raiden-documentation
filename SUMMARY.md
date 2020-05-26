@@ -4,6 +4,7 @@
 * [Quick Start](quick-start/README.md)
   * [Get MetaMask and Ethereum Account](quick-start/get-metamask-and-ethereum-account.md)
   * [Get an Infura ID](quick-start/infura-quick-start.md)
+  * [Run the Raiden Wizard](https://docs.raiden.network/quick-start#run-the-raiden-wizard)
   * [Handle Limitations](quick-start/known-issues.md)
 
 ## USING RAIDEN
