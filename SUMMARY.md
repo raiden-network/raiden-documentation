@@ -2,7 +2,7 @@
 
 * [What is Raiden?](README.md)
 * [Quick Start](quick-start/README.md)
-  * [Get MetaMask and Ethereum Account](using-raiden/use-custom-token/get-metamask-and-ethereum-account.md)
+  * [Get MetaMask and Ethereum Account](quick-start/get-metamask-and-ethereum-account.md)
   * [Get an Infura ID](quick-start/infura-quick-start.md)
   * [Handle Limitations](quick-start/known-issues.md)
 
@@ -49,7 +49,7 @@
   * [Make a Payment](raiden-api-1/api-tutorial/3-make-a-payment.md)
   * [Withdraw Tokens](raiden-api-1/api-tutorial/withdraw-tokens.md)
   * [Settle Payments and Close Channels](raiden-api-1/api-tutorial/4-settle-payments-and-close-channels.md)
-* [Glossary](glossary.md)
-* [v1.0 Documentation](full-documentation.md)
-* [Trademark Attributions](trademark-attributions.md)
+* [Glossary](raiden-api-1/glossary.md)
+* [v1.0 Documentation](raiden-api-1/full-documentation.md)
+* [Trademark Attributions](raiden-api-1/trademark-attributions.md)
 

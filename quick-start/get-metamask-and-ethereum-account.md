@@ -23,5 +23,15 @@ With the newly installed MetaMask extension click the icon in your browser. This
 
 After following the instructions you should see a screen with information about your newly created Ethereum account.
 
-![Newly created Ethereum account \(wallet\)](../../.gitbook/assets/metamask_welcome.png)
+![Newly created Ethereum account \(wallet\)](../.gitbook/assets/metamask_welcome.png)
+
+
+
+
+
+
+
+
+
+
 
