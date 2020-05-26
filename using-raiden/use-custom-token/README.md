@@ -7,7 +7,11 @@ description: >-
 
 # Testnet
 
-All steps can be completed on any Mac or UNIX based operating system.
+In order to deploy the Custom Token, you will need to execute the following steps:
+
+{% hint style="info" %}
+All steps can be completed on any Mac or Linux based operating system.
+{% endhint %}
 
 {% page-ref page="get-metamask-and-ethereum-account.md" %}
 
