@@ -5,7 +5,7 @@ description: >-
   with the Raiden Network.
 ---
 
-# Use Custom Token
+# Testnet
 
 All steps can be completed on any Mac or UNIX based operating system.
 
