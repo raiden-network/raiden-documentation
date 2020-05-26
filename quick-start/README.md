@@ -18,8 +18,8 @@ on the public Ethereum blockchain \(this is sometimes referred to as `mainnet`\)
 In order to run the Raiden Wizard, you will need
 
 * A computer running Linux or macOS X.
-* An [infura ID](https://blog.infura.io/getting-started-with-infura-28e41844cc89/) \(click [here](https://github.com/raiden-network/raiden-documentation/tree/e2bc792e4a5c940f6b4eae769abe6f63a82e2425/quick-start/infura-quickstart.md) for a quick start guide\).
-* A web browser with [Metamask](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1-) \(click [here](infura-quick-start.md) for a quick start guide\).
+* An [infura ID](https://blog.infura.io/getting-started-with-infura-28e41844cc89/) \(click [here](infura-quickstart.md) for a quick start guide\).
+* A web browser with [Metamask](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1-) \(click [here](../using-raiden/use-custom-token/get-metamask-and-ethereum-account.md) for a quick start guide\).
 * An Ethereum account with at least `0.13` ETH in Metamask.
 
 ## Download the Raiden Wizard
