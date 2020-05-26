@@ -86,9 +86,9 @@ Since imbalance fees can be negative to incentivize payments that balance your c
 
 As noted in the "Calculation of Mediation Fees" section above, a small safety margin is added on top of the mediation fees when initiating a payment. This safety margin is only used by the mediators when the channel balances change to the initiator's disadvantage immediately before initiating the payment. So usually this margin is not or only partially used up before reaching the payment target. The remainder reaches the target along with the intended payment amount itself, thereby slightly increasing the amount received by the target.
 
-### Why do transfers of really small amounts fail when mediated?
+### What does "Payment exceeded the maximum fee limit" mean?
 
-Currently the Raiden client cancels payments that would require more than 20% of the transferred amount in fee costs. As noted in "Default Fee Schedule", there are fees for both the DAI and W-ETH token networks by default.
+Currently the Raiden client cancels payments that would require more than 20% of the transferred amount in fee costs. This is the _maximum fee limit._ As noted in "Default Fee Schedule", there are fees for both the DAI and W-ETH token networks by default.
 
 This means that the transferred amount has to be big enough, so that the fees do not surpass 20% of the transferred amount. This results in the following minimum amounts for the token networks when mediation is used:
 
