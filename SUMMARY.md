@@ -29,6 +29,7 @@
   * [Import Custom Token](using-raiden/use-custom-token/import-custom-token.md)
   * [Compile Imported Token Code](using-raiden/use-custom-token/compile-imported-token-code.md)
   * [Deploy Custom Token](using-raiden/use-custom-token/deploy-custom-token.md)
+* [Mediation Fees](using-raiden/mediation-fees.md)
 
 ## Raiden API <a id="raiden-api-1"></a>
 
