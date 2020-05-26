@@ -88,7 +88,7 @@ As noted in the "Calculation of Mediation Fees" section above, a small safety ma
 
 ### Why do transfers of really small amounts fail when mediated?
 
-Currently the Raiden client cancels payments that would require more then 20% of the transferred amount in fee costs. As noted in "Default Fee Schedule", there are fees for both the DAI and W-ETH token networks by default.
+Currently the Raiden client cancels payments that would require more than 20% of the transferred amount in fee costs. As noted in "Default Fee Schedule", there are fees for both the DAI and W-ETH token networks by default.
 
 This means that the transferred amount has to be big enough, so that the fees do not surpass 20% of the transferred amount. This results in the following minimum amounts for the token networks when mediation is used:
 
