@@ -10,7 +10,7 @@
 
 ## USING RAIDEN
 
-* [Alderaan Mainnet Tutorial](using-raiden/alderaan-mainnet-tutorial/README.md)
+* [Installing and Running](using-raiden/alderaan-mainnet-tutorial/README.md)
   * [Whitelisted Tokens](using-raiden/alderaan-mainnet-tutorial/whitelisted-tokens-1.md)
   * [Deposit Tokens to the UDC](using-raiden/alderaan-mainnet-tutorial/deposit-tokens-to-the-udc.md)
   * [Join a Token Network](using-raiden/alderaan-mainnet-tutorial/join-a-token-network-1.md)
