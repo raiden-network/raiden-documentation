@@ -21,7 +21,7 @@ Download Raiden for:
 
 ## Run Raiden
 
-You can start Raiden with either Geth, Parity or Infura as RPC Client. All you need is an Ethereum Account and the respective keystore file funded with the tokens you want to transfer.
+You can start Raiden with either Geth, Parity or Infura as RPC Endpoint. All you need is an Ethereum Account and the respective keystore file funded with the tokens you want to transfer.
 
 ```text
 raiden /
