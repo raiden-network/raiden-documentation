@@ -23,5 +23,7 @@ Before you start, make sure Raiden is correctly installed and configured by foll
 
 {% page-ref page="channel-status.md" %}
 
+{% page-ref page="mediation-fees.md" %}
+
 
 

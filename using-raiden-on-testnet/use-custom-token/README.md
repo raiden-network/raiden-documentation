@@ -5,13 +5,9 @@ description: >-
   with the Raiden Network.
 ---
 
-# Testnet
+# Use Custom Token
 
-In order to deploy the Custom Token, you will need to execute the following steps:
-
-{% hint style="info" %}
-All steps can be completed on any Mac or Linux based operating system.
-{% endhint %}
+In order to deploy the Custom Token, you will need to:
 
 {% page-ref page="get-goerli-testnet-eth-goeeth.md" %}
 

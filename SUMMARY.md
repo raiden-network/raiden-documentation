@@ -20,6 +20,7 @@
 * [Make a Payment](using-raiden-on-mainnet/make-a-payment.md)
 * [Deposit Tokens](using-raiden-on-mainnet/deposit-tokens.md)
 * [View Channel Status](using-raiden-on-mainnet/channel-status.md)
+* [Mediation Fees](using-raiden-on-mainnet/mediation-fees.md)
 
 ## The Raiden Web Interface
 
@@ -30,15 +31,13 @@
 * [Add More Tokens](the-raiden-web-interface/add-more-tokens.md)
 * [Settle Payments and Close Channels](the-raiden-web-interface/close-channels-and-settle-payments.md)
 
-## USING RAIDEN
+## Using Raiden on testnet
 
-* [Mediation Fees](using-raiden/mediation-fees.md)
-* [Testnet](using-raiden/use-custom-token/README.md)
-  * [Get MetaMask and Ethereum Account](using-raiden/use-custom-token/get-metamask-and-ethereum-account.md)
-  * [Get Goerli Testnet ETH \(GÖETH\)](using-raiden/use-custom-token/get-goerli-testnet-eth-goeeth.md)
-  * [Import Custom Token](using-raiden/use-custom-token/import-custom-token.md)
-  * [Compile Imported Token Code](using-raiden/use-custom-token/compile-imported-token-code.md)
-  * [Deploy Custom Token](using-raiden/use-custom-token/deploy-custom-token.md)
+* [Use Custom Token](using-raiden-on-testnet/use-custom-token/README.md)
+  * [Get Goerli Testnet ETH \(GÖETH\)](using-raiden-on-testnet/use-custom-token/get-goerli-testnet-eth-goeeth.md)
+  * [Import Custom Token](using-raiden-on-testnet/use-custom-token/import-custom-token.md)
+  * [Compile Imported Token Code](using-raiden-on-testnet/use-custom-token/compile-imported-token-code.md)
+  * [Deploy Custom Token](using-raiden-on-testnet/use-custom-token/deploy-custom-token.md)
 
 ## Raiden API <a id="raiden-api-1"></a>
 
