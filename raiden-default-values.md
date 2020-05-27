@@ -12,7 +12,7 @@ Per default Raiden starts with PFS routing enabled.
 --rounting-mode PFS
 ```
 
-that means for every **mediated transfer** your Raiden Client will request a route from a Pathfinding Service, **chosen automatically** from the registered services. The **maximum amount** that is paid by the client is set to **0.05 RDN** and **3 different paths** are requested. 
+That means for every **mediated transfer** your Raiden Client will request a route from a Pathfinding Service, **chosen automatically** from the registered services. The **maximum amount** that is paid by the client is set to **0.05 RDN** and **3 different paths** are requested. 
 
 ```text
 --pathfinding-service-address auto --pathfinding-max-fee 50000000000000000 --pathfinding-max-paths 3
