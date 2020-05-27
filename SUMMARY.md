@@ -63,6 +63,7 @@
 ## Other
 
 * [Safe Usage](other/safe-usage.md)
+* [Known Issues](other/known-issues.md)
 * [Glossary](other/glossary.md)
 * [v1.0 Documentation](other/full-documentation.md)
 * [Trademark Attributions](other/trademark-attributions.md)
