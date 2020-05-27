@@ -14,7 +14,7 @@ You might want to start Raiden manually if:
 
 ## Downloading Raiden
 
-Download Raiden for:
+Download Raiden Alderaan [https://github.com/raiden-network/raiden/releases/tag/v1.0.0](https://github.com/raiden-network/raiden/releases/tag/v1.0.0)
 
 * macOS
 * Linux
