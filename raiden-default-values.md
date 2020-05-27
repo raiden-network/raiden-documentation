@@ -2,7 +2,7 @@
 description: Raiden starts with some default settings
 ---
 
-# Raiden Default Values
+# Raiden Services Default Settings
 
 ## Routing via a paid Pathfinding Service is the default
 
