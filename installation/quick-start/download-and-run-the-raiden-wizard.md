@@ -2,7 +2,7 @@
 
 ## Download the Raiden Wizard
 
-Download the Raiden Wizard for:
+[Download](https://github.com/raiden-network/raiden-wizard/releases) the Raiden Wizard for:
 
 * macOS
 * Linux
