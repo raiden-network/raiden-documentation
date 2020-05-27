@@ -1,4 +1,4 @@
-# Channel Status
+# View Channel Status
 
 To view the status of a channel you have to make a GET request to the [`channels`](../raiden-api-1/resources/channels.md#info-about-one-of-your-channels) endpoint and provide:
 

@@ -1,4 +1,4 @@
-# Whitelisted Tokens
+# Get Whitelisted Tokens
 
 The Raiden Alderaan release is a bug bounty release which puts a certain limit on the amount of tokens that can be deposited into a channel. This is to minimize potential loss of funds in case of bugs.
 

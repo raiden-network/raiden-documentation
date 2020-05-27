@@ -14,16 +14,15 @@
 ## Using Raiden on Mainnet
 
 * [Overview](using-raiden-on-mainnet/overview.md)
-* [Whitelisted Tokens](using-raiden-on-mainnet/whitelisted-tokens-1.md)
+* [Get Whitelisted Tokens](using-raiden-on-mainnet/whitelisted-tokens-1.md)
 * [Deposit Tokens to the UDC](using-raiden-on-mainnet/deposit-tokens-to-the-udc.md)
 * [Join a Token Network](using-raiden-on-mainnet/join-a-token-network-1.md)
 * [Make a Payment](using-raiden-on-mainnet/make-a-payment.md)
 * [Deposit Tokens](using-raiden-on-mainnet/deposit-tokens.md)
-* [Channel Status](using-raiden-on-mainnet/channel-status.md)
+* [View Channel Status](using-raiden-on-mainnet/channel-status.md)
 
 ## USING RAIDEN
 
-* [Installing and Running](using-raiden/alderaan-mainnet-tutorial.md)
 * [The Raiden Web Interface](using-raiden/the-raiden-web-interface/README.md)
   * [Navigate the WebUI](using-raiden/the-raiden-web-interface/screens.md)
   * [Join a Token Network](using-raiden/the-raiden-web-interface/join-a-token-network.md)
