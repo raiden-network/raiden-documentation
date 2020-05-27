@@ -9,6 +9,8 @@ description: >-
 
 {% hint style="warning" %}
 Before you start, make sure Raiden is correctly installed and configured by following the [manual installation instructions](../installation/starting-raiden-manually.md).
+
+Also make sure you have read and understood the [safe usage guidelines](../other/safe-usage.md) before starting to use Raiden.
 {% endhint %}
 
 {% page-ref page="whitelisted-tokens-1.md" %}
