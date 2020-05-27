@@ -19,8 +19,8 @@ In this tutorial we will walk through the steps to:
 In order to use the Raiden Wizard and Raiden you'll need:
 
 * A computer running **Linux** or **macOS**
-* MetaMask and an account with at least `0.125` ETH
-* An Infura ID
+* [MetaMask](https://metamask.io) and an account with at least `0.13` ETH
+* An [Infura](https://infura.io) ID
 
 ## Need help?
 
