@@ -57,5 +57,4 @@
 * [Glossary](raiden-api-1/glossary.md)
 * [v1.0 Documentation](raiden-api-1/full-documentation.md)
 * [Trademark Attributions](raiden-api-1/trademark-attributions.md)
-* [Raiden Services Default Settings](raiden-default-values.md)
 
