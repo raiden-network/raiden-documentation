@@ -21,13 +21,27 @@ Download Raiden for:
 
 ## Run Raiden
 
-Open your terminal and provide the path to the Raiden binary with the following default configurations:
+You can start Raiden with either Geth, Parity or Infura as RPC Client. All you need is an Ethereum Account and the respective keystore file funded with the tokens you want to transfer.
 
 ```text
---routing-mode PFS
+raiden /
+--address $YOUR-ETHEREUM-ADDRESS / 
+--keystore-path $PATH-TO-YOUR-KEYSTORE-FILE /
+--password-file $PASSWORD-FILE-FOR-KEYSTORE-FILE /
+--eth-rpc-endpoint $YOUR-ETHEREUM-NODE
 ```
 
-This allows your Raiden client to request routes from the **Pathfinding Services** when doing mediated transfers.
+In doubt, you can use 
+
+```text
+raiden --help
+```
+
+to see all possible CLI arguments. 
+
+## Certain defaults for the usage of the Raiden services are set
+
+Per default a **Pathfinding Service** is used by your Raiden client when a **mediated transfer** is initiated. The maximum amount paid for one request to the Pathfinding services is set to `0.05` RDN and 3 different paths are requested.
 
 ```text
 --pathfinding-service-address auto /
@@ -35,11 +49,9 @@ This allows your Raiden client to request routes from the **Pathfinding Services
 --pathfinding-max-paths 3
 ```
 
-This will set the maximum amout paid for the pathfinding services to `0.05` RDN and request 3 different paths.
+By default the **Monitoring Services** are disabled. Enabling monitoring of channels will require a default reward value of `5` RDN for successfully monitoring your channel.
 
 ```text
 --enable-monitoring FALSE
 ```
-
-By default the **Monitoring Services** are disabled. Enabling monitoring of channels will require a default reward value of `5` RDN for successfullt monitoring your channel.
 
