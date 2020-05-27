@@ -27,7 +27,7 @@ The installation steps of the Raiden Wizard will let you:
 
 ![](../../.gitbook/assets/raiden_wizard.gif)
 
-When you have finished the steps of the Wizard, you can `LAUNCH` Raiden and start interacting with:
+When you have finished the steps of the Wizard, you can `LAUNCH` Raiden and start interacting with the [Raiden Webinterface](../../the-raiden-web-interface/screens.md):
 
 {% page-ref page="../../the-raiden-web-interface/the-raiden-web-interface.md" %}
 
