@@ -1,28 +1,28 @@
 ---
-description: Install Raiden and run a Raiden node using the Raiden Wizard
+description: >-
+  This quick start section will help you install Raiden and run a Raiden node on
+  the Ethereum mainnet using the Raiden Wizard.
 ---
 
 # Quick Start
 
 ## Overview
 
-This tutorial will teach you how to:
+In this tutorial we will walk through the steps to:
 
-* [Download the Raiden Wizard](./#download-the-raiden-wizard)
-* [Setup and run a Raiden node](./#setup-and-run-a-raiden-node)
-
-on the public Ethereum blockchain \(this is sometimes referred to as `mainnet`\).
+* [Get MetaMask](get-metamask.md)
+* [Get an Infura ID](infura-quick-start.md)
+* [Download and run the Raiden Wizard](download-and-run-the-raiden-wizard.md#download-the-raiden-wizard)
 
 ## Prerequisites
 
-In order to run the Raiden Wizard, you will need
+In order to use the Raiden Wizard and Raiden you'll need:
 
-* A computer running Linux or macOS X.
-* An [infura ID](https://blog.infura.io/getting-started-with-infura-28e41844cc89/) \(click [here](https://github.com/raiden-network/raiden-documentation/tree/80790d26e9eba88922e2a0f428baa40221dca770/quick-start/infura-quickstart.md) for a quick start guide\).
-* A web browser with [Metamask](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1-) \(click [here](get-metamask-and-ethereum-account.md) for a quick start guide\).
-* An Ethereum account with at least `0.13` ETH in Metamask.
+* A computer running **Linux** or **macOS**
+* MetaMask and an account with at least `0.125` ETH
+* An Infura ID
 
-## Download the Raiden Wizard
+## Downloadthe Raiden Wizard
 
 You can download the Raiden Wizard for either macOS or Linux:
 
@@ -50,12 +50,12 @@ In the process you will
 
 * Create a new Ethereum account for use with Raiden \(the "Raiden Account"\).
 * Fund the Raiden Account with `ETH`.
-* Acquire `RDN` tokens for use with the [User Deposit Contract](../raiden-api-1/glossary.md#user-deposit).
+* Acquire `RDN` tokens for use with the [User Deposit Contract](../../raiden-api-1/glossary.md#user-deposit).
 * Acquire `DAI` tokens for making payments in the Raiden Network.
 
 When you have finished the steps of the Wizard, you can `LAUNCH` Raiden and start interacting with:
 
-{% page-ref page="../using-raiden/the-raiden-web-interface/" %}
+{% page-ref page="../../using-raiden/the-raiden-web-interface/" %}
 
 ## Need help?
 

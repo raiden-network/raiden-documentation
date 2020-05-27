@@ -17,7 +17,7 @@ This documentation is still work in progress. If you can't find what you are loo
 
 If you’re new to Raiden and just want to install it and try it out, go to the
 
-{% page-ref page="quick-start/" %}
+{% page-ref page="installation/quick-start/" %}
 
 Afterwards you can do token transfers using the Raiden WebUI
 

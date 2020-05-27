@@ -18,5 +18,5 @@ To get an Infura project ID:
 2. Create a new project.
 3. View your project and you'll find the project ID under the **KEYS** tab.
 
-![How to get an Infura project ID](../.gitbook/assets/infura_project_id_setup.gif)
+![How to get an Infura project ID](../../.gitbook/assets/infura_project_id_setup.gif)
 

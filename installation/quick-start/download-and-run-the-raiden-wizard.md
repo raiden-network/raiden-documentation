@@ -1,0 +1,33 @@
+# Download and run the Raiden Wizard
+
+## Download the Raiden Wizard
+
+Download the Raiden Wizard for:
+
+* macOS
+* Linux
+
+## Run the Raiden Wizard
+
+{% hint style="warning" %}
+You need an internet connection to run the Raiden Wizard. The Wizard will launch in your default browser.
+
+The setup process can take up to five minutes, make sure not to close the browser.
+{% endhint %}
+
+1. Extract and click the `raiden_wizard` program to run the installer.
+2. Your web browser should open a new window with the Raiden Wizard. If not, you can manually type [`http://localhost:1994`](http://localhost:1994) to access the Wizard.
+
+The installation steps of the Raiden Wizard will let you:
+
+* Create a new Ethereum Account \(the "Raiden Account"\) specifically for usig with the Wizard.
+* Fund this new Raiden Account with ETH.
+* Acquire `RDN` tokens for using the pathfinding and monitoring services.
+* Acquire `DAI` tokens for making payments in the Raiden Network.
+
+![](../../.gitbook/assets/raiden_wizard.gif)
+
+When you have finished the steps of the Wizard, you can `LAUNCH` Raiden and start interacting with:
+
+{% page-ref page="../../using-raiden/the-raiden-web-interface/" %}
+

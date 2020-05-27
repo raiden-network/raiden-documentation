@@ -1,11 +1,15 @@
 # Table of contents
 
 * [What is Raiden?](README.md)
-* [Quick Start](quick-start/README.md)
-  * [Get MetaMask and Ethereum Account](quick-start/get-metamask-and-ethereum-account.md)
-  * [Get an Infura ID](quick-start/infura-quick-start.md)
-  * [Run the Raiden Wizard](https://docs.raiden.network/quick-start#run-the-raiden-wizard)
-  * [Handle Limitations](quick-start/known-issues.md)
+
+## Installation
+
+* [Quick Start](installation/quick-start/README.md)
+  * [Get MetaMask](installation/quick-start/get-metamask.md)
+  * [Get an Infura ID](installation/quick-start/infura-quick-start.md)
+  * [Download and run the Raiden Wizard](installation/quick-start/download-and-run-the-raiden-wizard.md)
+  * [Handle Limitations](installation/quick-start/known-issues.md)
+* [Starting Raiden Manually](installation/starting-raiden-manually.md)
 
 ## USING RAIDEN
 

@@ -13,8 +13,6 @@ In order to deploy the Custom Token, you will need to execute the following step
 All steps can be completed on any Mac or Linux based operating system.
 {% endhint %}
 
-{% page-ref page="../../quick-start/get-metamask-and-ethereum-account.md" %}
-
 {% page-ref page="get-goerli-testnet-eth-goeeth.md" %}
 
 {% page-ref page="import-custom-token.md" %}
