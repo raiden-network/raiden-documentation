@@ -14,7 +14,7 @@ You have a couple of ways for depositing tokens back to your token network balan
 
 ## Withdraw tokens
 
-![](../../.gitbook/assets/web_ui_withdraw_tokens.png)
+![](../.gitbook/assets/web_ui_withdraw_tokens.png)
 
 In the **"Channels"** screen:
 
@@ -28,7 +28,7 @@ The token amount will be added to your total token network balance. **Your payme
 
 If you don't plan to use a specific channel anymore you can close it. A closed channel is no longer available for making payments.
 
-![](../../.gitbook/assets/web_ui_close_channel.png)
+![](../.gitbook/assets/web_ui_close_channel.png)
 
 In the **"Channels"** screen:
 
@@ -41,7 +41,7 @@ The token amount will be payed out in accordance to the transactions that have b
 
 Leaving a network has the same outcome as [closing a channel](close-channels-and-settle-payments.md#close-a-channel) with the difference that _all_ channels belonging to the network you're leaving get closed.
 
-![](../../.gitbook/assets/web_ui_leave_network%20%281%29.png)
+![](../.gitbook/assets/web_ui_leave_network%20%281%29.png)
 
 Click the **"LEAVE NETWORK"** button in the **"Tokens"** screen next to the token network you wish to leave.
 

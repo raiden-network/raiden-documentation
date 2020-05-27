@@ -21,7 +21,7 @@ If you’re new to Raiden and just want to install it and try it out, go to the
 
 Afterwards you can do token transfers using the Raiden WebUI
 
-{% page-ref page="using-raiden/the-raiden-web-interface/" %}
+{% page-ref page="the-raiden-web-interface/the-raiden-web-interface.md" %}
 
 ## Developing on Raiden?
 

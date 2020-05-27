@@ -25,7 +25,7 @@ The menu options we will be focusing on are:
 
 In order to open a channel and start making payments you need to be connected to a token network. Each ERC20 token can theoretically have its own token network.
 
-![Tokens screen](../../.gitbook/assets/web_ui_tokens_screen.png)
+![Tokens screen](../.gitbook/assets/web_ui_tokens_screen.png)
 
 1. List of all tokens that have been registered in Raiden.
 2. Details about each token including:
@@ -43,7 +43,7 @@ To make payments you need to have a channel with at least one other Raiden node.
 If you have no channels open this screen will display a _"no channels found"_ message. The simplest way to get started is to open channels by [joining a token network](join-a-token-network.md).
 {% endhint %}
 
-![Channels screen](../../.gitbook/assets/web_ui_channels_screen.png)
+![Channels screen](../.gitbook/assets/web_ui_channels_screen.png)
 
 1. List of all your open channels.
 2. Details about each open channel which includes:
@@ -58,7 +58,7 @@ If you have no channels open this screen will display a _"no channels found"_ me
 
 The address book gives you the possibility to save and label addresses.
 
-![Address book screen](../../.gitbook/assets/web_ui_address_book_screen.png)
+![Address book screen](../.gitbook/assets/web_ui_address_book_screen.png)
 
 1. List of all your saved peers and their addresses.
 2. Two options for saving a new address:

@@ -21,14 +21,17 @@
 * [Deposit Tokens](using-raiden-on-mainnet/deposit-tokens.md)
 * [View Channel Status](using-raiden-on-mainnet/channel-status.md)
 
+## The Raiden Web Interface
+
+* [Overview](the-raiden-web-interface/the-raiden-web-interface.md)
+* [Navigate the WebUI](the-raiden-web-interface/screens.md)
+* [Join a Token Network](the-raiden-web-interface/join-a-token-network.md)
+* [Make a Payment](the-raiden-web-interface/payment.md)
+* [Add More Tokens](the-raiden-web-interface/add-more-tokens.md)
+* [Settle Payments and Close Channels](the-raiden-web-interface/close-channels-and-settle-payments.md)
+
 ## USING RAIDEN
 
-* [The Raiden Web Interface](using-raiden/the-raiden-web-interface/README.md)
-  * [Navigate the WebUI](using-raiden/the-raiden-web-interface/screens.md)
-  * [Join a Token Network](using-raiden/the-raiden-web-interface/join-a-token-network.md)
-  * [Make a Payment](using-raiden/the-raiden-web-interface/payment.md)
-  * [Add More Tokens](using-raiden/the-raiden-web-interface/add-more-tokens.md)
-  * [Settle Payments and Close Channels](using-raiden/the-raiden-web-interface/close-channels-and-settle-payments.md)
 * [Mediation Fees](using-raiden/mediation-fees.md)
 * [Testnet](using-raiden/use-custom-token/README.md)
   * [Get MetaMask and Ethereum Account](using-raiden/use-custom-token/get-metamask-and-ethereum-account.md)
@@ -57,11 +60,11 @@
   * [Make a Payment](raiden-api-1/api-tutorial/3-make-a-payment.md)
   * [Withdraw Tokens](raiden-api-1/api-tutorial/withdraw-tokens.md)
   * [Settle Payments and Close Channels](raiden-api-1/api-tutorial/4-settle-payments-and-close-channels.md)
-* [Glossary](raiden-api-1/glossary.md)
-* [v1.0 Documentation](raiden-api-1/full-documentation.md)
-* [Trademark Attributions](raiden-api-1/trademark-attributions.md)
 
 ## Other
 
 * [Safe Usage](other/safe-usage.md)
+* [Glossary](other/glossary.md)
+* [v1.0 Documentation](other/full-documentation.md)
+* [Trademark Attributions](other/trademark-attributions.md)
 

@@ -29,5 +29,5 @@ The installation steps of the Raiden Wizard will let you:
 
 When you have finished the steps of the Wizard, you can `LAUNCH` Raiden and start interacting with:
 
-{% page-ref page="../../using-raiden/the-raiden-web-interface/" %}
+{% page-ref page="../../the-raiden-web-interface/the-raiden-web-interface.md" %}
 

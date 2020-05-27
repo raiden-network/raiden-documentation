@@ -23,7 +23,7 @@ Say you already have 10 tokens allocated, the new amount you provide needs to ex
 
 This option will let you allocate more funds to a specific channel. You can compare this process to "topping up" a prepaid card.
 
-![](../../.gitbook/assets/web_ui_deposit.png)
+![](../.gitbook/assets/web_ui_deposit.png)
 
 Click the **"DEPOSIT"** button in the **"Channels"** screen next to the channel you want to deposit more tokens in.
 
