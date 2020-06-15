@@ -39,7 +39,9 @@ description: >-
       <td style="text-align:left">Initiate a payment</td>
     </tr>
   </tbody>
-</table>## Payment Resource Details
+</table>
+
+## Payment Resource Details
 
 {% api-method method="get" host="http://localhost:5001" path="/api/v1/payments/0x0f11...b1ED/0x8264...5ba7" %}
 {% api-method-summary %}

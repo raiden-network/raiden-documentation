@@ -312,16 +312,6 @@ Insufficient balance of ETH to pay for the on-chain transaction
 ```
 {% endapi-method-response-example %}
 
-{% api-method-response-example httpCode=408 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-The deposit event was not read on time by the Ethereum node
-```
-{% endapi-method-response-example %}
-
 {% api-method-response-example httpCode=409 %}
 {% api-method-response-example-description %}
 

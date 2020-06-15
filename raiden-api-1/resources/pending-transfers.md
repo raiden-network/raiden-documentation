@@ -40,7 +40,9 @@ description: >-
       <td style="text-align:left">All incomplete transfers for a specific token and channel</td>
     </tr>
   </tbody>
-</table>## Pending Transfers Resource Details
+</table>
+
+## Pending Transfers Resource Details
 
 {% api-method method="get" host="http://localhost:5001" path="/api/v1/pending\_transfers" %}
 {% api-method-summary %}
