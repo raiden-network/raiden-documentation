@@ -66,8 +66,8 @@ Version of the API
 Address of a token, will filter response list according to token\_address
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="target\_address" type="string" required=false %}
-Address of the receiving node, will filter response list according to target\_address
+{% api-method-parameter name="partner\_address" type="string" required=false %}
+Address of either the payment initiator or target, will filter response list according to the address
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
