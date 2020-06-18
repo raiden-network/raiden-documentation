@@ -6,62 +6,66 @@ description: >-
 
 # Navigate the WebUI
 
-The first screen you will see when the WebUI launches is the **"Home"** screen which has a short introduction to Raiden.
+You will find the navigation menu on the right and on the top is a bar which contains general information.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LfdOdNB3P6EjscN0LQW%2F-LmtmGMrLm7yWMJeP6xg%2F-LmtmKMI05O7RjNA44HH%2Fweb_ui_home_screen.png?alt=media&token=1243faba-1681-4fb8-bb13-27af47ffa805)
+The **top bar** displays:
 
-On the top bar and left hand side you'll find:
+1. Your **ETH balance**. This ETH will be used whenever an on-chain activity happens. If you are using any testnet you'll also find a button which redirects you to the respectiva faucet for acquiring ETH.
+2. The **address** of your Raiden node \(you can display the address as a QR code\).
+3. A **search** field which filters all items on the page based on search term.
+4. The **notification** button.
 
-1. The address of your Raiden node together with your current ETH balance. Some of this ETH will be used anytime an on-chain activity happens.
-2. The navigation menu for interacting with Raiden.
+## Home
 
-The menu options we will be focusing on are:
+The home screen provides an overview of your account. Since you can do the same things on Home screen as on each subpage we won't cover the Home screen in detail here but rather focus on the navigation menu options.
 
-* [Tokens](screens.md#tokens-1)
+* [Transfers](screens.md#transfers)
+* [Contacts](screens.md#contacts)
 * [Channels](screens.md#channels)
-* [Address Book](screens.md#address-book)
 
-## Tokens
+## Transfers
 
-In order to open a channel and start making payments you need to be connected to a token network. Each ERC20 token can theoretically have its own token network.
+In order to start making payments you need to be connected to a token network by having a open channel.
 
-![Tokens screen](../.gitbook/assets/web_ui_tokens_screen.png)
+1. Select the token network in which you want to make a payment in the center of the screen.
+2. Once you have selected a token network the sum of your channel balance is displayed. You can use the buttons on the top right to **leave the token network** or **mint tokens** \(if you are on a testnet\).
+3. Click the **Transfer** button to make a payment in your selected token network. If you don't have any open channels you will get prompted to use the **Quick Connect** option to join the network.
 
-1. List of all tokens that have been registered in Raiden.
-2. Details about each token including:
-   * The token **symbol** \(WIZ\)
-   * The token **name** \(WizardToken\)
-   * Your current token **balance**
-   * Buttons with which you can [**join a network**](join-a-token-network.md) or [**mint tokens**](payment.md)\*\*\*\*
-3. **+** button for [**registering new token networks**](join-a-token-network.md#register-a-new-token-and-join-its-network) and options for **filtering** and **sorting** your tokens list
+On the bottom you will see the history of all the payments you've made. The history is filtered by the selected token network.
+
+{% hint style="info" %}
+If you have selected a network when using a testnet you can use the **"Add new network"** button for registering new token networks.
+{% endhint %}
+
+## Contacts
+
+Contact lets you save Ethereum addresses and label them. To add a new contact:
+
+1. Click the button in the bottom.
+2. Enter the address and whichever label you want the address to be associated with.
+
+Clicking on a contact also gives you the options to make payments, edit or delete the choosen contact.
+
+{% hint style="info" %}
+Contacts can be imported and exported by using the button on the top right.
+{% endhint %}
 
 ## Channels
 
-To make payments you need to have a channel with at least one other Raiden node.
+To make payments you need to hava a channel with at least one other Raiden node. To open cannels either:
+
+1. Use **Quick Connect**. This is the simplest way for opening channels.
+2. Use the button on the top left to opena new channel.
+
+In the center of the screen you'll see all your channels and their token balance. By clicking the three dots you can:
+
+* Deposit into the channel.
+* Withdraw from the channel.
+* Close the channel.
 
 {% hint style="info" %}
-If you have no channels open this screen will display a _"no channels found"_ message. The simplest way to get started is to open channels by [joining a token network](join-a-token-network.md).
+**What is a channel?**
+
+A payment channel enables tokens to be exchanged back and forth between parties without invloving the actual blockchain. A payment channel in Raiden is always backed by a on-chain deposit of token.
 {% endhint %}
-
-![Channels screen](../.gitbook/assets/web_ui_channels_screen.png)
-
-1. List of all your open channels.
-2. Details about each open channel which includes:
-   * The address of the **partner** node you're connected to via the channel
-   * The token **symbol** \(WIZ\) and the token **address** which gets displayed when hovering over the symbol
-   * Your current **balance** of tokens in the channel
-   * The **status** of your channel and whether it is **open**, **closed**, or **settled**
-   * Buttons where you can [**pay**](payment.md) ****\(both the "PAY" and the "SEND TOKENS" button works the same as when paying from the "Tokens" screen after joining a token network\), [**deposit**](add-more-tokens.md), [**withdraw**](close-channels-and-settle-payments.md), or [**close a channel**](close-channels-and-settle-payments.md)\*\*\*\*
-3. A **+** button for opening a channel with a counterpart of your choosing and options for **filtering** and **sorting** your channels list
-
-## Address book
-
-The address book gives you the possibility to save and label addresses.
-
-![Address book screen](../.gitbook/assets/web_ui_address_book_screen.png)
-
-1. List of all your saved peers and their addresses.
-2. Two options for saving a new address:
-   * Type the address and label manually
-   * Drag and drop a JSON file containing all your addresses
 

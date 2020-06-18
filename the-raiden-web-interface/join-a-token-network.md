@@ -1,57 +1,68 @@
 ---
 description: >-
-  To be able to make payments in Raiden you first need to join the network for
-  the token you're interested in making payments with.
+  To make payments in Raiden you first need to join the network by opening
+  channels for the token you want to make payments with.
 ---
 
 # Join a Token Network
 
-To join a token network navigate to the **"Tokens"** screen where you can choose to either:
+You can join a token network by either:
 
-* [Join an existing token network](join-a-token-network.md#join-an-existing-token-network)
-* [Register a new token and join its network](join-a-token-network.md#register-a-new-token-and-join-its-network)
+* [Quick Connect](join-a-token-network.md#quick-connect)
+* [Registering a new token](join-a-token-network.md#registering-a-new-token)
 
 {% hint style="info" %}
 **What is a token?**
 
-Each token is defined within its own ERC20 compliant smart contract and each smart contract has a total supply of tokens. The token contracts are like a registry where different amounts of the total supply are mapped to different owners.
+Each token complies to its own ERC20 smart contract which has a total supply of tokens.
+
+These token contracts are like a registry where different amounts of the total supply is mapped to different owners.
 {% endhint %}
 
 {% hint style="info" %}
-**What Is a token network?**
+**What is a token network?**
 
-Anyone who runs a Raiden node and owns a token can join a network with other nodes who own the very same token. All nodes registered within such network form a token network.
+Anyone running a Raiden node and owns a token can join a network with other nodes who own the very same token.
+
+All nodes registered within such network form a token network.
 {% endhint %}
 
-## Join an existing token network
+## Quick Connect
 
-![Tokens Screen](../.gitbook/assets/web_ui_join_network_1%20%281%29.png)
+_Quick Connect_ lets you automatically open channels with 3 random online nodes.
 
-Click the **"JOIN NETWORK"** button next to the token which network you want to join.
+If you click the **"Transfer"** button without having any open channels for the selected token you will get prompted to use _Quick Connect_.
 
-![Tokens screen](../.gitbook/assets/web_ui_join_network_2.png)
+When using _Quick Connect_:
 
-Enter the amount of tokens you want to allocate and click **"Join"**.
+* Enter the amount of tokens you want to allocate and click **"Connect"**.
+* The allocated tokens will be split with:
+  * 20% in each of the three channels
+  * 40% for whenever you are joining a channel that has been opened by another node.
 
-The amount you choose is what will be available for making payments and you can always [add more funds later](add-more-tokens.md). 
+The amount you choose when connecting is what will be available for making payments. You can always add more funds by depositing to a channel.
 
-**Joining a token network is an on-chain activity and will therefore consume some of your ETH.**
+{% hint style="warning" %}
+_Quick Connect_ is an on-chain activity that will consume some of your ETH.
+{% endhint %}
 
-You're now ready to make a first payment!
+You are now ready to make the first payment!
 
 {% page-ref page="payment.md" %}
 
-## Register a new token and join its network
+## Registering a new token
 
-If you want to join the network for a token and the token is not displayed in the list of tokens it might mean that it has not been registered yet. In this case you can register it yourself.
+{% hint style="warning" %}
+Registering a new token is only relevant on the testnets. The tokens allowed on mainnet for the Alderaan release are DAI and W-ETH. 
+{% endhint %}
 
-![Tokens screen](../.gitbook/assets/web_ui_register_token_1.png)
+If you want to join the network for a token and that token is not displayed in the list of tokens it might mean that it has not been registered.
 
-Click the upper right **"+"** button.
+To register a token yourself:
 
-![Tokens screen](../.gitbook/assets/web_ui_register_token_2%20%281%29.png)
+1. Click **"Select network"** in the tokens view.
+2. Click **"Add new network"**.
+3. Enter the address of the token you'd like to register and click **"Register"**.
 
-Enter the address of the token you want to register and click **"Register"**.
-
-To join the network of your newly registered token follow the steps for [joining an existing token network](join-a-token-network.md#join-an-existing-token-network).
+You can follow the steps for [_Quick Connect_](join-a-token-network.md#quick-connect) to join the network of your newly registered token.
 
