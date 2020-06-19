@@ -13,6 +13,8 @@ http://localhost:5001/api/v1/payments/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
 --data-raw '{"amount":"42"}'
 ```
 
+You will receive a success response once the payment goes through.
+
 Payments in Raiden can be done either as:
 
 * [Direct payments](make-a-payment.md#direct-payments)
