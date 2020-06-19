@@ -2,8 +2,8 @@
 
 The Raiden Alderaan release is a bug bounty release which puts a certain limit on the amount of tokens that can be deposited into a channel. This is to minimize potential loss of funds in case of bugs.
 
-* The global limit per token network is **$1000000**.
-* The limit per channel side is **$1000**.
+* The global limit per token network is approximately **$1000000**.
+* The limit per channel side is approximately **$1000**.
 
 ## W-ETH
 
@@ -13,7 +13,7 @@ There are several ways in which you can create W-ETH from your Ether.
 
 * Using the [0x Portal](https://0x.org/portal/) interface
 * Using the [Radar Relay](https://relay.radar.tech/) interface
-* Using the [contract](https://etherscan.io/address/0x2956356cd2a2bf3202f771f50d3d14a367b48070%23code) directly
+* Using the [contract](https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2#code) directly
 
 ## DAI
 

@@ -9,7 +9,7 @@ To join a token network we have to make a PUT request to the [`connections`](../
 
 ```text
 curl -i -X PUT \
-http://localhost:5001/api/v1/connections/0xC02aaA39b223FE8D0A0e5C4F27eAD90 \
+http://localhost:5001/api/v1/connections/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 \
 -H 'Content-Type: application/json' \
 --data-raw '{"funds":"20000"}'
 ```

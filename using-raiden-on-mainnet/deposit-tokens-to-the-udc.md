@@ -29,6 +29,6 @@ Once we have approved an RDN amount all that reamins is for us to deposit some t
 1. Visit the [UDC on Etherscan](https://etherscan.io/address/0x1c62fF66aF8aaD410065E02338F5bFbbe23e1f10#writeContract).
 2. Go to the **"deposit"** field under **"Write Contract"**.
 3. Enter the address of the Raiden node you want to use as argument for **"beneficiary"**.
-4. Enter an amount of e.g. `20000000000000000000` \(corresponding to 20 RDN\) as argument for **"new\_total\_deposit"**.
+4. Enter an amount of e.g. `100000000000000000000` \(corresponding to 100 RDN\) as argument for **"new\_total\_deposit"**.
 5. Click on **"Write"** to make the deposit.
 

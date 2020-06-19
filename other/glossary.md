@@ -27,11 +27,23 @@ A payment in Raiden is the process of sending tokens from one account to another
 
 A payment channel allows for back and forth Raiden payments between participants without involving the actual blockchain. A payment channel in Raiden is always backed by an on-chain deposit of tokens.
 
+### Transfer
+
+A transfer in Raiden happens each time tokens are sent inside a payment channel.
+
 ### Transferred Amount
 
 The transferred amount is the total amount of tokens sent from a participant's account to the account of a counterparty.
 
 ## Participants
+
+```text
+Overview of a payment with one mediator:
+
+             Transfer1               Transfer2
+[Initiator] -----------> [Mediator] -----------> [Target]
+            Payer  Payee            Payer  Payee
+```
 
 ### Counterparty
 
@@ -52,10 +64,6 @@ The payer is the participant who sends a payment.
 ### Target
 
 The target is the Raiden node which receives a payment from the [initiator](glossary.md#initiator).
-
-### Transfer
-
-A transfer in Raiden happens each time tokens are sent inside a payment channel.
 
 ## Services
 

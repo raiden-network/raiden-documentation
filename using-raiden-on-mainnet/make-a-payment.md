@@ -8,7 +8,7 @@ Payments are made from the [`payments`](../raiden-api-1/resources/payments.md#in
 
 ```text
 curl -i -X POST \
-http://localhost:5001/api/v1/payments/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C \
+http://localhost:5001/api/v1/payments/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/<target_address> \
 -H 'Content-Type: application/json' \
 --data-raw '{"amount":"42"}'
 ```

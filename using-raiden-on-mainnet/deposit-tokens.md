@@ -8,7 +8,7 @@ You deposit in a channel by making a PATCH request to the [`channels`](../raiden
 
 ```text
 curl -i -X PATCH \
-http://localhost:5001/api/v1/channels/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C \
+http://localhost:5001/api/v1/channels/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/<partner_address> \
 -H 'Content-Type: application/json' \
  --data-raw '{"total_deposit":"4000"}'
 ```
