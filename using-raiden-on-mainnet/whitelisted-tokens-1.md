@@ -11,7 +11,6 @@ W-ETH stands for _Wrapped Ether_ and is essentially Ether that has been packaged
 
 There are several ways in which you can create W-ETH from your Ether.
 
-* Using the [0x Portal](https://0x.org/portal/) interface
 * Using the [Radar Relay](https://relay.radar.tech/) interface
 * Using the [contract](https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2#code) directly
 
