@@ -65,11 +65,22 @@ Successful transaction
 
 {% api-method-response-example httpCode=400 %}
 {% api-method-response-example-description %}
-
+If Raiden runs in production mode minting is not allowed. Furthermore, if the provided arguments are not valid the request will fail
 {% endapi-method-response-example-description %}
 
 ```
 The request failed
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=402 %}
+{% api-method-response-example-description %}
+If there is not enough ETH to submit the minting transaction
+{% endapi-method-response-example-description %}
+
+```
+[critical ] Transaction to call smart contract function failed [raiden.network.rpc.client
+[error    ] Error processing request       [raiden.api.rest_utils]
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
