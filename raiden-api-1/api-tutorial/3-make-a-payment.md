@@ -25,7 +25,7 @@ http://localhost:5001/api/v1/payments/0x9aBa529db3FF2D8409A1da4C9eB148879b046700
 ```
 
 {% hint style="info" %}
-You can provide the body parameter with an additional _identifier_ key as a string value of your choice: `"identifier": <string>`.
+You can provide the body parameter with an additional _identifier_ key with a value of your choice. This value can be a number \(`"identifier": 42`\) or the stringified number \(`"identifier": "42"`\).
 
 This is optional and the purpose of the identifier is to give dApps built on Raiden a way to tag payments.
 {% endhint %}
