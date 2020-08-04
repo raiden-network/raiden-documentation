@@ -65,3 +65,6 @@ In order to connect to one of the Ethereum testnets, you have to provide the fol
 ```
 
 E.g. for the Goerli testnet `$TESTNET-NAME-OR_ID` would be `goerli` or `5`.
+
+More information on how to aquire and deposit the utility token (SVT) on the testnets are [provided in the v1 docs](https://raiden-network.readthedocs.io/en/latest/overview_and_guide.html#depositing-tokens-to-pay-the-services).
+
