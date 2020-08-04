@@ -52,3 +52,16 @@ By default the **Monitoring Services** are disabled. Enabling monitoring of chan
 --enable-monitoring FALSE
 ```
 
+## Testnet usage
+
+When using one of the Ethereum testnets, you have to set the `--environment-type` to development-mode,
+so that the correct Matrix federation network for the PFS will be chosen.
+
+In order to connect to one of the Ethereum testnets, you have to provide the following additional arguments:
+
+```console
+--network-id $TESTNET-NAME-OR-ID \
+--environment-type development 
+```
+
+E.g. for the Goerli testnet `$TESTNET-NAME-OR_ID` would be `goerli` or `5`.
