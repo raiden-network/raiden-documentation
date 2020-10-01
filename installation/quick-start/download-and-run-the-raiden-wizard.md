@@ -20,7 +20,7 @@ The setup process can take up to five minutes, make sure not to close the browse
 
 The installation steps of the Raiden Wizard will let you:
 
-* Create a new Ethereum Account \(the "Raiden Account"\) specifically for usig with the Wizard.
+* Create a new Ethereum Account \(the "Raiden Account"\) specifically for using with the Wizard.
 * Fund this new Raiden Account with ETH.
 * Acquire `RDN` tokens for using the pathfinding and monitoring services.
 * Acquire `DAI` tokens for making payments in the Raiden Network.

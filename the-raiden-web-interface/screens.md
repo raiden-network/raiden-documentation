@@ -52,10 +52,10 @@ Contacts can be imported and exported by using the button on the top right.
 
 ## Channels
 
-To make payments you need to hava a channel with at least one other Raiden node. To open cannels either:
+To make payments you need to have a channel with at least one other Raiden node. To open cannels either:
 
 1. Use **Quick Connect**. This is the simplest way for opening channels.
-2. Use the button on the top left to opena new channel.
+2. Use the button on the top left to open a new channel.
 
 In the center of the screen you'll see all your channels and their token balance. By clicking the three dots you can:
 

@@ -33,6 +33,7 @@
 
 ## Using Raiden on testnet
 
+* [Quick Start on Görli Testnet](using-raiden-on-testnet/quick-start-on-goerli-testnet.md)
 * [Use Custom Token](using-raiden-on-testnet/use-custom-token/README.md)
   * [Get Goerli Testnet ETH \(GÖETH\)](using-raiden-on-testnet/use-custom-token/get-goerli-testnet-eth-goeeth.md)
   * [Import Custom Token](using-raiden-on-testnet/use-custom-token/import-custom-token.md)

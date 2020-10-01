@@ -14,6 +14,10 @@ In this tutorial we will walk through the steps to:
 * [Get an Infura ID](infura-quick-start.md)
 * [Download and run the Raiden Wizard](download-and-run-the-raiden-wizard.md#download-the-raiden-wizard)
 
+{% hint style="info" %}
+If you want to try out Raiden on a testnet before running it on mainnet, the [Quick start on Görli page](../../using-raiden-on-testnet/quick-start-on-goerli-testnet.md) will help you.
+{% endhint %}
+
 ## Prerequisites
 
 In order to use the Raiden Wizard and Raiden you'll need:
