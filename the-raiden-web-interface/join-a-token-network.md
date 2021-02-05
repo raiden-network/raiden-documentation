@@ -29,21 +29,19 @@ All nodes registered within such network form a token network.
 
 ## Quick Connect
 
-_Quick Connect_ lets you automatically open channels with 3 random online nodes.
+_Quick Connect_ lets you automatically open channels to nodes recommended by a Path Finding Service.
 
-If you click the **"Transfer"** button without having any open channels for the selected token you will get prompted to use _Quick Connect_.
+If you click the **"Transfer"** button without having any open channels for the selected token you will get prompted to use _Quick Connect_. Alternatively you can click the three dots on the top right of a token network view and choose **"Quick Connect".**
 
 When using _Quick Connect_:
 
-* Enter the amount of tokens you want to allocate and click **"Connect"**.
-* The allocated tokens will be split with:
-  * 20% in each of the three channels
-  * 40% for whenever you are joining a channel that has been opened by another node.
+* Enter the total number of tokens you want to allocate
+* Distribute the token amount between the recommended partner nodes. Only if a deposit is selected for a node, a channel will be opened.
 
 The amount you choose when connecting is what will be available for making payments. You can always add more funds by depositing to a channel.
 
 {% hint style="warning" %}
-_Quick Connect_ is an on-chain activity that will consume some of your ETH.
+_Quick Connect_ is an on-chain activity that will consume some of your ETH. Opening fewer channels will reduce the gas cost proportionally.
 {% endhint %}
 
 You are now ready to make the first payment!
