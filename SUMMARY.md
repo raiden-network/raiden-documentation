@@ -56,7 +56,7 @@
   * [Shutdown](raiden-api-1/resources/shutdown.md)
   * [Testing](raiden-api-1/resources/testing.md)
 * [API Tutorial](raiden-api-1/api-tutorial/README.md)
-  * [Join a Token Network](raiden-api-1/api-tutorial/1-join-a-token-network.md)
+  * [Create a Token Network](raiden-api-1/api-tutorial/1-join-a-token-network.md)
   * [Open a Channel](raiden-api-1/api-tutorial/2-open-a-channel.md)
   * [Deposit Tokens](raiden-api-1/api-tutorial/3-deposit.md)
   * [Make a Payment](raiden-api-1/api-tutorial/3-make-a-payment.md)
