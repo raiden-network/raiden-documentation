@@ -16,7 +16,7 @@
 * [Overview](using-raiden-on-mainnet/overview.md)
 * [Get Whitelisted Tokens](using-raiden-on-mainnet/whitelisted-tokens-1.md)
 * [Deposit Tokens to the UDC](using-raiden-on-mainnet/deposit-tokens-to-the-udc.md)
-* [Join a Token Network](using-raiden-on-mainnet/join-a-token-network-1.md)
+* [Open a Channel](using-raiden-on-mainnet/join-a-token-network-1.md)
 * [Make a Payment](using-raiden-on-mainnet/make-a-payment.md)
 * [Deposit Tokens](using-raiden-on-mainnet/deposit-tokens.md)
 * [View Channel Status](using-raiden-on-mainnet/channel-status.md)

@@ -1,16 +1,49 @@
 ---
 description: >-
-  At some point you might want to open channels manually. Perhaps you'd like to
-  have a direct channel to a friend's node or maybe no channels have been opened
-  yet for a token that was just registered.
+  Channels allow tokens to move between the two connected Raiden nodes. You need
+  at least one channel to make payments in a Token Network.
 ---
 
 # Open a Channel
 
 This section will cover the endpoints you would use to:
 
-1. [Open a channel](2-open-a-channel.md#open-a-channel)
-2. [Query the state of a channel](2-open-a-channel.md#query-the-state-of-a-channel)
+1. Find suitable partner nodes
+2. [Open a channel](2-open-a-channel.md#open-a-channel)
+3. [Query the state of a channel](2-open-a-channel.md#query-the-state-of-a-channel)
+
+## Find suitable partner nodes
+
+To make payments, you need to be connected to the target node either directly, or indirectly by having a channel with a well connected that mediates your payment to the target. If you already know to which node you want to connect, skip ahead to the next section.
+
+{% page-ref page="2-open-a-channel.md" %}
+
+The Path Finding Service \(PFS\) can suggest partners that are highly connected. These nodes will be able to mediate your payments to a large amount of potential targets and are thus a good choice for your first channel\(s\). Ask the PFS by sending a GET request to its partner suggestion endpoint for the token you want to use.
+
+```bash
+curl https://pfs.of.your.choice/api/v1/0x9aBa529db3FF2D8409A1da4C9eB148879b046700/suggest_partner
+```
+
+If you don't know which PFS to ask, you can get the URL of the PFS used by your Raiden node from the settings endpoint \(ADD LINK\). The list of suggested partners is sorted with the most recommended ones coming first. If you want to open just a single channel, picking the address of the first partner in the results is a reasonable choice.
+
+```javascript
+[
+  {
+    "address": "0x99eB1aADa98f3c523BE817f5c45Aa6a81B7c734B",
+    "score": 2906634538666422000,
+    "centrality": 0.0004132990448199853,
+    "uptime": 7032.763746,
+    "capacity": 1000000000000000000
+  },
+  {
+    "address": "0x4Fc53fBa9dFb545B66a0524216c982536012186e",
+    "score": 2906693668947465000,
+    "centrality": 0.0004132990448199853,
+    "uptime": 7032.906815,
+    "capacity": 1000000000000000000
+  }
+]
+```
 
 ## Open a channel
 
