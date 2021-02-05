@@ -10,6 +10,8 @@ The following sections outline each of the Raiden API endpoints:
 
 {% page-ref page="version.md" %}
 
+{% page-ref page="settings.md" %}
+
 {% page-ref page="contracts-information.md" %}
 
 {% page-ref page="tokens.md" %}

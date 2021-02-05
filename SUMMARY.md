@@ -46,6 +46,7 @@
 * [Resources](raiden-api-1/resources/README.md)
   * [Address](raiden-api-1/resources/address.md)
   * [Version](raiden-api-1/resources/version.md)
+  * [Settings](raiden-api-1/resources/settings.md)
   * [Contracts Information](raiden-api-1/resources/contracts-information.md)
   * [Tokens](raiden-api-1/resources/tokens.md)
   * [Channels](raiden-api-1/resources/channels.md)

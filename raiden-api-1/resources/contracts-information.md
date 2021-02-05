@@ -10,7 +10,7 @@ description: >-
 
 | HTTP Method | Resource | Description |
 | :--- | :--- | :--- |
-| GET | `/api/<version>/contracts` | Addresses of the used smart contracts |
+| GET | [`/api/<version>/contracts`](contracts-information.md#contract-information) | Addresses of the used smart contracts |
 
 ## Contracts Resource Details
 
@@ -27,7 +27,7 @@ Queries the version and addresses of the smart contracts used by the Raiden clie
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="version" type="string" required=true %}
-
+Version of the API
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
