@@ -44,7 +44,6 @@ Version of the API
 Successful query  
   
 The value for the token address key is an object containing:  
-- "funds", a string of the token amount from your last connect request  
 - "sum\_deposits", a string of the sum of deposits in all currently open channels  
 - "channels", a string of all channels currently open for the specific token
 {% endapi-method-response-example-description %}
@@ -52,12 +51,10 @@ The value for the token address key is an object containing:
 ```bash
 {
     "0x2a65Aca4D5fC5B5C859090a6c34d164135398226": {
-        "funds": "100",
         "sum_deposits": "67",
         "channels": "3"
     },
     "0x0f114A1E9Db192502E7856309cc899952b3db1ED": {
-        "funds": "49",
         "sum_deposits": "31",
         "channels": "1"
     }
