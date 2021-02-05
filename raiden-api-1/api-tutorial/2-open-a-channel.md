@@ -24,7 +24,7 @@ The Path Finding Service \(PFS\) can suggest partners that are highly connected.
 curl https://pfs.of.your.choice/api/v1/0x9aBa529db3FF2D8409A1da4C9eB148879b046700/suggest_partner
 ```
 
-If you don't know which PFS to ask, you can get the URL of the PFS used by your Raiden node from the settings endpoint \(ADD LINK\). The list of suggested partners is sorted with the most recommended ones coming first. If you want to open just a single channel, picking the address of the first partner in the results is a reasonable choice.
+If you don't know which PFS to ask, you can get the URL of the PFS used by your Raiden node from the [settings endpoint](../resources/settings.md#settings-resource-overview). The list of suggested partners is sorted with the most recommended ones coming first. If you want to open just a single channel, picking the address of the first partner in the results is a reasonable choice.
 
 ```javascript
 [

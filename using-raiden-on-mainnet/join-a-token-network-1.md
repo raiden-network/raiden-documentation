@@ -9,7 +9,7 @@ description: >-
 
 To open a channel, a PUT request is made to the [`channels`](../raiden-api-1/resources/channels.md#create-a-channel) endpoint that includes a JSON object containing:
 
-1. The address of the node you'd like to open the channel with. If you don't know to which partner you should connect, have a look at "Find suitable partner nodes" \(ADD LINK\).
+1. The address of the node you'd like to open the channel with. If you don't know to which partner you should connect, have a look at "[Find suitable partner nodes](https://app.gitbook.com/@raiden-network/s/raiden-network/raiden-api-1/api-tutorial/2-open-a-channel#find-suitable-partner-nodes)".
 2. The token address. We use W-ETH token in this example.
 3. The amount of tokens you want to deposit in the channel \(Remember that it is always possible to [deposit more tokens](../raiden-api-1/api-tutorial/3-deposit.md) later\). 1 W-ETH is equivialent to 10^18 WEI.
 4. The settle timeout period which corresponds to the number of blocks that have to be mined before a closed channel can be settled.
