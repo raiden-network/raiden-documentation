@@ -7,10 +7,10 @@ description: >-
 
 # What is Raiden?
 
-## Welcome to the Raiden docs 2.0!
+## Welcome to the Raiden docs 2.0! \(DEPRECATED\)
 
-{% hint style="warning" %}
-This documentation is still work in progress. If you can't find what you are looking for in here, don't worry! In this case that part of content hasn't been reworked yet, but can be found in the [Raiden documentation 1.0](https://raiden-network.readthedocs.io/en/stable/index.html).
+{% hint style="danger" %}
+This documentation is **deprecated** and won’t be maintained any further. Please visit the up-to-date documentation of the Raiden Network [here](https://raiden-network.readthedocs.io/en/latest/).
 {% endhint %}
 
 ## New to Raiden?
